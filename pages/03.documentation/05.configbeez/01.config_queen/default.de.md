@@ -43,6 +43,8 @@ metadata:
 
 Diese Modul steht stellvertretende für das MailBeez Grundsystem.
 
+Hier können Sie grundlegende Funktionen konfigurieren, am besten sehen Sie sich die Möglichkeiten direkt im System an.
+
 
 #### MailBeez Aktualisieren
 

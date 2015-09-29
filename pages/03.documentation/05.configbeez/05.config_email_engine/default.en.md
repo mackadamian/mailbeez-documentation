@@ -41,6 +41,8 @@ metadata:
 ---
 
 
+You can choose, which delivery engine MailBeez should use to send out the generated Emails:
+
 
 1. **Shop (default)**: Email-Function of your Shop-System
 1. **Newsletter2Go (recommended)**: Email delivery through the certified Servers of Newsletter2Go
@@ -69,7 +71,7 @@ Newsletter2Go says:
 | Advantage                                                   | Disadvantage 
 |------------------------------------------------------------|----------------------------------------------
 | bypass spam filters thanks to server certificates          | SPF configuration recommended
-| Whitelisting of 2,4 Billion Email addresses                | additional costs, should be covered by increased delivery rates    
+| Whitelisting of 2,4 Billion Email addresses                | additional costs, **should be covered by increased delivery rates**    
 | You don't have to worry about blacklists, spam ratings etc. |  |
 | 1000 free emails each month                               |  |
 

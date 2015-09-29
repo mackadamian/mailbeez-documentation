@@ -18,19 +18,7 @@ taxonomy:
     migration_status: done
     category: [docs]
     tag: [core]
-module:
-    code: 'config_shopvoting'
-    category: [configbeez]
-    compatiblity: [comp_osc,comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]
-    thumbnail: 'http://www.mailbeez.com/wp-content/uploads/downloads/thumbnails/2014/06/icon_32.png'
-    pro: ''
-    cert: ''
-    price: 'FREE'
-    title_en: 'Shop Voting'
-    teaser_en: 'Allow your customers to vote your store and utilize the results to increase conversion'
-    title_de: 'Shopbewertungen'
-    teaser_de: 'Geben Sie Ihren Kunden die Möglichkeit Ihren Shop zu bewerten und nutzen Sie die Ergebnisse zur Konversion-Optimierung'
-    author: 'Web4design.de'
+
 # added collection selector
 
 author:

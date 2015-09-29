@@ -40,7 +40,9 @@ metadata:
 #  last_modified: true
 ---
 
-This module represents the core of the MailBeez System
+This module represents the core of the MailBeez System.
+
+Here you can configure the core functionality of MailBeez - have a look to see the options.
 
 #### Updating MailBeez
 

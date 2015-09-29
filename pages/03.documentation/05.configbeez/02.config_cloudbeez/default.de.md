@@ -19,7 +19,7 @@ metadata:
     author: admin
 ---
 
-In diesem Modul kann die Integration mit apps.mailbeez.de Server konfiguriert werden - z.B. wichtig, damit gebuchte Tarife installiert und aktualisiert werden können.
+In diesem Modul kann die Integration mit dem apps.mailbeez.de Server konfiguriert werden - z.B. wichtig, damit gebuchte Tarife installiert und aktualisiert werden können.
 
 Den Api-Key finden Sie auf https://apps.mailbeez.de im Bereich "Übersicht". Dort entweder im Bereich "Tarife" oder "Domains" den passenden Eintrag öffnen und den API Key kopieren und hier einfügen.
  

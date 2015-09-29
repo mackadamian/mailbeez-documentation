@@ -40,6 +40,7 @@ metadata:
 #  last_modified: true
 ---
 
+MailBeez gibt Ihnen volle Freiheit zu wählen, wie Sie die Emails versenden wollen:
 
 
 1. **Shop (Standard)**: Email-Funktion des Shop-Systems
@@ -59,7 +60,7 @@ Als Standard-Einstellung nutzt MailBeez die Email Funktion des Shop Systems. Som
 
 
 ###Newsletter2Go (empfohlen)
-Newsletter2Go ist ein in Berlin ansässiger Anbieter für den Versand von Emails mit einer Zustellrate von 99,5% dank zertifizierter Server:
+Newsletter2Go ist ein in Berlin ansässiger Anbieter für den Versand von Emails **mit einer Zustellrate von 99,5%** dank zertifizierter Server:
 
 Newsletter2Go schreibt:
 
@@ -69,7 +70,7 @@ Newsletter2Go schreibt:
 | Vorteile                                                   | Nachteile 
 |------------------------------------------------------------|----------------------------------------------
 | Versand über zertifizierte Server mit 99,5% Zustellrate    | SPF Konfiguration sinnvoll
-| Whitelisting für 2,4 Milliarden Emails                     | zusätzliche Kosten, welche aber durch verbesserte Zustell-Raten gedeckt werden sollten     
+| Whitelisting für 2,4 Milliarden Emails                     | zusätzliche Kosten, welche aber **durch verbesserte Zustell-Raten gedeckt werden** sollten     
 | Kein Problem mit Spam-Listen, Blacklist etc.               |  |
 | 1000 Email gratis pro Monat                                |  |
 
