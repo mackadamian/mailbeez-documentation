@@ -15,7 +15,7 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
     tag: [core]
 module:
@@ -50,17 +50,19 @@ metadata:
 ---
 
 Diese Modul wird von [www.web4design.de](http://www.web4design.de/) in enger Zusammenarbeit mit MailBeez angeboten.
-[zur Anleitung](http://www.web4design.de/module_infos/deutsch/shopbewertungen/index.php) 
  
 Für den professionellen Einsatz empfiehlt sich das Modul [Bitte zur Shopbewertung Profi](/dokumentation/mailbeez/shoprating_advanced/) mit Auto-Login, Stammkunden Erkennung und weiteren Profi-Funktionen - als Bestand-Teil der Profi-Tarife.
+
+
+### Einfache Installation
+
+Das Shopbewertungs-Modul ist bereits Bestandteil vom MailBeez Grundsystem. Sie brauchen lediglich eine Anpassung vornehmen, um die Bewertungs-Box in den Shop einzubinden. Weitere Informationen finden Sie in der [Integrations-Anleitung](http://www.web4design.de/module_infos/deutsch/shopbewertungen/index.php) von Web4dDesign.
 
 ## Kundenmeinungen - selbst verwaltet
 
 Mit dieser Erweiterung bieten Sie Ihren Kunden die Möglichkeit, Ihren Shop zu Bewerten.
 
-Mit Hilfe eines professionell gestaltetem Widgets können Sie dann die Bewertungen in Ihrem Shop darstellen.
-
-Das Erscheinungsbild ist vergleichbar zu Online-Lösungen, aber Sie haben volle Kontrolle über die Kundenmeinungen - und es ist kostenlos.
+Mit Hilfe eines professionell gestaltetem Widgets können Sie dann die Bewertungen in Ihrem Shop darstellen. Das Erscheinungsbild ist vergleichbar zu Online-Lösungen, aber Sie haben volle Kontrolle über die Kundenmeinungen - und es ist kostenlos.
 
 Dank der enthaltenen Integration mit dem [BeezDesk Kunden Insight](/dokumentation/configbeez/config_customer_insight/) werden Sie bei neuen Bewertungen benachrichtig. Und Sie können auch die Bewertungen eines Kunden einsehen, wenn Sie z.B. eine Bestellung bearbeiten.
 
@@ -84,27 +86,26 @@ Daher haben wir uns mit **[www.web4design.de](http://www.web4design.de/)** zusam
 **Shopbewertungen oder Produktbewertungen? Beides!**   
 Shopbewertungen und [Produktbewertungen](/dokumentation/mailbeez/review_advanced/) ergänzen sich hervorragend, Sie können also beides in Ihrem Shop nutzen. Wir empfehlen, Kunden kurz nach der Lieferung der Ware um die Abgabe einer Shopbewertung zu bitten und später, z.B. 30 Tage nach der Lieferung um die Bewertung der erworbenen Produkte. Dies sind **zwei natürliche Kontakt-Punkte**, mit denen Sie die Interaktion mit Ihren Kunden sowie Ihren Bekanntheitsgrad - und auch den Umsatz - verbessern!
 
-### Einfache Installation
-
-Das Shopbewertungs-Modul wird als MailBeez-Modul einfach in das System kopiert. Sie brauchen lediglich eine Anpassung vornehmen, um die Bewertungs-Box in den Shop einzubinden.
 
 ### Professionelle Bewertungsseite ist gleich dabei
 
 Mit Klick auf die Bewertungsbox wird der Besucher auf eine professionell gestaltete Seite mit Detail-Informationen zu Ihren Bewertungen geleitet. Dort können Kunden oder auch Besucher (je nach Konfiguration) auch eine Bewertung abgeben (oder besser, mit Hilfe von MailBeez die Kunden um eine Bewertung bitten ;) ).
 
-[![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/lib/scripts/timthumb/thumb.php?src=http://www.mailbeez.com/images/de_shoprating_page.png&w=600&h=500&zc=1&q=100 "real time customer ratings in MailBeez Emails")](http://www.mailbeez.com/images/de_shoprating_page.png "real time customer ratings in MailBeez Emails")![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/images/shortcodes/image_shadow.png)
+![](Screen_shoprating_page.de.png)
 
 ### Profi-Modul für den ernsthaften Einsatz
 
-Das kostenlose Shopbewertungs-Modul funktioniert bereits einwandfrei - Profi-Shops werden aber die Zusatzfunktionen des Premium Modules "[Bitte zur Shopbewertung Profi](/dokumentation/mailbeez/shoprating_advanced/)" zu schätzen wissen. Funktionen wie **Auto-Login** und **Stammkunden-Erkennung** werden typisch bis zu doppelte so viele Bewertungen geben. Und Sie können automatisiert **aktuelle Bewertungen in von MailBeez generierte Emails einfügen** - mit Hilfe eines einfach Platzhalters.
+Das kostenlose Shopbewertungs-Modul funktioniert bereits einwandfrei - Profi-Shops werden aber die Zusatzfunktionen des Premium Modules "[Bitte zur Shopbewertung Profi](/dokumentation/mailbeez/shoprating_advanced/)" zu schätzen wissen. Funktionen wie **Auto-Login** und **Stammkunden-Erkennung** werden typisch bis zu doppelte so viele Bewertungen geben. Und Sie können automatisiert **aktuelle Bewertungen in von MailBeez generierte Emails einfügen** - mit Hilfe eines einfach Platzhalters. [zum Profimodul](/dokumentation/mailbeez/shoprating_advanced/) 
+ 
+Shopbewertungen in MailBeez Emails
 
- [zum Profimodul](/dokumentation/mailbeez/shoprating_advanced/) Shopbewertungen in MailBeez Emails
+![](Screen_shoprating_email.de.png?resize=250)
 
-[![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/lib/scripts/timthumb/thumb.php?src=http://www.mailbeez.com/images/de_shoprating_advanced_integration.png&w=250&h=350&zc=1&q=100 "Shopbewertungen in in MailBeez Emails")](http://www.mailbeez.com/images/de_shoprating_advanced_integration.png "Shopbewertungen in in MailBeez Emails")![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/images/shortcodes/image_shadow.png)
 
 ### Nahtlos mit dem kostenlosen BeezDesk CRM Kunden Insight integriert
 
-[![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/lib/scripts/timthumb/thumb.php?src=http://www.mailbeez.com/images/de_shoprating_notification.png&w=600&h=400&zc=1&q=100 "Benachrichtigung bei Shopbewertungen")](http://www.mailbeez.com/images/de_shoprating_notification.png "Benachrichtigung bei Shopbewertungen")![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/images/shortcodes/image_shadow.png)
+![](Screen_shoprating_beezdesk.de.png)
+
 
 Einfach das [BeezDesk CRM Kunden Insight Modul](/dokumentation/configbeez/config_customer_insight/) installieren und mit einer Zeile Code in die Shop-Administration einbinden - und schon werden Sie gleich **Benachrichtigung über neue Bewertungen** erhalten (Notifications), können den aktuellen Bewertungs-Stand sehen und haben **direkten Zugriff auf die Konfiguration** des Shopbewertungs-Modules.
 
