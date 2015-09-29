@@ -26,3 +26,7 @@ metadata:
 ---
 
 Not so much to do here - you can configure if you want to see the Guided Tour Tab.
+
+The integrated MailBeez Tour module provides a growing number of interactive tour sessions, which will help you to better understand the system and typical workflows.
+
+Thanks to the indicator you will see how many new tours are available.

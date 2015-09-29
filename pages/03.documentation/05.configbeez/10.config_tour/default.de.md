@@ -26,3 +26,7 @@ metadata:
 ---
 
 Hier gibt es nicht viel zu tun - wählen Sie, ob Sie den Tab mit den "Tour" Modulen (Interaktive Lehrgänge) zeigen lassen wollen.
+
+Mit der integrierten MailBeez Tour Funktion haben Sie Zugang zu einer laufenden erweiterten Bibliothek von interaktiven Lehrgängen, um das MailBeez System und häufige Abläufe besser zu verstehen.
+
+Dank des Indikators sehen Sie, wie viele neue Lehrgänge auf Sie warten.
