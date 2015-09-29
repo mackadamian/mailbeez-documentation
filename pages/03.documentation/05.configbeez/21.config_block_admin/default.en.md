@@ -27,7 +27,7 @@ module:
     cert: 'true'
     price: '99 EUR'
     title_en: 'Advanced Opt-Out with Admin'
-    teaser_en: 'Block all modules and administer customers' opt-out settings'
+    teaser_en: 'Block all modules and administer customers opt-out settings'
     title_de: 'Erweitertes Opt-out mit Admin'
     teaser_de: 'Alle Module blockieren und Opt-Out der Kunden administrieren'
     author: 'MailBeez.com'
