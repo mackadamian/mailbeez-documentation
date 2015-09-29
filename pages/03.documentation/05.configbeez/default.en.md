@@ -35,6 +35,7 @@ metadata:
 #  cache_enable: false
 #  last_modified: true
 ---
+### Chapter 3
 # Configuration Modules
 
 Check out the Mailbeez Configbeez – a helpful suite of modules that allows you to configure or even extend the functionality of your Mailbeez installation.

@@ -20,7 +20,7 @@ summary:
 taxonomy:
     migration_status: review
     category: [docs]
-    tag: []
+    tag: [pro]
 # added collection selector
 
 author:

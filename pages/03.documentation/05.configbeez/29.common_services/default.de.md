@@ -13,3 +13,6 @@ taxonomy:
         - docs
 ---
 
+# Gemeinsame Dienste 
+
+Diese gemeinsamen Dienst-Module werden von den Profi-Modulen genutzt.

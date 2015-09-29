@@ -16,7 +16,7 @@ taxonomy:
     migration_status: review
     category:
         - docs
-    tag: {  }
+    tag: [pro]
 author:
     name: admin
 metadata:

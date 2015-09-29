@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: MailBeez
+title: MailBeez Modules
 slug: mailbeez
 # menu: MailBeez
 date: 21-05-2010

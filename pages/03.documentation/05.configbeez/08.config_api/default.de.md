@@ -6,7 +6,7 @@ date: 26-03-2012
 published: true
 publish_date: 26-03-2012
 # unpublish_date: 26-03-2012
-template: docs
+template: chapter
 # theme: false
 visible: true
 summary:
