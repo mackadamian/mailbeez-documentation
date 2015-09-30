@@ -25,8 +25,10 @@ metadata:
     author: admin
 ---
 
-Die MailBeez API ermöglicht die Integration mit anderen Systemen und Webseiten. 
+Die MailBeez API (**A**pplication **P**rogram **I**nterface)  ermöglicht die Integration mit anderen Systemen und Webseiten. 
 
 Sie können hier den API Key konfigurieren.
 
 >>>Die MailBeez API ist erweiterbar und die zur Verfügung stehenden Funktionen sind abhängig von den installierten Modulen.
+
+Aktuell stehen folgende API Module zur Verfügung:

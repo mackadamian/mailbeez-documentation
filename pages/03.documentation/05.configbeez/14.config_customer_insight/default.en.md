@@ -27,7 +27,7 @@ The extensible BeezDesk CRM Customer Insight add-on helps you to **improve both 
 
 The modular Customer Insight view can be opened from any page with customer information (customer, order), while the CRM Pad is available on any store admin page.
 
-Developers can easily enhance the Customer Insight view e.g. with modules to pull-in customer related information from 3rd party systems and reduce development efforts to a minimum. There is no need to modify the core files to keep everything easy to update.
+Developers can easily enhance the Customer Insight view e.g. with modules to pull-in customer related information from 3rd party systems and reduce development efforts to a minimum. There is no need to modify the core files to keep everything to update.
 
 The Customer Insight view gives you an immediate overview of all orders, products purchased, etc and can be upgraded towards a fully featured professional multichannel ticket system supporting email, live chat, Facebook, twitter, phone calls including web forms, knowledge base, forums and suggestion boards for a real multichannel customer support solution. This allows store owners to consolidate their communication channels and streamline their customer support.
 

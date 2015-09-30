@@ -13,14 +13,14 @@ This API Module groups product related API calls.
 
 The Product Reviews API allows you to display your product reviews on any PHP based page on any other server.
 
-To use the Product Reviews API please copy the API client files as your find them on your MailBeez Server:
+To use the Product Reviews API please copy the API client files as you can find them on your MailBeez Server:
 
 ```
 /mailhive/configbeez/config_api_product/apibeez/api_private_product_reviews/_client
 ```
 
 
-to the server where you want to integrate the product reviews.
+to the server where you want to integrate the product reviews into. This could be a blog-page around specific products.
 
 Edit the file `config.php`
 
@@ -44,7 +44,7 @@ to include product reviews for - in this case - product with `products_id=112`.
 
 
 The html is generated using the smarty templates located in:
-```
+```bash
 /mailhive/configbeez/config_api_product/apibeez/api_private_product_reviews/templates/
 ```
  

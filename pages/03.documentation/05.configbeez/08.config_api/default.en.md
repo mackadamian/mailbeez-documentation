@@ -27,7 +27,7 @@ metadata:
 # API
 
 
-The MailBeez API (**A**pplication **P**rogram **I**nterface) allows to integrated with other sites and applications.
+The MailBeez API (**A**pplication **P**rogram **I**nterface) allows to integrate with other sites and applications.
 
 In the core configuration module you can configure the API Key.
 

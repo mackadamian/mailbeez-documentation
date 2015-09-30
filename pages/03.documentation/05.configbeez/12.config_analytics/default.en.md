@@ -30,7 +30,6 @@ MailBeez Analytics the Analytics System of the MailBeez platform and allows you 
 The Measurement utilizes following techniques:
 
 
->>>>>  open / clicks on copy-to emails are not counted as these emails are separate emails with a different message-id. so only open / click actions of the real recipients are counted.
 
 
 ### Openrates
@@ -38,11 +37,11 @@ The Measurement utilizes following techniques:
 an email counts as opened when one of the following events occurred:
 
 - loading of the tracking pixel (requires the customers email client is loading images of the HTML-version)
-- click on a link towards the shopsystem in the email
+- click on a link in the email towards the shopsystem
 - placing an order using the unique personalized coupon from the email
 
 
-The tracking images uses a high-performance call to minimize server load: each opening is logged into a log-file. With every run of MailHive the server handler is importing the log file into the MailBeez Tracking Database. Afterwards the log file is deleted.
+The tracking image uses a high-performance call to minimize server load: each opening is logged into a log-file. With every run of MailHive the server handler is importing the log file into the MailBeez Tracking Database. Afterwards the log file is deleted. This will cause a delay between the actual events of opening an email and beeing able to see the current open rates
 
 
 ### Clickrates
@@ -57,3 +56,5 @@ An order counts as referred by email, when one of the following conditions are m
 
 - order folling a klick on a link
 - placing an order using the unique personalized coupon from the email
+
+>>>>>  open / clicks on copy-to emails are not counted as these emails are separate emails with a different message-id. so only open / click actions of the real recipients are counted.

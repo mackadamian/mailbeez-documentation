@@ -45,7 +45,6 @@ MailBeez Analytics ist das MailBeez eigene Analytics System, mit dem Sie den Erf
 
 Die Messung erfolgt nach folgenden Prinzipien:
 
->>>>> Öffnen und Klicks auf Kopie-Emails werden nicht gezählt, da diese Emails eine eigene Message-ID haben. Somit werden nur die Aktionen der wirklichen Empfänger (Kunden) erfasst.
 
 ### Öffnungsraten
 
@@ -56,7 +55,7 @@ eine Email gilt als geöffnet, wenn eines der folgenden Ereignisse eintrifft:
 - Tätigung eines Kaufes unter Nutzung des in der Email enthaltenen Gutschein-Codes
 
 
-Das Lade des Tracking-Pixels verwendet einen Hoch-Performanten Aufruf, um die Server-Last zu minimieren: Jeder Pixel-Aufruf wird in einer Log-Datei protokolliert. Bei jeder Ausführung von MailBeez wird die Log-Datei in die MailBeez Analytics Datenbank importiert und die Log-Datei wird gelöscht.
+Das Lade des Tracking-Pixels verwendet einen Hoch-Performanten Aufruf, um die Server-Last zu minimieren: Jeder Pixel-Aufruf wird in einer Log-Datei protokolliert. Bei jeder Ausführung von MailBeez wird die Log-Datei in die MailBeez Analytics Datenbank importiert und die Log-Datei wird gelöscht. Hierdurch kann eine zeitliche Verzögerung zwischen dem eigentlichen Öffnen der Email und der Aktualisierung der Öffnungsraten entstehen.
 
 
 ### Klickraten
@@ -72,3 +71,4 @@ Ein Bestellung gilt als über eine MailBeez Email vermittelt, wenn eine der folg
 - Kauf als Folge eines Link-Klicks
 - Kauf unter Nutzung des in der Email enthaltenen personalisierten Gutschein-Codes
 
+>>>>> Öffnen und Klicks auf Kopie-Emails werden nicht gezählt, da diese Emails eine eigene Message-ID haben. Somit werden nur die Aktionen der wirklichen Empfänger (Kunden) erfasst.

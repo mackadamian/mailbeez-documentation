@@ -20,7 +20,7 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
     tag: [core]
 # added collection selector
@@ -41,7 +41,7 @@ metadata:
 #  last_modified: true
 ---
 
-Diese Modul steht stellvertretende für das MailBeez Grundsystem.
+Diese Modul steht stellvertretend für das MailBeez Grundsystem.
 
 Hier können Sie grundlegende Funktionen konfigurieren, am besten sehen Sie sich die Möglichkeiten direkt im System an.
 
