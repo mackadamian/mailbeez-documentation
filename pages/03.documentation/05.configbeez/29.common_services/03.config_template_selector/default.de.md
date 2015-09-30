@@ -1,27 +1,45 @@
 ---
-title: 'Template Selector'
+# http://learn.getgrav.org/content/headers
+title: Template Selector
 slug: config_template_selector
 routes:
-    default: /documentation/configbeez/config_template_selector
+    default: /dokumentation/configbeez/config_template_selector
+    
+# menu: Template Selector
 date: 18-10-2012
 published: true
 publish_date: 18-10-2012
+# unpublish_date: 18-10-2012
 template: docs
-visible: true
+# theme: false
+visible: false
 summary:
     enabled: true
     format: short
     size: 128
 taxonomy:
     migration_status: review
-    category:
-        - docs
+    category: [docs]
     tag: [pro]
+# added collection selector
+
 author:
     name: kelly
 metadata:
     author: kelly
+#      description: Your page description goes here
+#      keywords: HTML, CSS, XML, JavaScript
+#      robots: noindex, nofollow
+#      og:
+#          title: The Rock
+#          type: video.movie
+#          url: http://www.imdb.com/title/tt0117500/
+#          image: http://ia.media-imdb.com/images/rock.jpg
+#  cache_enable: false
+#  last_modified: true
 ---
+
+(English)
 
 ## What Does the Template Selector Do?
 

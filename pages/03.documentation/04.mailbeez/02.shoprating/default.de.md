@@ -40,7 +40,7 @@ metadata:
 #  last_modified: true
 ---
 
-Dieses Modul zur Bewertungsaufforderung arbeite zusammen mit dem bereits in MailBeez enthaltenen Module [Shopbewertungen](/dokumentation/configbeez/config_shopvoting/).
+Dieses Modul zur Bewertungsaufforderung arbeitet nahtlos mit dem bereits in MailBeez enthaltenen Modul [Shopbewertungen](/dokumentation/configbeez/config_shopvoting/).
 
 Mit dem Shopbewertungs-Modul können Kunden eine Bewertung des Shops abgeben, diese Bewertungen sind dann in der Administrations zu bearbeiten und das Ergebnis kann in der Storefront angezeigt werden.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Coupon: Expiry Reminder'
+title: 'Coupon Expiry Reminder'
 slug: coupon_expire
 routes:
     aliases:

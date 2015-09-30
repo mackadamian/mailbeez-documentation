@@ -7,7 +7,7 @@ metadata:
     author: admin
 slug: shoprating
 visible: true
-template: blog
+template: docs
 taxonomy:
     tag:
         - core

@@ -13,7 +13,7 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category:
         - docs
     tag: [pro]
@@ -33,20 +33,21 @@ relativ to store root - empty value: browse all images on shop server
 
 Here you can enter a path relative to your store root directory. The image browser will then open with this path.
 
-- - - - - -
+
+## Mobile Editor width settings
 
 To support the creating and editing of responsive emails you can switch the editor into different width.
 
 Only change when necessary.
 
-## Mobile Editor View Width 1
+**Mobile Editor View Width 1**
 
 Width for Mobile Editor View 1, e.g. 320px
 
-## Mobile Editor View Width 2
+**Mobile Editor View Width 2**
 
 Width for Mobile Editor View 2, e.g. 480px
 
-## Mobile Editor View Width 3
+**Mobile Editor View Width 3**
 
 Width for Mobile Editor View 3, e.g. 600px

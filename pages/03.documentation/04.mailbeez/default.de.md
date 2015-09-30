@@ -3,7 +3,7 @@
 title: MailBeez Module
 slug: mailbeez
 # menu: MailBeez
-date: 21-05-2010
+date: 21-05-2015
 published: true
 publish_date: 21-05-2010
 # unpublish_date: 21-05-2010
@@ -39,4 +39,6 @@ metadata:
 ### Abschnitt 2
 # MailBeez Module
 
-Hier sind Sie an der richtigen Stelle, um die Welt der MailBeez Module zu entdecken! Automatisierbar, intelligent und integriert bietet MailBeez Ihnen eine Reihe von Werkzeugen, um Ihre [Kundenbeziehung](/dokumentation/tutorials/customer-life-cycle-management-and-how-mailbeez-can-help/ "Lifecycle management") zu optimieren
+Hier sind Sie an der richtigen Stelle, um die Welt der MailBeez Module zu entdecken! Automatisierbar, intelligent und integriert bietet MailBeez Ihnen eine Reihe von Werkzeugen, um Ihre [Kundenbeziehung](/dokumentation/tutorials/customer-life-cycle-management-and-how-mailbeez-can-help/ "Lifecycle management") zu optimieren.
+
+Jedes Modul wurde entwickelt, um eine bestimmte Art der Kunden-Kommunikation zu ermöglichen (Email Modul) bzw. um eine Aufgabe zu automatisieren (Service Modul)

@@ -7,7 +7,7 @@ metadata:
     author: admin
 slug: birthday
 visible: true
-template: blog
+template: docs
 taxonomy:
     tag:
         - core

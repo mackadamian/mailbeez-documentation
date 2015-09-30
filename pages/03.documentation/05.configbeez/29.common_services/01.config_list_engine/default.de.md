@@ -1,11 +1,11 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Template Selector
-slug: config_template_selector
+title: Listen Dienst
+slug: config_list_engine
 routes:
-    default: /dokumentation/configbeez/config_template_selector
+    default: /dokumentation/configbeez/config_list_engine
     
-# menu: Template Selector
+# menu: List Engine
 date: 18-10-2012
 published: true
 publish_date: 18-10-2012
@@ -18,15 +18,15 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
     tag: [pro]
 # added collection selector
 
 author:
-    name: kelly
+    name: admin
 metadata:
-    author: kelly
+    author: admin
 #      description: Your page description goes here
 #      keywords: HTML, CSS, XML, JavaScript
 #      robots: noindex, nofollow
@@ -39,12 +39,11 @@ metadata:
 #  last_modified: true
 ---
 
-(English)
 
-## What Does the Template Selector Do?
+## Darstellung von Produkten in Emails
 
-The Template Selector is an internal service which allows you to select your preferred email template from within each individual module’s configuration panel.
+Dieses Untermodul ist für die Generierung von Produkt-Grids verantwortlich.
 
-This added flexibility allows you to choose different email templates for different email modules – awesome!
+Hier können Sie die Anzahl an Spalten und Produkten gesamt konfiguriere. 
 
-The Template Selector is delivered with all premium email modules except for the Newsletter – Beta module.
+**Hinweis**: die verwendete Listen-Vorlage muss diese Einstellungen unterstützen.

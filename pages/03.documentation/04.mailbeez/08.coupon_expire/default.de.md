@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Gutschein: Ablauf Erinnerung
+title: Gutschein-Ablauf Erinnerung
 slug: coupon_expire
 routes:
     aliases:
