@@ -2,6 +2,9 @@
 # http://learn.getgrav.org/content/headers
 title: Idealo Integration Suite
 slug: config_idealo_integration
+routes:
+    default: /dokumentation/configbeez/config_idealo_integration
+    
 # menu: Idealo Integration Suite
 date: 15-04-2015
 published: false
@@ -36,8 +39,10 @@ metadata:
 #  last_modified: true
 ---
 
-Import and Integrate your valuable Idealo Reviews
+Importieren und Integrateren Sie Ihre wertvollen Idealo Bewertungen
 
-## How it works
+## Funktionsweise
+
+Idealo bietet leider keine API zum Import der Bewertungen. Das System verarbeitet daher automatisiert
 
 As idealo is not offering any API the dealer notification emails for new reviews are automatically processed.

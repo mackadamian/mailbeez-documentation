@@ -1,6 +1,8 @@
 ---
 title: 'Shopauskunft Integration Suite'
 slug: config_shopauskunft_integration
+routes:
+    default: /documentation/configbeez/config_shopauskunft_integration
 date: 08-02-2012
 published: true
 publish_date: 08-02-2012

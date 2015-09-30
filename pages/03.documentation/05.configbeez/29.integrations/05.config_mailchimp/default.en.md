@@ -2,6 +2,8 @@
 # http://learn.getgrav.org/content/headers
 title: MailChimp Integration
 slug: config_mailchimp
+routes:
+    default: /documentation/configbeez/config_mailchimp
 # menu: MailChimp Integration
 date: 02-03-2012
 published: true

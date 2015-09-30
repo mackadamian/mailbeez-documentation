@@ -1,6 +1,8 @@
 ---
 title: 'Trustpilot Integration Suite'
 slug: config_trustpilot_rss_importer
+routes:
+    default: /documentation/configbeez/config_trustpilot_rss_importer
 date: 03-05-2011
 published: true
 publish_date: 03-05-2011

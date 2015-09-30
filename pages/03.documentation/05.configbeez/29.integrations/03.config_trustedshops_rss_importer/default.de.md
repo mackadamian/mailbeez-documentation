@@ -2,6 +2,8 @@
 # http://learn.getgrav.org/content/headers
 title: Trustedshops Integration Suite
 slug: config_trustedshops_rss_importer
+routes:
+    default: /dokumentation/configbeez/config_trustedshops_rss_importer
 # menu: Trustedshops Integration Suite
 date: 26-10-2011
 published: true

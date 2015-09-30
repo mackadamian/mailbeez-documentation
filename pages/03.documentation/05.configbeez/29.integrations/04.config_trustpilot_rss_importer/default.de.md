@@ -2,6 +2,8 @@
 # http://learn.getgrav.org/content/headers
 title: Trustpilot Integration Suite
 slug: config_trustpilot_rss_importer
+routes:
+    default: /dokumentation/configbeez/config_trustpilot_rss_importer
 # menu: Trustpilot Integration Suite
 date: 03-05-2011
 published: true

@@ -2,6 +2,8 @@
 # http://learn.getgrav.org/content/headers
 title: Shopauskunft Integration Suite
 slug: config_shopauskunft_integration
+routes:
+    default: /dokumentation/configbeez/config_shopauskunft_integration
 # menu: Shopauskunft Integration Suite
 date: 08-02-2012
 published: true

@@ -1,6 +1,8 @@
 ---
 title: 'Trustedshops Integration Suite'
 slug: config_trustedshops_rss_importer
+routes:
+    default: /documentation/configbeez/config_trustedshops_rss_importer
 date: 26-10-2011
 published: true
 publish_date: 26-10-2011
