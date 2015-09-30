@@ -7,7 +7,7 @@ metadata:
     author: admin
 slug: coupon_review_shoprating
 visible: true
-template: blog
+template: docs
 taxonomy:
     tag:
         - pro
