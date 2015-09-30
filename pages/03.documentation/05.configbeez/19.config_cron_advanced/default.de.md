@@ -15,7 +15,7 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
     tag: []
 module:
@@ -62,14 +62,8 @@ Abhängig von Ihrem Server, Anzahl der MailBeez Module und Konfiguration kann de
 
 **Einrichtung:**
 
-Das Modul "MailBeez automatisch ausführen Profi" enthält das einfache "MailBeez automatisch ausführen" Modul, um den Traffic auf der Website zur Ausführung des Versende Prozesses zu nutzen. Dies passiert asynchron, d.h. die Ladezeiten werden nicht negativ beeinflusst.
+Das Modul "MailBeez automatisch ausführen Profi" enthält die Automatik-Funktion des "[MailBeez automatisch ausführen](/dokumentation/configbeez/config_cron_simple)" Modules, um den Traffic auf der Website zur Ausführung des Versende Prozesses zu nutzen. Dies passiert asynchron, d.h. die Ladezeiten werden nicht negativ beeinflusst.
 
-Aber auch wenn Sie traditionellen Cronjobs verwenden, gibt dies Modul volle Kontrolle darüber, wann die verschiedenen MailBeez Module ausgeführt werden.
-
-Sie können einen Cronjob einrichten, welche die MailBeez Cronjob-URL z.B. alle 5 Minuten ausführt und dann in dem Modul einfach und flexible die Zeitsteuerung je Modul konfigurieren.
-V1.1
-- added localization (EN, DE) for weekday names
-- improved instructions
-
-V1.0
-- initial public release
+**Für beste Zuverlässigkeit bitte einen traditionellen Cronjob einrichten, welche die MailBeez Cronjob-URL z.B. alle 5 Minuten ausführt und dann in dem Modul einfach und flexible die Zeitsteuerung je Modul konfigurieren.**
+ 
+Somit sind die Ausführungs-Zeiten nicht vom Besucher-Traffik abhängig.

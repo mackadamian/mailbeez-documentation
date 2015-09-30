@@ -7,14 +7,7 @@ metadata:
     author: admin
 slug: config_cron_advanced
 visible: true
-content:
-    limit: 5
-    pagination: '1'
-    order:
-        dir: desc
-        by: date
-    items: '@self.children'
-template: blog
+template: docs
 taxonomy:
     category:
         - docs
@@ -50,23 +43,16 @@ This module allows you to define the timing for running modules. Compared to the
 
 **Benefits**
 
-- control per module at which week days and at which time to send out.   
-E.g. sent Welcome Emails with providing quick support only during your business hours
+- control per module at which week days and at which time to send out. E.g. sent Welcome Emails with providing quick support only during your business hours
 - reduce load for the sending process.  
+
+
 Depending on the server setup, number of modules installed and configuration then sending process might require too many resources. By splitting up the processing you can reduce the load.
 
 
 
 **Set-up:**
 
-The "Run MailBeez automatically advanced" module included the basic "Run MailBeez automatically" to utilise the traffic on the website to trigger the sending process. This happens asynchronous, which means the visitor will not see any delay in page load times.
+The "Run MailBeez automatically advanced" module includes the functionality of the basic "[Run MailBeez automatically](/documentation/configbeez/config_cron_simple)" module to utilise the traffic on the website to trigger the sending process. This happens asynchronous, which means the visitor will not see any delay in page load times.
 
-But also when using a traditional cronjob this module gives full control about when to run which MailBeez campaign module.
-
-You can set up the cronjob to call the MailBeez Cronjob-URL e.g. every 5 minutes and then configure very flexible and comfortable the timing for each module.
-V1.1
-- added localization (EN, DE) for weekday names
-- improved instructions
-
-V1.0
-- initial public release
+**For most reliable functoin please set up a traditional cronjob to call the MailBeez Cronjob-URL e.g. every 5 minutes and then configure very flexible and comfortable the timing for each module.**

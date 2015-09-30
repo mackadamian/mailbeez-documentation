@@ -46,7 +46,7 @@ Die Kunden-Insight Ansicht gibt Ihnen einen sofortigen Überblick aller Bestellu
 
 [mehr zum BeezDesk CRM](http://www.beezdesk.de)
 
->>>>>Ab **Gambio Version 2.3** und **Modified-Shop 2.0** ist dieses Modul als Bestandteil von MailBeez **vorintegriert** und die weiteren Schritte sind nicht erforderlich.
+>>>>>[plugin:content-inject](/content_blocks/hint_preintegration)
 
 
 ### Installation

@@ -41,7 +41,9 @@ metadata:
     author: admin
 ---
 
-[![](http://www.shopauskunft.de/res/sa_siegel_rand_180x_20b_586.jpg "Shopauskunft")](http://www.shopauskunft.de)**For retailers with a paid Shopauskunft.de Enterprise account, this Mailbeez module allows you to easily embed Shopauskunft reviews on your website, and as embedded content within Mailbeez emails; greatly extending the reach of your Shopauskunft investment.**
+[<img src="http://www.shopauskunft.de/res/sa_siegel_rand_170x_20b_c0f.jpg" style="float:right">](http://www.shopauskunft.de/retailer_process.html)
+
+**For retailers with a paid Shopauskunft.de Enterprise account, this Mailbeez module allows you to easily embed Shopauskunft reviews on your website, and as embedded content within Mailbeez emails; greatly extending the reach of your Shopauskunft investment.**
 
 Like many enterprising retailers, if you have made the investment and signed up for a Shopauskunft Enterprise account for your store, you are probably already looking for extra ways to leverage your subscription in order to maximize the exposure of good reviews to help sales; and this is where this module excels.
 
@@ -69,15 +71,17 @@ Install and activate the module – configure your API feed as described in the 
 
 Let’s say you wanted to add the Shopauskunft reviews to your ‘Contact Us’ page. In order to do this, you would simply use the following PHP code and place it into the Contact us’ page.
 
-> //include class
->     require_once(DIR_FS_CATALOG . 'mailhive/configbeez/config_shopauskunft_integration/classes/shopauskunft_integration.php');
->     // create new instance
->     $feed = new shopauskunft_integration();
->     // generate output (template, number of ratings, min stars, shuffle)
->     echo $feed->output_feed('feed_reviewpage.tpl', 7, 4, 'True');
+```php
+//include class
+require_once(DIR_FS_CATALOG . 'mailhive/configbeez/config_shopauskunft_integration/classes/shopauskunft_integration.php');
+// create new instance
+$feed = new shopauskunft_integration();
+// generate output (template, number of ratings, min stars, shuffle)
+echo $feed->output_feed('feed_reviewpage.tpl', 7, 4, 'True');
+```
 
 The included DIV/CSS based template “feed\_reviewpage.tpl” generates a default output, which can be customized to match your store’s theme with only a little extra work.
 
 **Integrate Ratings into MailBeez campaigns:**
 
-By adding a simple tag into your MailBeez template you can also show your ratings in all or selected MailBeez generated emails.
+By adding a simple tag into your MailBeez template you can also show your ratings in all or selected MailBeez generated emails, read more on [integrate Shopauskunft ratings into MailBeez Emails](/documentation/filterbeez/filter_add_shopauskunft_feed)

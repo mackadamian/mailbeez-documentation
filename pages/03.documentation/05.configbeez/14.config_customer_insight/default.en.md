@@ -33,7 +33,7 @@ The Customer Insight view gives you an immediate overview of all orders, product
 
 [read more about BeezDesk CRM](http://www.beezdesk.com)
 
->>>>>The Store Systems **Gambio Version 2.3** and **Modified-Shop 2.0** are pre-integrated with MailBeez so following steps are not necessary.
+>>>>>[plugin:content-inject](/content_blocks/hint_preintegration)
 
 ### Installation
 

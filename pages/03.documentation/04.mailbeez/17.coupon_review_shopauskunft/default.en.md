@@ -1,22 +1,23 @@
 ---
 title: 'Shopauskunft Review Reward Coupon'
-slug: coupon_review_shopauskunft
-date: 08-02-2012
 published: true
-publish_date: 08-02-2012
-template: docs
+date: '08-02-2012 00:00'
+publish_date: '08-02-2012 00:00'
+metadata:
+    author: admin
+slug: coupon_review_shopauskunft
 visible: true
+template: blog
+taxonomy:
+    tag:
+        - pro
+        - coupon
+    category:
+        - docs
 summary:
     enabled: true
     format: short
     size: 128
-taxonomy:
-    migration_status: done
-    category:
-        - docs
-    tag:
-        - pro
-        - coupon
 module:
     code: coupon_review_shopauskunft
     category:
@@ -37,8 +38,6 @@ module:
     author: MailBeez.com
 author:
     name: admin
-metadata:
-    author: admin
 ---
 
 This module requires the [Mailbeez Shopauskunft Integration Suite ](/documentation/configbeez/config_shopauskunft_integration/ "Mailbeez Shopauskunft Integration Suite").
