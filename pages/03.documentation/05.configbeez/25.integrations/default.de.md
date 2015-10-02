@@ -1,5 +1,5 @@
 ---
-title: 'Community Module'
+title: 'Integrationen'
 template: chapter
 
 taxonomy:
@@ -8,11 +8,11 @@ taxonomy:
     author:
         - admin
     tag:
-        - ce
+        - pro
     category:
         - docs
 ---
 
-# Community Module 
+# Integrationen 
 
-Kostenlos, ohne Support - Nutzung auf eigene Gefahr ;)
+MailBeez ist mit einer Reihe von Systemen vorintegriert

@@ -1,18 +1,17 @@
 ---
-title: 'Community Module'
+title: Integrations
 template: chapter
-
 taxonomy:
     migration-status:
         - done
     author:
         - admin
     tag:
-        - ce
+        - pro
     category:
         - docs
 ---
 
-# Community Module 
+# Integrations
 
-Kostenlos, ohne Support - Nutzung auf eigene Gefahr ;)
+MailBeez is pre-integrated with a number of systems

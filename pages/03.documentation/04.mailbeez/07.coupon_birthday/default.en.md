@@ -18,6 +18,7 @@ taxonomy:
         - pro
         - coupon
 module:
+    mc_ready: true
     code: coupon_birthday
     category:
         - mailbeez

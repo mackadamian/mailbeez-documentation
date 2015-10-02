@@ -27,6 +27,7 @@ module:
     code: 'winback_advanced'
     category: [mailbeez]
     compatiblity: [comp_cre,comp_zencart,comp_xtc,comp_gambio]
+    mc_ready: true
     thumbnail: 'http://www.mailbeez.com/wp-content/uploads/downloads/thumbnails/2011/09/icon_32.png'
     pro: 'pro'
     cert: 'true'

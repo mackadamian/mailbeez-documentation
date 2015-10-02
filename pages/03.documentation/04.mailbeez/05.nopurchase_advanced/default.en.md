@@ -21,6 +21,7 @@ taxonomy:
         - pro
         - coupon
 module:
+    mc_ready: true
     code: nopurchase_advanced
     category:
         - mailbeez

@@ -15,4 +15,4 @@ taxonomy:
 
 # Community Modules 
 
-todo
+free, without support - use at your own risk ;)

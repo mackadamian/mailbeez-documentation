@@ -20,6 +20,7 @@ taxonomy:
     tag:
         - pro
 module:
+    mc_ready: true
     code: review_advanced
     category:
         - mailbeez

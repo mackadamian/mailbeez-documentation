@@ -22,6 +22,7 @@ taxonomy:
     category: [docs]
     tag: [pro,coupon]
 module:
+    mc_ready: true
     code: 'nopurchase_advanced'
     category: [mailbeez]
     compatiblity: [comp_cre,comp_zencart,comp_xtc,comp_gambio]
