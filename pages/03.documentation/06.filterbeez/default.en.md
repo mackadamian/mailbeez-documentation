@@ -15,7 +15,7 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
     tag: []
 # added collection selector
@@ -36,4 +36,7 @@ metadata:
 #  last_modified: true
 ---
 
-Documentation for FilterBeez
+### Chapter 4
+# Filter & Helpers
+
+Filter & Helpers are extending the MailBeez System with common features to improve or controll the process of generating content and sending emails.

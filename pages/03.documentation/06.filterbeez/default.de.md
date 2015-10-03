@@ -15,7 +15,7 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
     tag: []
 # added collection selector
@@ -35,5 +35,7 @@ metadata:
 #  cache_enable: false
 #  last_modified: true
 ---
+### Abschnitt 4
+# Filter- & Hilfsmodule
 
-Documentation for FilterBeez
+Die Filter- & Hilfsmodule erweitern das MailBeez System mit grundlegenden Funktionen zur Generierung von Inhalten und Steuerung des Versende-Prozesses

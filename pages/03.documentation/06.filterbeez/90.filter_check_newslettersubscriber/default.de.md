@@ -1,23 +1,23 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Newsletter Subscribers Only
+title: Newsletter Abo Check
 slug: filter_check_newslettersubscriber
-# menu: Newsletter Subscribers Only
+# menu: Newsletter Abo Check
 date: 08-04-2011
 published: true
 publish_date: 08-04-2011
 # unpublish_date: 08-04-2011
 template: docs
 # theme: false
-visible: true
+visible: false
 summary:
     enabled: true
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [pro]
 module:
     code: 'filter_check_newslettersubscriber'
     category: [depreciated]
@@ -49,14 +49,5 @@ metadata:
 #  last_modified: true
 ---
 
- 
+Seit MailBeez V2.6+ ist dieses Modul nicht mehr erforderlich – die Funktion ist vorintegriert.
 
-## About This Filter
-
-**As of MailBeez V2.6+ this module is obsolete – the functionality has been integrated into the MailBeez framework software and is available immediately upon installation.**
-
-**Depending on local laws, you might not be allowed to send out emails to customers who haven’t subscribed to your newsletter. Luckily, the Newsletter Subscribers Only module enhances the MailBeez core functionality, ensuring that the system only emails customers with a standard newsletter subscription.**
-
-You can configure this setting in MailBeez interface > Configuration tab > Spam Compliance > “Edit” &gt: Newsletter Subscriber Check
-
-If you need additional help configuring MailBeez, please visit the [Configuration Tutorial](/documentation/tutorials/mailbeez-comprehensive-configuration-tutorial/)

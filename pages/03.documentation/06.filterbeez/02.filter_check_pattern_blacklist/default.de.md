@@ -1,7 +1,10 @@
 ---
 # http://learn.getgrav.org/content/headers
 title: Musterbasierte Blacklist
-slug: musterbasierte-blacklist
+slug: filter_check_pattern_blacklist
+routes:
+    aliases:
+    - /dokumentation/filterbeez/musterbasierte-blacklist
 # menu: Musterbasierte Blacklist
 date: 26-09-2011
 published: true
@@ -15,9 +18,15 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [pro]
+module:
+   code: 'filter_check_pattern_blacklist'
+   category: [filterbeez]
+   compatiblity: [comp_osc,comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]
+   pro: 'pro'
+   cert: 'true'      
 # added collection selector
 
 author:
@@ -36,6 +45,6 @@ metadata:
 #  last_modified: true
 ---
 
-Dieser Filter blockiert MailBeez für alle Email-Adressen, die einem bestimmten Muster entsprechen, z.B. “@marketplace.amazon.de”.
+Dieser Filter blockiert MailBeez für alle Email-Adressen, die einem bestimmten Muster entsprechen, z.B. `@marketplace.amazon.de`.
 
-Es können unbegrenzte Muster wie “@marketplace.amazon.de” defniert werden , ein Muster je Linie. Emails, die dieses Muster enthalten, werden blockiert.
+Es können unbegrenzte Muster wie `@marketplace.amazon.de` defniert werden , ein Muster je Linie. Emails, die dieses Muster enthalten, werden blockiert.

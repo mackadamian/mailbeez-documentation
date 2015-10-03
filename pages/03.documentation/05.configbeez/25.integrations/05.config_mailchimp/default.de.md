@@ -65,7 +65,7 @@ Wollen Sie MailBeez nutzen, aber die intelligent personalisierten Emails über I
 
 **Was genau macht MailBeez?**
 
-Wenn Sie ein zu MailBeez kompatibles Shop-System nutzen, aber noch nicht wissen, was MailBeez ist - dann hier eine kurze Zusammenfassung: MailBeez läuft als integrierter Bestandteil Ihres Shopsystemes und ist modular aufgebaut. Von **automatisierten Einladung zur Produktbewertung** bis hin zum Versand von **personalisierten Angebots-Gutscheinen**, kann MailBeez Ihnen helfen, **mehr Umsatz** aus Ihrer bestehenden Kundendatenbank zu generieren und den Kunden-Lebenszyklus intelligient auszunutzen.
+Wenn Sie ein zu MailBeez kompatibles Shop-System nutzen, aber noch nicht wissen, was MailBeez ist - dann hier eine kurze Zusammenfassung: MailBeez läuft als integrierter Bestandteil Ihres Shopsystemes und ist modular aufgebaut. Von **automatisierten Einladungen zur Produktbewertung** bis hin zum Versand von **personalisierten Angebots-Gutscheinen**, kann MailBeez Ihnen helfen, **mehr Umsatz** aus Ihrer bestehenden Kundendatenbank zu generieren und den Kunden-Lebenszyklus intelligient auszunutzen.
 
 **Hmm, klingt gut, und MailChimp?**
 

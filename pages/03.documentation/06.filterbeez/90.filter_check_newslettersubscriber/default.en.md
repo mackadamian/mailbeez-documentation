@@ -1,23 +1,23 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Newsletter Abo Check
+title: Newsletter Subscribers Only
 slug: filter_check_newslettersubscriber
-# menu: Newsletter Abo Check
+# menu: Newsletter Subscribers Only
 date: 08-04-2011
 published: true
 publish_date: 08-04-2011
 # unpublish_date: 08-04-2011
 template: docs
 # theme: false
-visible: true
+visible: false
 summary:
     enabled: true
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [pro]
 module:
     code: 'filter_check_newslettersubscriber'
     category: [depreciated]
@@ -49,9 +49,6 @@ metadata:
 #  last_modified: true
 ---
 
-Seit MailBeez V2.6+ ist dieses Modul nicht mehr erforderlich – die Funktion ist vorintegriert.
+ 
 
-***erfordert MailBeez 2.1+***  
- Abhängig von der lokalen Gesetzgebung dürfen nicht direkt mit dem Kauf in Verbindung stehende Emails nur an Kunden mit Newsletter Abo verschickt werden.
-
-Dieses Filter Modul erweitert MailBeez grundlegend um eine Prüfung, ob ein Kunden ein Newsletter Abo hat.
+**As of MailBeez V2.6+ this module is obsolete – the functionality has been integrated into the MailBeez framework software and is available immediately upon installation.**
