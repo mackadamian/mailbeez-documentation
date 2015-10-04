@@ -15,9 +15,9 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [pro]
 module:
     code: 'filter_check_group'
     category: [filterbeez]
@@ -27,7 +27,7 @@ module:
     cert: 'true'
     price: '99 EUR'
     title_en: 'Group Filter'
-    teaser_en: 'Don't send the right Email to the wrong Customer Group'
+    teaser_en: 'Dont send the right Email to the wrong Customer Group'
     title_de: 'Kundengruppen Filter'
     teaser_de: 'Module für Kundengruppen aktivieren / de-aktivieren'
     author: 'MailBeez.com'
@@ -49,20 +49,22 @@ metadata:
 #  last_modified: true
 ---
 
-**nur für xt:Commerce, xtc-Modified, Gambion GX, Zen Cart und CRE Loaded B2B**  
- Mit diesem Modul kann konfiguriert werden, welche Kampagnen an die vorhanden Kunden / Preisgruppen versendet werden.
+**nur für xt:Commerce, xtc-Modified, Gambio GX, Zen Cart und CRE Loaded B2B**  
 
-Beispiel: Es gibt die Preisgruppen “Kunden” und “Händler” – nur “Kunden” sollen eine Aufforderung zur Produktbewertung erhalten.
+Mit diesem Modul steuern Sie, welche Kampagnen an die vorhanden Kunden / Preisgruppen versendet werden.
 
-[![zencart](http://www.mailbeez.com/wp-content/uploads/2011/05/screen_zencart-300x183.png "screen_zencart")](http://www.mailbeez.com/wp-content/uploads/2011/05/screen_zencart.png)Konfiguration in ZenCart
+Beispiel: Es gibt die Preisgruppen “Kunden” und “Händler”.
+Nur Mitglieder der Gruppen “Kunden” sollen eine Aufforderung zur Produktbewertung erhalten.
+
+![Modified-Shop](Screen_xtcm.png)
+Konfiguration in Modified Shop
+
+![zencart](Screen_zencart.png)
+Konfiguration in ZenCart
+
+ 
+>>>>>>Der Kundengruppen-Filter erweitert auch die Segmentierungs-Möglichkeiten z.B. im [Newsletter Profi](/dokumentation/mailbeez/newsletter) Modul!
 
  
 
-[![](http://www.mailbeez.com/wp-content/uploads/2011/05/screen_xtcm-300x176.png "screen_xtcm")](http://www.mailbeez.com/wp-content/uploads/2011/05/screen_xtcm.png)Konfiguration in xtc-Modified
-
- 
-
-Sie habe eine eigene Lösung um Kundengruppen zu verwalten? Mit Kauf dieses Module erhalten Sie kostenlos eine Anpassung an Ihr System!  
- Für weitere Informationen bitte [ MailBeez kontaktieren](http://www.mailbeez.com/about/contact/ "Contact").
-V3.0
-- added support for newsletter segementation
+Sie habe eine eigene Lösung um Kundengruppen zu verwalten? Jetzt [ MailBeez kontaktieren](/about/contact/ "Kontakt").

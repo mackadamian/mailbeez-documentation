@@ -9,16 +9,21 @@ publish_date: 16-10-2012
 # unpublish_date: 16-10-2012
 template: docs
 # theme: false
-visible: true
+visible: false
 summary:
     enabled: true
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
-# added collection selector
+    tag: [pro]
+module:
+    code: 'review_advanced'
+    category: [filterbeez]
+    compatiblity: [comp_osc,comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]
+    pro: 'pro'
+    cert: 'true' 
 
 author:
     name: kelly

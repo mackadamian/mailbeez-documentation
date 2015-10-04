@@ -9,7 +9,7 @@ publish_date: 16-10-2012
 # unpublish_date: 16-10-2012
 template: docs
 # theme: false
-visible: true
+visible: false
 summary:
     enabled: true
     format: short
@@ -17,7 +17,7 @@ summary:
 taxonomy:
     migration_status: review
     category: [docs]
-    tag: []
+    tag: [core]
 # added collection selector
 
 author:
@@ -36,6 +36,8 @@ metadata:
 #  last_modified: true
 ---
 
-## Track Email Link Results With Mouseflow
+deprecated - now part of the MailBeez Core
 
-Delivered with the [Mouseflow Integration](/documentation/configbeez/config_mouseflow/) module, this filter adds an identifier to store links in MailBeez generated emails so that mouseflow can track visitors arriving at your store from clicking an email link.
+
+## Track Email Link Results With Mouseflow
+ This filter adds an identifier to store links in MailBeez generated emails so that mouseflow can track visitors arriving at your store from clicking an email link.

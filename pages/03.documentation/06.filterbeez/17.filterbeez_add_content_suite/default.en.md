@@ -15,9 +15,9 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [pro]
 # added collection selector
 
 author:
@@ -36,17 +36,8 @@ metadata:
 #  last_modified: true
 ---
 
-coming soon
-
+**under development**
     
-  
- Qualify for Early-Bird discount and sign-up for the MailBeez Newsletter:  
-  
-  
-  
-  
-  
- 
 
 allows you to insert automatically generated content in any MailBeez Campaign email:
 

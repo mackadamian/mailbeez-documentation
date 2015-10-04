@@ -1,23 +1,29 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Mouseflow Integration
-slug: ID-5233
-# menu: Mouseflow Integration
+title: Komplett Opt-Out check
+slug: filter_check_block_all
+# menu: Block Customer Administration Check
 date: 16-10-2012
 published: true
 publish_date: 16-10-2012
 # unpublish_date: 16-10-2012
 template: docs
 # theme: false
-visible: true
+visible: false
 summary:
     enabled: true
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [pro]
+module:
+    code: 'config_block_admin'
+    category: [filterbeez]
+    compatiblity: [comp_osc,comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]
+    pro: 'pro'
+    cert: 'true'      
 # added collection selector
 
 author:
@@ -35,9 +41,4 @@ metadata:
 #  cache_enable: false
 #  last_modified: true
 ---
-
-(English)
-
-## Track Email Link Results With Mouseflow
-
-Delivered with the [Mouseflow Integration](/documentation/configbeez/config_mouseflow/) module, this filter adds an identifier to store links in MailBeez generated emails so that mouseflow can track visitors arriving at your store from clicking an email link.
+Dieses Module ist Bestandteil des [Erweitertes Opt-Out mit Admin](/dokumentation/configbeez/config_block_admin/) Modules und prüft je Kunden, ob dieser alle MailBeez Email abbestellt hat.

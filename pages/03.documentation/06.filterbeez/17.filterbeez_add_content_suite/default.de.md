@@ -15,9 +15,9 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [pro]
 # added collection selector
 
 author:
@@ -36,22 +36,12 @@ metadata:
 #  last_modified: true
 ---
 
-(English) coming soon
+**In Vorbereitung**
 
-    
-  
- Qualify for Early-Bird discount and sign-up for the MailBeez Newsletter:  
-  
-  
-  
-  
-  
- 
+Mit Hilfe dieses Modules können Sie automatisch generierte Produkt-Listen in jede MailBeez Email einfügen.
 
-allows you to insert automatically generated content in any MailBeez Campaign email:
-
-- Also Purchased Products
-- New Products
-- Specials
-- Featured Products
-- XSell Products
+- Ebenfalls gekaufte Produkte (Also Purchased)
+- Neue Produkte
+- Angebote (Specials)
+- Ausgewählte
+- Cross-Selling Produkte

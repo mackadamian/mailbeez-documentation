@@ -15,9 +15,9 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [pro]
 module:
     code: 'filter_add_gender'
     category: [filterbeez]
@@ -51,28 +51,43 @@ metadata:
 
  
 
-## About This Filter
-
 This module adds gender information to all of your MailBeez email modules and allows you to email your customers on a gender specific basis, resulting in a higher degree of reader relevancy and making customers less likely to unsubscribe for receiving emails about products that don’t interest them.
 
-### Features
+The module supports full gender recognition during testing & simulation to enable a full and complete test.
 
-- The module supports full gender recognition during testing & simulation to enable a full and complete test
-- Choose which gender you want to send specific email campaigns to:
-![](http://www.mailbeez.com/wp-content/uploads/2011/04/gender_choose.png "gender_choose")
+Choose which gender you want to use when sendning test-emails:
 
-- When you run an email module, recipients are displayed by gender:
-![](http://www.mailbeez.com/wp-content/uploads/2011/04/gender_list.png "gender_list")
+![](Screen_gender_choose.png)
 
-- The module comes with a few examples that show how to develop gender specific content in the MailBeez template files
-- [Professional MailBeez support](http://www.mailbeez.com/support/service/ "Service") is available if you don’t feel confident about editing your email templates
+When you run an email module, recipients are displayed by gender:
 
-Installation and configuration are fast and easy! Installation instructions are included in the download package. [Add Gender Configuration Tutorial](/documentation/tutorials/filterbeez-tutorials/add-gender-configuration-tutorial/)  
-    
- [license\_2\_en]  
-  
-V1.3
-- certificate bugfix
+![](Screen_gender_list.png)
 
-V1.2
-- compatibility MailBeez V2.6
+
+In your email template you can use some logic to generate different output by gender:
+
+```
+{if $gender == "f"}
+   Dear Mrs. {$lastname}
+{elseif $gender == "m"}
+   Dear Mrs. {$lastname}
+{else}
+   Hello {$firstname} {$lastname}
+{/if}
+
+```
+
+in the visual editor use the following code to protect the tags from editing
+
+```
+[[if $gender == "f"]]
+   Dear Mrs. [[$lastname]]
+[[elseif $gender == "m"]]
+   Dear Mr. [[$lastname]]
+[[else]]
+   Hello [[$firstname]] [[$lastname]]
+[[/if]]
+
+```
+
+The gender specific personalisation is not limited to the salutation but you can even personalize content sections - even in the common main template - by gender.

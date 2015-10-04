@@ -1,8 +1,8 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Shopauskunft Bewertungen in Emails einfügen
-slug: filter_add_shopauskunft_feed
-menu: Shopauskunft Bewertungen einfügen
+title: Trustedshops Bewertungen in Emails einfügen
+menu: Trustedshops Bewertungen in Emails
+slug: filter_add_trustedshops_rss
 date: 03-05-2011
 published: true
 publish_date: 03-05-2011
@@ -19,11 +19,11 @@ taxonomy:
     category: [docs]
     tag: [pro]
 module:
-    code: 'config_shopauskunft_rss_importer'
+    code: 'config_trustedshops_rss_importer'
     category: [filterbeez]
     compatiblity: [comp_osc,comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]
     pro: 'pro'
-    cert: 'true'      
+    cert: 'true'         
 # added collection selector
 
 author:
@@ -42,26 +42,27 @@ metadata:
 #  last_modified: true
 ---
 
-Fügen Sie Ihre wertvollen Shopauskunft Bewertungen automatisch in Ihre MailBeez Email Kampagnen ein – hervorragend geeignet, um z.B. die Emails zur [Kundenrückgewinnung](/dokumentation/mailbeez/winback_advanced) und [Kunden ohne Kauf](/dokumentation/mailbeez/nopurchase_advanced) aufzuwerten.
+Fügen Sie Ihre wertvollen Trustedshops Bewertungen automatisch in Ihre MailBeez Email Kampagnen ein – hervorragend geeignet, um z.B. die Emails zur [Kundenrückgewinnung](/dokumentation/mailbeez/winback_advanced) und [Kunden ohne Kauf](/dokumentation/mailbeez/nopurchase_advanced) aufzuwerten.
 
-Dieses Hilfsmodule ist Teil der [Shopauskunft Integration Suite](/dkcumentation/configbeez/config_shopauskunft_rss_importer/?lang=de "Shopauskunft Integration Suite").
+Dieses Hilfsmodule ist Teil der [Trustedshops Integration Suite](/dokumentation/configbeez/config_trustedshops_rss_importer/ "Trustedshops Integration Suite").
+
 
 ### Installation
 
-Modul installieren und aktivieren – vorher die [Shopauskunft Integration Suite](/dkcumentation/configbeez/config_shopauskunft_rss_importer/?lang=de "Shopauskunft Integration Suite") konfigurieren und testen.
+Modul installieren und aktivieren – vorher die [Trustedshops Integration Suite](/dokumentation/configbeez/config_trustedshops_rss_importer/ "Trustedshops Integration Suite") konfigurieren und testen.
 
 Mit folgenden Platzhaltern können Sie die konfigurierte Anzahl an Bewertungen in von MailBeez generierten Emails einfügen. Die Platzhalter können an jeder beliebigen Stellen in den MailBeez Vorlagen eingefügt werden. Sollen die Bewertungen in allen Emails sichtbar sein, am besten die Platzhalter direkt in die Hauptvorlage einfügen
 
 Platzhalter für die HTML-Version der Vorlage:
 
 ```
-{$content.rss.shopauskunft.html}
+{$content.rss.trustedshops.html}
 ```
 
 Platzhalter für die TXT-Version der Vorlage:
 
 ```
-{$content.rss.shopauskunft.txt}
+{$content.rss.trustedshops.txt}
 ```
 
 Die Vorlage für die Darstellung der Bewertungen ist folgende Datei
@@ -73,13 +74,13 @@ rss_email_txt.tpl
 
 welche in folgendem Ordner liegt:
 
-`mailhive\configbeez\config_shopauskunft_rss_importer\templates`
+`mailhive\configbeez\config_trustedshops_rss_importer\templates`
 
 Fortgeschrittene Benutzter können auch das Daten-Object mit den Bewertungen direkt im Email Template verwenden:
 
 
 ```
-{assign var=feed_feed value=$data.feed.shopauskunft}
+{assign var=feed_feed value=$data.feed.trustedshops}
 {section name=item loop=$feed_feed}
   {$feed_feed[item].rating_stars}
   {$feed_feed[item].text}</br>
