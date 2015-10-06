@@ -15,9 +15,9 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [core]
 # added collection selector
 
 author:
@@ -36,12 +36,8 @@ metadata:
 #  last_modified: true
 ---
 
-(English)
-
 ## About This Widget
 
-Delivered with the free MailBeez framework software, this widget displays information from the MailBeez event log and offers an alternative to viewing the information through the Reports tab.
-
-[![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/lib/scripts/timthumb/thumb.php?src=http://www.mailbeez.com/images/doc/dashboardbeez/event_log.png&w=270&h=94&zc=1&q=100 "Event Log Widget")](http://www.mailbeez.com/images/doc/dashboardbeez/event_log.png "Event Log Widget")![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/images/shortcodes/image_shadow.png)
+Delivered with the free MailBeez framework software, this widget displays information from the MailBeez event log and offers an alternative to viewing the information through the Reports tab > [Event Log Viewer](/documentation/reportbeez/report_event_log).
 
 When MailBeez is first installed, this widget will be void of information, as shown in the image above. Once you start running MailBeez, this widget will begin to immediately populate with data.

@@ -15,9 +15,9 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [core]
 # added collection selector
 
 author:
@@ -36,14 +36,12 @@ metadata:
 #  last_modified: true
 ---
 
-## About This Widget
-
 Delivered with the free MailBeez framework software, the Loyalty-O-Graph is a powerful dashboard widget with an intuitive graph display that provides you with a visual report of how many orders come from returning customers.
 
-Because it tracks total repeat business without regard to the MailBeez Winback campaign modules, you can use the data this widget reports to compare against the data from the Winback widget to see how much of your repeat business is a result of your Winback email campaign.
-
-[![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/lib/scripts/timthumb/thumb.php?src=http://www.mailbeez.com/images/doc/getting_started/loyaltyograph.png&w=270&h=116&zc=1&q=100 "Loyalty-O-Graph")](http://www.mailbeez.com/images/doc/getting_started/loyaltyograph.png "Loyalty-O-Graph")![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/images/shortcodes/image_shadow.png)
+Because it tracks total repeat business without regard to the MailBeez modules, you can use the data this widget reports to compare e.g. against the data from the Winback widget to see how much of your repeat business is a result of your Winback email campaign.
 
 By default, it displays 365 days worth of data, but this number of days can be changed in the Loyalty-O-Graph configuration settings.
 
 When MailBeez is first installed, this widget analyzes the database of orders for recurring orders and populates right away. Handy!
+
+>>>>>The customer loyalty might seem to drop when you start to acquire new customers - the relative number of repeated orders will become small as you get more orders by first-time buyers.

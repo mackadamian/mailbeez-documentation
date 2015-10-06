@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: ReferralHoney Statistics
+title: ReferralHoney Statistik
 slug: report_coupon_referral_honey
 # menu: ReferralHoney Statistics
 date: 16-10-2012
@@ -15,11 +15,15 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
-# added collection selector
-
+    tag: [pro]
+module:
+    code: 'coupon_referral_honey'
+    category: [reportbeez]
+    compatiblity: [comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]
+    pro: 'pro'
+    cert: 'true'
 author:
     name: kelly
 metadata:
@@ -36,8 +40,6 @@ metadata:
 #  last_modified: true
 ---
 
-## The ReferralHoney Statistics Report
+Der ReferralHoney Statistik-Bericht ist Bestandteil des [ReferralHoney Modul](/documentation/mailbeez/coupon_referral_honey/).
 
-The ReferralHoney Statistics Report is currently under development and comes delivered with the [MailBeez ReferralHoney module.](/documentation/mailbeez/coupon_referral_honey/)
-
-Once development is complete, this report will gather and display all of your ReferralHoney statistics in one place!
+Der Bericht gibt Einblick, wie Kunden die Neukunden-Gutscheine nutzen und warnt bei betrügerischem Verhalten, also wenn bereits bestehende Kunden einen der Neukunden-Gutscheine verwendet.

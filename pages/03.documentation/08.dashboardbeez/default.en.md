@@ -15,7 +15,7 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
     tag: []
 # added collection selector
@@ -36,5 +36,8 @@ metadata:
 #  last_modified: true
 ---
 
-Documentation for DashboardBeez
+### Chapter 6
 
+# Dashboard modules
+
+Configure your personal MailBeez dashboard to have the most relevant data at your fingertips!

@@ -1,12 +1,12 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: ReferralHoney Statistics
-slug: report_coupon_referral_honey
-# menu: ReferralHoney Statistics
-date: 16-10-2012
+title: Das Ereignis Protokoll Widget
+slug: dashboard_event_log
+# menu: The Event Log Widget
+date: 17-10-2012
 published: true
-publish_date: 16-10-2012
-# unpublish_date: 16-10-2012
+publish_date: 17-10-2012
+# unpublish_date: 17-10-2012
 template: docs
 # theme: false
 visible: true
@@ -15,9 +15,9 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [core]
 # added collection selector
 
 author:
@@ -36,10 +36,6 @@ metadata:
 #  last_modified: true
 ---
 
-(English)
+Dieses Widget zeigt die letzten Aktivitäten des MailBeez Systems - die komplette Liste der Ereignisse können Sie im [Ereignis Protokoll](/dokumentation/reportbeez/report_event_log) einsehen.
 
-## The ReferralHoney Statistics Report
-
-The ReferralHoney Statistics Report is currently under development and comes delivered with the [MailBeez ReferralHoney module.](/documentation/mailbeez/coupon_referral_honey/)
-
-Once development is complete, this report will gather and display all of your ReferralHoney statistics in one place!
+In frischen MailBeez Installationen werden keine Daten gezeigt, dies ändert sich aber, sobald Sie das System in Betrieb nehmen.

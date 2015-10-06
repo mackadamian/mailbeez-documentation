@@ -1,8 +1,8 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Auflistung Opt-Out Abmeldungen
-slug: report_block
-menu: Opt-Out Abmeldung
+title: Auflistung Tracking Data
+slug: report_track
+# menu: Tracking Data
 date: 03-03-2011
 published: true
 publish_date: 03-03-2011
@@ -36,16 +36,16 @@ metadata:
 #  last_modified: true
 ---
 
->>>>>>Dieser Bericht kann schnell und kompfortabel vom MailBeez Dashboard über den "Beez-O-Graph" mit Klick auf die Legende **Abmeldungen** geöffnet werden.
+>>>>>>Dieser Bericht kann schnell und kompfortable vom MailBeez Dashboard über den "Beez-O-Graph" geöffnet werden. Mit Klick auf die Legende **Emails versendet**, **geöffnet**, **geklickt** oder **bestellt** werden die entsprechenden Daten gefiltert angezeigt
 
-Als Bestand-Teil vom MailBeez Grundsystem gibt dieses Modul Einblick, welche Kunden sich mit Klick auf den Abmelde-Links in den MailBeez Emails von weiteren Emails abgemeldet haben.
+MailBeez protokolliert jeden Email-Versand. Diese Tracking Daten werden verwendet, um sicherzustellen, dass jede Email nur genau 1x versendet wird - und verhinder damit den Mehrfach-Versand von Emails.
 
-Die Liste zeigt, zu welcher Zeit und welches Modul der Kunden abgemeldet hat. 
+Als Bestandteil des Grund-Systemes gibt dieser Bericht auch einen guten Einblick, welche Emails versendet worden sind - und welche Aktionen vom Kunden getätigt wurden.
+
+Der Bericht gibt auch Auskunft darüber, in welcher Betriebs-Art die Email versendet worden ist:
 
 - **PROD**:  Abmeldung im Produktions-Modus
 - **[SIM]**:  Abmeldung im Simulations-Modus
-
-Die Opt-Out Links in den Emails enthalten eine Kennzeichnung des Betriebs-Modus, d.h. "Produktions-Abmeldungen" werden auch als solche verarbeitet wenn sich MailBeez im Simulations-Modus befindet.
 
 >>>>>Das Abmelden im Simulations-Modus wird nur dann richtig erfasst, wenn unter MailBeez > Konfiguration > Simulation die "Simulations-Protokollierung" aktiviert (True) ist.
 

@@ -2,7 +2,7 @@
 # http://learn.getgrav.org/content/headers
 title: Responsive Emails with MailBeez
 slug: responsive-emails
-# menu: Responsive Emails with MailBeez
+menu: Responsive Emails
 date: 25-10-2013
 published: true
 publish_date: 25-10-2013

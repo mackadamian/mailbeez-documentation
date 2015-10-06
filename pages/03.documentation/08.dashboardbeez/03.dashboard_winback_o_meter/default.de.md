@@ -1,12 +1,12 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Das Nopurchase-O-Meter
-slug: dashboard_nopurchase_o_meter
-# menu: Nopurchase-O-Meter
-date: 25-10-2011
+title: Das Winback-O-Meter
+slug: dashboard_winback_o_meter
+#menu:  Winback-O-Meter
+date: 14-02-2012
 published: true
-publish_date: 25-10-2011
-# unpublish_date: 25-10-2011
+publish_date: 14-02-2012
+# unpublish_date: 14-02-2012
 template: docs
 # theme: false
 visible: true
@@ -18,7 +18,6 @@ taxonomy:
     migration_status: done
     category: [docs]
     tag: [core]
-
 # added collection selector
 
 author:
@@ -37,13 +36,15 @@ metadata:
 #  last_modified: true
 ---
 
-Das Nopurchase-O-Meter zeigt Ihnen, wie viele Kunden ohne Kauf Sie mit Hilfe von MailBeez als Kunden gewinnen konnten.
+Das Winback-O-Meter zeigt Ihnen, wie viele Kunden Sie mit Hilfe von MailBeez nach Versand der Kundenrückgewinnungs-Email zurückgewinnen konnten.
 
 **Konfiguration**
 
 In der Standard-Konfiguration werden die Daten der letzten 30 Tage ausgewertet, Sie können den Zeitrahmen aber in der Modul-Konfiguration anpassen.
 
-Zudem können Sie die Zielwerte konfigurieren - die typischen Konvertierungsraten sind abhängig von einer Reihe von Parametern wie z.B. der Art der Produkte und dem Kundensegment.  
+
+Zudem können Sie die Zielwerte konfigurieren - die typischen Rückgewinnungsraten sind abhängig von einer Reihe von Parametern wie z.B. der Art der Produkte und dem Kundensegment.  
  Experimentieren Sie etwas mit der Einstellung, falls die Ihnen die Standartwerte nicht sinnvoll erscheinen.  
 
-Die besten Ergebnisse können Sie mit dem intelligenten Modul  [Kunden ohne Kauf Profi](/dokumentation/mailbeez/nopurchase_advanced/ "Kunden ohne Kauf Profi") erreichen, welches mehrstufig personalisierte Gutscheine an verloren geglaubte Kunden ohne Kauf versendet.
+Die besten Ergebnisse können Sie mit dem intelligenten Modul  [Kundenrückgewinnung Profi](/dokumentation/mailbeez/winback_advanced/ "Kundenrückgewinnung Profi") erreichen, welches mehrstufig personalisierte Gutscheine an verloren geglaubte Kunden versendet.
+  

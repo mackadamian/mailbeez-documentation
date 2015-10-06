@@ -1,23 +1,23 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Google Analytics
+title: The Google Analytics Data Report
 slug: report_ga
-# menu: Google Analytics
+menu: Google Analytics
 date: 08-05-2012
 published: true
 publish_date: 08-05-2012
 # unpublish_date: 08-05-2012
 template: docs
 # theme: false
-visible: true
+visible: false
 summary:
     enabled: true
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [core]
 # added collection selector
 
 author:
@@ -36,19 +36,11 @@ metadata:
 #  last_modified: true
 ---
 
-(English)
-
-## The Google Analytics Data Report
 
 Delivered with the MailBeez framework software, the Google Analytics Report utilizes the secure Google Analytics API to allow you to see Google Analytics Campaign tracking data directly in your MailBeez interface.
 
-Simply sign in through the Dashboard Widget using your Google Analytics Credentials. If the dashboard widget is not visible on your MailBeez Dashboard (included in v2.6+), go ahead and activate the widget through the Dashboard Configuration panel.
+Simply sign in through the Dashboard Widget using your Google Analytics Credentials. If the dashboard widget is not visible on your MailBeez Dashboard, go ahead and activate the widget through the Dashboard Configuration panel.
 
 Once you’re signed in, select your profile and browse through the recorded campaign data!
 
 With MailBeez, your data is secure! Your Google Analytics login credentials are not stored, but transmitted to Google in order to obtain a security token. This token makes it possible to retrieve your Google Analytics data securely – nothing is exported or shared.
-
-**Note:** If you don’t see valid data for your MailBeez campaigns, check the following:
-
-- Make sure your Google Analytics e-commerce tracking is properly installed. **[How?](/documentation/tutorials/google-analytics-dashboard-widget-tutorial/)**
-- Ensure that the MailBeez Google Analytics Integration is active and set to rewrite all you email links adding the Google Analytics Tracking parameters. **[How?](/documentation/tutorials/mailbeez-comprehensive-configuration-tutorial/)**

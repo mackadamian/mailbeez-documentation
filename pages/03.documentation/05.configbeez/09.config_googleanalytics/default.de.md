@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Google Analytics Konfiguration
+title: Google Analytics
 slug: config_googleanalytics
 date: 26-03-2012
 published: true

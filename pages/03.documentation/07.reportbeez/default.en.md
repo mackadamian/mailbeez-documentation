@@ -15,7 +15,7 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
     tag: []
 # added collection selector
@@ -35,5 +35,8 @@ metadata:
 #  cache_enable: false
 #  last_modified: true
 ---
+### Chapter 5
 
-Documentation for ReportBeez
+# Reports
+
+the tab "reports" is grouping - well - report modules

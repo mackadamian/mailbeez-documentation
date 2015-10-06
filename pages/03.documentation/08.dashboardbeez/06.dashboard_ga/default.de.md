@@ -36,15 +36,15 @@ metadata:
 #  last_modified: true
 ---
 
-##  Häufig gestellte Fragen ####  Warumunterscheiden sich die Google Analytics-Daten von MailBeez Analytics Data? 
+####Häufig gestellte Fragen 
 
-
+**Warum unterscheiden sich die Google Analytics-Daten von MailBeez Analytics Data?**
 
 Google Analytics kann nur Bestellungen verfolgen, die nach dem Klicken auf einen Link in einer von MailBeez generierten E-Mail getätigt wurde. Wenn zum Beispiel ein Kunde einen MailBeez Coupon auf seinem mobilen Gerät empfängt, aber später seine Bestellung auf seinem Computer durchführt und dabei den Rabatt-Code aus der Email abtippt, wird die Google Analytics Verbindung zum MailBeez Email verlieren.
 
 Umgekehrt kann aber MailBeez alle Bestellungen mit generierten Coupons in MailBeez Analytics verfolgen, egal ob der Kunde den Link in der E-Mail klickt oder manuell in die Coupon-Code aus der E-Mail eintippt.
 
-####  Warum habe ich so wenigen Klicks in Google Analytics erfasst? 
+**Warum habe ich so wenigen Klicks in Google Analytics erfasst?** 
 
 Einige Online-Shops haben keine Google Analytics-Tracking auf ihrer Start-Seite, nur auf Unterseiten. Wenn Ihre MailBeez E-Mails einen Link zu Start-Seite enthält,  
  werden diese Besuche (und die daraus resultierenden Käufe), nicht von Google Analytics erfasst werden.
