@@ -2,7 +2,7 @@
 title: 'Coupon Engine'
 slug: config_coupon_engine
 routes:
-    default: /dokumentation/configbeez/config_coupon_engine
+    default: /documentation/configbeez/config_coupon_engine
     aliases:
         - /documentation/configbeez/coupon-engine
 date: 10-04-2012
@@ -19,6 +19,11 @@ taxonomy:
     category:
         - docs
     tag: [pro,coupon]
+module:
+    code: 'pro'
+    category: [pro]
+    compatiblity: [comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]   
+    pro: 'pro'     
 author:
     name: admin
 metadata:

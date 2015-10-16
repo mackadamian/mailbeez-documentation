@@ -18,6 +18,10 @@ taxonomy:
         - docs
     tag:
         - ce
+module:
+    code: 'idealo'
+    category: [mailbeez]
+    compatiblity: [comp_osc,comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]        
 author:
     name: admin
 metadata:

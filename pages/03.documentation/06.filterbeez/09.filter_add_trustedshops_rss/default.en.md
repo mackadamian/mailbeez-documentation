@@ -18,6 +18,12 @@ taxonomy:
     migration_status: done
     category: [docs]
     tag: [pro]
+module:
+    code: 'config_trustedshops_rss_importer'
+    category: [filterbeez]
+    compatiblity: [comp_osc,comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]
+    pro: 'pro'
+    cert: 'true'      
 # added collection selector
 
 author:

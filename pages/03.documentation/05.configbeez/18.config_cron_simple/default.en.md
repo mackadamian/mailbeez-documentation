@@ -14,7 +14,7 @@ taxonomy:
     migration_status: done
     category:
         - docs
-    tag: {  }
+    tag: [pro]
 module:
     code: config_cron_simple
     category:

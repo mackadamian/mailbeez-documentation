@@ -22,6 +22,11 @@ taxonomy:
     migration_status: done
     category: [docs]
     tag: [core]
+module:
+    code: 'shoprating'
+    category: [mailbeez]
+    compatiblity: [comp_osc,comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]
+   
 # added collection selector
 
 author:

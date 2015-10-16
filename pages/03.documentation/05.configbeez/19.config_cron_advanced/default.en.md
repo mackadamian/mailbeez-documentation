@@ -11,6 +11,7 @@ template: docs
 taxonomy:
     category:
         - docs
+    tag: [pro]
 summary:
     enabled: true
     format: short

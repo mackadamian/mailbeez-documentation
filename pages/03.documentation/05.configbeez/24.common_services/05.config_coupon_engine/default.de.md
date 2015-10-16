@@ -23,6 +23,12 @@ taxonomy:
     migration_status: done
     category: [docs]
     tag: [pro,coupon]
+module:
+    code: 'pro'
+    category: [pro]
+    compatiblity: [comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]   
+    pro: 'pro'
+
 # added collection selector
 
 author:
