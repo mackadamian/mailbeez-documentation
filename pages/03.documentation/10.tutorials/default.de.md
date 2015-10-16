@@ -9,7 +9,7 @@ publish_date: 10-11-2010
 # unpublish_date: 10-11-2010
 template: chapter
 # theme: false
-visible: true
+visible: false
 summary:
     enabled: true
     format: short
