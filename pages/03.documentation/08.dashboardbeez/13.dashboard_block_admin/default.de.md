@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: The Customer Opt-Out Admin Widget
+title: Das Opt-Out Admin Widget
 slug: dashboard_block_admin
 # menu: The Customer Opt-Out Admin Widget
 date: 17-10-2012
@@ -15,9 +15,9 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [pro]
 # added collection selector
 
 author:
@@ -36,14 +36,6 @@ metadata:
 #  last_modified: true
 ---
 
-(English)
 
-## About This Widget
 
-Delivered with the [Advanced Opt-Out with Admin module,](/documentation/configbeez/config_block_admin/) this widget lets you manually assign opt-out/opt-in status for your customers right from your dashboard!
-
-This is useful if a customer accidentally clicks an opt-out link and needs to opt back in.
-
-[![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/lib/scripts/timthumb/thumb.php?src=http://www.mailbeez.com/images/doc/configbeez/config_block_admin/widget_install5.png&w=270&h=94&zc=1&q=100 "Customer Opt-Out Admin Widget")](http://www.mailbeez.com/images/doc/configbeez/config_block_admin/widget_install5.png "Customer Opt-Out Admin Widget")![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/images/shortcodes/image_shadow.png)
-
-Need help configuring or using the widget? Check out the [Advanced Opt-Out with Admin Configuration tutorial](/documentation/tutorials/configbeez-tutorials/advanced-opt-out-with-admin-configuration-tutorial/)
+Als Bestand-Teil vom Modul [Erweitertes Opt-out mit Admin](/dokumentation/configbeez/config_block_admin/) können Sie mit diesem Widget nach Kunden suchen und dann die gewünschten Module abmelden oder auch wieder aktivieren.

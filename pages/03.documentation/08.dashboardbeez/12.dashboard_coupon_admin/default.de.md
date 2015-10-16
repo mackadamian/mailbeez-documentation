@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: The Coupon Search Widget
+title: Die Gutschein-Suche
 slug: dashboard_coupon_admin
 # menu: The Coupon Search Widget
 date: 17-10-2012
@@ -15,11 +15,9 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
-# added collection selector
-
+    tag: [pro,coupon]
 author:
     name: kelly
 metadata:
@@ -36,14 +34,9 @@ metadata:
 #  last_modified: true
 ---
 
-(English)
 
-## About This Widget
+Dieses Widget komplementiert den [Gutschein Generator](/dokumentation/configbeez/config_coupon_engine) mit einer komfortablen Suchfunktion. 
 
-Delivered with the [Nopurchase Advanced module](/documentation/mailbeez/nopurchase_advanced/), this widget allows you to search your database for all the coupons you have created.
+Geben Sie einfache den zu findenden Gutschein-Code ein und das System zeigt Ihnen die Treffer-Daten mit Link zur Bearbeitungs-Maske des Shop-Systemes.
 
-[![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/lib/scripts/timthumb/thumb.php?src=http://www.mailbeez.com/images/doc/mailbeez/nopurchase_advance/coupon_search_widget.png&w=270&h=94&zc=1&q=100 "Coupon Search Widget")](http://www.mailbeez.com/images/doc/mailbeez/nopurchase_advance/coupon_search_widget.png "Coupon Search Widget")![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/images/shortcodes/image_shadow.png)
-
-Although the widget comes with the [Nopurchase Advanced module](/documentation/mailbeez/nopurchase_advanced/), it will work for any premium coupon module. In other words, it will find coupons you have created, regardless of which premium coupon module the coupon was created for. Nice!
-
-Do you need assistance configuring or using the widget? Visit the [Nopurchase Advanced configuration tutorial](/documentation/tutorials/mailbeez-tutorials/nopurchase-advanced-configuration-tutorial/)
+Mit Suche nach `template_` können Sie sich schnell und einfach alle Vorlagen-Gutscheine anzeigen lassen und auch bearbeiten.

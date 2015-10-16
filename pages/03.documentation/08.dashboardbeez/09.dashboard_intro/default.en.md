@@ -15,9 +15,9 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [core]
 # added collection selector
 
 author:
@@ -36,10 +36,5 @@ metadata:
 #  last_modified: true
 ---
 
-(English)
-
-## About This Widget
-
 Delivered with the free MailBeez framework software, this dashboard widget provides quick links to tutorials and support on the MailBeez website, as well as to our Facebook & Twitter pages so you can get the help & support you need and remain up to date on what’s new with MailBeez.
 
-[![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/lib/scripts/timthumb/thumb.php?src=http://www.mailbeez.com/images/doc/dashboardbeez/mailbeez_intro.png&w=270&h=94&zc=1&q=100 "MailBeez Intro Widget")](http://www.mailbeez.com/images/doc/dashboardbeez/mailbeez_intro.png "MailBeez Intro Widget")![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/images/shortcodes/image_shadow.png)

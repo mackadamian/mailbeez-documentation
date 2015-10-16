@@ -117,12 +117,13 @@ Die verschiedenen Addons nutzen nahezu die gleiche Tabellen-Struktur.
 **Tabellen**:
 
 Wenn Sie ein CCGV basiertes Gutschein System nutzen, sollten Sie folgende Tabellen in der Tabellen-Definition finden:
-```bash
- TABLE_COUPONS
- TABLE_COUPONS_DESCRIPTION
- TABLE_COUPON_EMAIL_TRACK
- TABLE_COUPON_REDEEM_TRACK
- TABLE_COUPON_RESTRICT
+
+```
+TABLE_COUPONS
+TABLE_COUPONS_DESCRIPTION
+TABLE_COUPON_EMAIL_TRACK
+TABLE_COUPON_REDEEM_TRACK
+TABLE_COUPON_RESTRICT
  
 ```
 
@@ -133,14 +134,16 @@ Wenn Sie ein CCGV basiertes Gutschein System nutzen, sollten Sie folgende Tabell
 **Tabellen**:
 
 Wenn Sie ein DCC basiertes Gutschein System nutzen, sollten Sie folgende Tabellen in der Tabellen-Definition finden:
-```bash
- TABLE_DISCOUNT_COUPONS
- TABLE_DISCOUNT_COUPONS_TO_ORDERS
- TABLE_DISCOUNT_COUPONS_TO_CATEGORIES
- TABLE_DISCOUNT_COUPONS_TO_PRODUCTS
- TABLE_DISCOUNT_COUPONS_TO_MANUFACTURERS
- TABLE_DISCOUNT_COUPONS_TO_CUSTOMERS
- TABLE_DISCOUNT_COUPONS_TO_ZONES
+
+```
+TABLE_DISCOUNT_COUPONS
+TABLE_DISCOUNT_COUPONS_TO_ORDERS
+TABLE_DISCOUNT_COUPONS_TO_CATEGORIES
+TABLE_DISCOUNT_COUPONS_TO_PRODUCTS
+TABLE_DISCOUNT_COUPONS_TO_MANUFACTURERS
+TABLE_DISCOUNT_COUPONS_TO_CUSTOMERS
+TABLE_DISCOUNT_COUPONS_TO_ZONES
+
 ```
 
 #### Discount Coupons by high-quality-php-coding.com
@@ -151,7 +154,8 @@ Wenn Sie ein DCC basiertes Gutschein System nutzen, sollten Sie folgende Tabelle
 
 Wenn Sie ein DC basiertes Gutschein System nutzen, sollten Sie folgende Tabellen in der Tabellen-Definition finden:  
 
-```bash
+```
 TABLE_DISCOUNT_CODES
 TABLE_CUSTOMERS_TO_DISCOUNT_CODES
+
 ```

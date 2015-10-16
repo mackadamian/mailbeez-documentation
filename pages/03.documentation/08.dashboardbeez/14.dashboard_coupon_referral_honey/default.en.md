@@ -1,7 +1,11 @@
 ---
 # http://learn.getgrav.org/content/headers
 title: The ReferralHoney Analytics Widget
-slug: referralhoney-analytics
+slug: dashboard_coupon_referral_honey
+routes:
+    aliases:
+        - /documentation/dashboardbeez/referralhoney-analytics
+        
 # menu: The ReferralHoney Analytics Widget
 date: 17-10-2012
 published: true
@@ -15,9 +19,15 @@ summary:
     format: short
     size: 128
 taxonomy:
-    migration_status: review
+    migration_status: done
     category: [docs]
-    tag: []
+    tag: [pro]
+module:
+    code: 'coupon_referral_honey'
+    category: [dashboardbeez]
+    compatiblity: [comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]
+    pro: 'pro'
+    cert: 'true'      
 # added collection selector
 
 author:
@@ -36,15 +46,11 @@ metadata:
 #  last_modified: true
 ---
 
-## About This Widget
 
-Delivered with the <a href=""> ReferralHoney module,</a> this is a powerful widget with an intuitive graph display that provides you with a visual report of your ReferralHoney statistics, such as number of invites sent, number of resulting site visits, number of coupons redeemed, and more!
+Delivered with the [ReferralHoney](/documentation/mailbeez/coupon_referral_honey) module this is a powerful widget with an intuitive graph display that provides you with a visual report of your ReferralHoney statistics, such as number of invites sent, number of resulting site visits, number of coupons redeemed, and more!
 
-[![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/lib/scripts/timthumb/thumb.php?src=http://www.mailbeez.com/images/doc/mailbeez/coupon_referral_honey/referralhoney_widget.png&w=270&h=95&zc=1&q=100 "ReferralHoney Analytics Widget")](http://www.mailbeez.com/images/doc/mailbeez/coupon_referral_honey/referralhoney_widget.png "ReferralHoney Analytics Widget")![](http://localhost/wordpress_mailbeez_EOL/wp-content/themes/awake/images/shortcodes/image_shadow.png)
+![](Screen_referralhoney_widget.png "ReferralHoney Analytics Widget")
 
  By default, it displays 30 days worth of data, but this number of days can be changed in the widget’s configuration settings.
 
 When ReferralHoney is first installed, there won’t be a graph displayed by this widget because there has been no data tracked and therefore nothing to display. Once you get ReferralHoney up and running, this widget will be populated with data in no time at all!
-
-Need help configuring the ReferralHoney Analytics widget? Visit the [ReferralHoney Configuration tutorial](/documentation/tutorials/mailbeez-tutorials/mailbeez-referralhoney-configuration-tutorial/)  
-  

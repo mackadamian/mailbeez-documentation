@@ -1,8 +1,8 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: The Coupon Search Widget
-slug: dashboard_coupon_admin
-# menu: The Coupon Search Widget
+title: Das MailBeez Einführungs-Widget
+slug: dashboard_intro
+# menu: The MailBeez Introduction Widget
 date: 17-10-2012
 published: true
 publish_date: 17-10-2012
@@ -17,7 +17,7 @@ summary:
 taxonomy:
     migration_status: done
     category: [docs]
-    tag: [pro,coupon]
+    tag: [core]
 # added collection selector
 
 author:
@@ -36,11 +36,7 @@ metadata:
 #  last_modified: true
 ---
 
-This widget is part of the [Coupon Engine](/documentation/configbeez/config_coupon_engine) and allows you to find coupons.
-
-Just enter the Coupon Code you want to find and the system will show you all matching entries with a link to edit the connected coupon.
+Dieses Widget ist Bestandteil des MailBeez Grundsystemes gibt direkten Zugriff auf weitere Resourcen.
 
 
-With a search for `template_` you can easliy find all template coupons and edit them.
-
-
+(Dieses Modul kann gefahrlos deaktiviert werden ;) )
