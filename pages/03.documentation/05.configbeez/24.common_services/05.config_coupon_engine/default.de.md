@@ -44,7 +44,6 @@ metadata:
 Eine Übersicht der unterstützen Shopsysteme findet sich auf [MailBeez Kompatibilität](/dokumentation/compatibility/).
 
 
-
 Der MailBeez Gutschein-Generator wird als Untermodul von alle MailBeez Modulen verwendet, welche personalisierte Gutscheine generieren und versenden.
 
 
@@ -93,7 +92,7 @@ In diesem Modul finden Sie einer Reihe von Hilfs-Funktionen zur Verwaltung von G
 **Zuordnung reparieren**: In einigen Fällen fehlt die Zuordnung von Gutscheinen zur den Emails, in denen der Gutschein versendet worden ist. Diese Zuordnung können Sie hiermit reparieren.
 
 
-
+>>>>>**Bitte beachten**: Je Modul kann die Gutschein-Code Länge konfiguriert werden. Lange Codes (z.B. 8 oder 10 Zeichen) lassen sich sehr schnell generieren. Bei kurzen Codes und bereits vielen vorhandenen Gutscheinen muss das System ggf. "lange probieren" bis ein freier Code gefunden werden kann. Dies kann zu einem Abbruch (Time-Out) des Versende-Prozesses führen.
 
 ## osCommerce Gutschein System Unterstützung
 

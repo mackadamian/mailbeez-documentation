@@ -79,6 +79,8 @@ In this module you find a range of features which will help you to maintain your
 **Repair sync**: In case coupons are not assigned to message you can repair this assignment
 
 
+>>>>>**Please note**: In each module you can configure the length of the coupon code. Long codes (e.g. 8 or 10 characters) can be generated very efficiently. With short code-length and many existing codes the system my need to "try" for a longer time until a free code is found. This can cause issues like time outs of the sending process.
+
 ## osCommerce Coupon System support
 
 As the “mother of all eCommerce System", osCommerce is kept as a clean core without having addons like a coupon system.  

@@ -143,5 +143,30 @@ You can set up to 3 levels of rewards, which means that for each level you can d
 
 **Reward-Coupon: Expires after days**  
  The number of days after which the coupon expires – calculated from the sending point of time.
+ 
+ 
+### Customization of sharepage
+
+the sharepage is fully customizable, the default templates (**will be overwritten with updates**) are located in
+
+```
+
+/mailhive/mailbeez/coupon_referral_honey/templates/
+
+```
+
+make a copy of these templates and remove the `default_` from the filenames. Then adopt the templates to your needs
+
+The System will try to load the templates in following order:
+
+```bash
+sharepage_<language>.tpl.html
+sharepage.tpl.html
+default_sharepage_<language.tpl.html
+default_sharepage.tpl.html
+
+```
+
+so if a language specific template is not found the `sharepage.tpl.html` templates will be used.
 
  
