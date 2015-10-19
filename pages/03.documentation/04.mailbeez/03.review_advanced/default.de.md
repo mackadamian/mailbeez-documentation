@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Produktbewertungen Profi - mit Autologin
+title: Produkt-Bewertungen Profi - mit Autologin
 slug: review_advanced
 # menu: Produktbewertungen Profi - mit Autologin
 date: 21-06-2011

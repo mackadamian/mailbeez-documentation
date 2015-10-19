@@ -22,7 +22,7 @@ taxonomy:
 module:
     code: 'numinix_sc_balance_reminder'
     category: [filterbeez]
-    compatiblity: [comp_osc,comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]
+    compatiblity: [comp_zencart]
     pro: 'pro'
     cert: 'true' 
 author:
