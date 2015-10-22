@@ -4,6 +4,9 @@ title: Updating the MailBeez Core System
 slug: updates
 routes:
   default: /documentation/updates
+  aliases:
+    - /documentation/installation/config
+  
 menu: Updates
 published: true
 template: docs

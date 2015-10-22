@@ -4,6 +4,8 @@ title: Aktualisieren des MailBeez Grundsystems
 slug: updates
 routes:
   default: /dokumentation/updates
+  aliases:
+    - /dokumentation/installation/config
 menu: Aktualisieren
 published: true
 template: docs
