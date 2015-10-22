@@ -51,6 +51,9 @@ You need to be able to upload new files to your TrueLoaded Shop and modify exist
 
 ## Step 1 – copy new files
 
+[plugin:content-inject](/content_blocks/download_installer)
+
+
 copy following file to your admin-directory
 
 ```bash

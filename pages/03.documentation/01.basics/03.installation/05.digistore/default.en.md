@@ -45,7 +45,10 @@ The installation is straight forward and can be done in a couple of minutes by f
 
 ## Step 1 – copy new files
 
-The “Quickstart Packag” Zip-File contains several folders. The Folder “catalog” contains the files and folders you need to copy into your Shop Root.
+[plugin:content-inject](/content_blocks/download_installer)
+
+
+The “Quickstart Package” Zip-File contains several folders. The Folder “catalog” contains the files and folders you need to copy into your Shop Root.
 
 Copy following file and folder to your Shop Root (where your index.php is located)
 

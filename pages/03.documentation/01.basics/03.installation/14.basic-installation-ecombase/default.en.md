@@ -48,6 +48,9 @@ MailBeez is maintaining it’s own tables – the shops existing table stay as t
 
 ## Step 1 – copy new files
 
+[plugin:content-inject](/content_blocks/download_installer)
+
+
 copy following file to your admin-directory
 
 ```

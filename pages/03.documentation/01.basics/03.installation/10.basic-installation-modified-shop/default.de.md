@@ -49,6 +49,9 @@ MailBeez verwaltet eigene Datenbank-Tabellen – die Tabellen des Shop-Systemes 
 
 ## Schritt 1 – Neue Dateien kopieren
 
+[plugin:content-inject](/content_blocks/download_installer)
+
+
 Aus dem Ordner “catalog” folgende Dateien in das Root-Verzeichnis des Shops  (dort, wo sich die index.php befindet) kopieren
 
 ```bash

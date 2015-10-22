@@ -45,6 +45,9 @@ The installation is straight forward and can be done in a couple of minutes by f
 
 ## Step 1 – copy new files
 
+[plugin:content-inject](/content_blocks/download_installer)
+
+
 copy following file to your admin-directory
 
 ```bash

@@ -51,6 +51,9 @@ MailBeez verwaltet eigene Tabellen - die vorhandenen Shop-Tabellen werden nicht 
 
 ## Schritt 1: Neue Dateien
 
+[plugin:content-inject](/content_blocks/download_installer)
+
+
 folgende Dateien und Ordner aus dem entpackten Zip-Archiv auf den Shop-Server übertragen:
 
 

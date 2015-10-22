@@ -36,9 +36,9 @@ metadata:
 #  last_modified: true
 ---
 
-Hier gibt es die gesamte verfügbare Dokumentation zu MailBeez und alle Modulen – schon ganz schön umfangreich aber niemals vollständig…
+Hier gibt es die gesamte verfügbare Dokumentation zu MailBeez und allen Modulen – schon ganz schön umfangreich aber niemals vollständig…
 
-Das Menü rechts hilft, die den Überblick zu behalten – gruppiert nach Anwendungstypen. Und die Such-Funktion findet schnell passende Inhalte.
+Das Menü links hilft, den Überblick zu behalten – gruppiert nach Anwendungstypen. Und die Such-Funktion findet schnell passende Inhalte.
 
 
 

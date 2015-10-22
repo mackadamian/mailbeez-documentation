@@ -44,6 +44,9 @@ Die Installation ist in wenigen Schritten erledigt:
 
 ## Schritt 1: Neue Dateien
 
+[plugin:content-inject](/content_blocks/download_installer)
+
+
 folgende Dateien und Ordner aus dem entpackten Zip-Archiv auf den Shop-Server übertragen:
 
 ```bash
