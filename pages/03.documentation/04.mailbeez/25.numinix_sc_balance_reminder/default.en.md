@@ -4,6 +4,7 @@ slug: numinix-store-credit-balance-reminder
 routes:
     aliases:
         - /documentation/mailbeez/numinix_sc_balance_reminder
+        - /dokumentation/mailbeez/numinix_sc_balance_reminder
 date: 14-10-2011
 published: true
 publish_date: 14-10-2011
