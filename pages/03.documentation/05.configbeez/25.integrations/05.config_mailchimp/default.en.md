@@ -5,8 +5,10 @@ slug: config_mailchimp
 routes:
     default: /documentation/configbeez/config_mailchimp
     aliases:
-        - /download/the-mailchimp-connector/
-# menu: MailChimp Integration
+        - /download/the-mailchimp-connector
+        - /download/the-mailchimp-connector/oscommerce
+        - /download/the-mailchimp-connector/zencart
+S# menu: MailChimp Integration
 date: 02-03-2012
 published: true
 publish_date: 02-03-2012

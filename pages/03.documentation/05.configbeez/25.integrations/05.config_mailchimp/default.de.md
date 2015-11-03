@@ -5,7 +5,9 @@ slug: config_mailchimp
 routes:
     default: /dokumentation/configbeez/config_mailchimp
     aliases:
-        - /download/the-mailchimp-connector/    
+        - /download/the-mailchimp-connector
+        - /download/the-mailchimp-connector/oscommerce
+        - /download/the-mailchimp-connector/zencart
 # menu: MailChimp Integration
 date: 02-03-2012
 published: true
@@ -88,7 +90,7 @@ Sie wollen die intelligente, integrierte Personalisierung von MailBeez nutzen, a
  
 Enwickelt in enger Zusammenarbeit mit MailChimp: geprüft und abgenommen!  
  Neu: auch Listen mit über 15.000 Subscribern können Dank schneller Delta-Technik abgeglichen werden   
- Einfache Installation:: Dank Assistent und Simulations-Unterstützung
+ Einfache Installation: Dank Assistent und Simulations-Unterstützung
 
 
 
