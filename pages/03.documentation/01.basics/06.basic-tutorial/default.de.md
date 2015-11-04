@@ -151,8 +151,13 @@ Egal ob Sie die Vorlagen der kostenlosen oder der Premium Module anpassen wollen
 
 Wohl jeder MailBeez Benutzer wird das Standard-Bildmotiv im Kopfbereich der Email anpassen wollen. Hierbei handelt es sich um eine Anpassung der Hauptvorlage, da alle Emails dieses Bildmotiv enthalten. 
 
-In der kostenlosen Grundversion sind folgende Schritte erforderlich:
+**In der kostenlosen Grundversion** sind folgende Schritte erforderlich, um die Kopf-Grafik anzupassen:
 
+
+- kopieren Sie die Standard-Hauptvorlage  
+ `/mailhive/common/templates/default_email_html.tpl` nach  
+  `/mailhive/common/templates/email_html.tpl`  
+  **Alle Vorlagen, deren Dateinamen mit `default_` beginnt, werden bei Updates überschrieben.**
 - Erstellen Sie ein neues Bildmotiv mit der Breite 600px
 - Speichern Sie dies Bild, z.B. als “`mynewheader.png`”
 - Legen Sie jetzt dieses Bild mit dem FTP Programm Ihrer Wahl auf Ihren Server in das Verzeichnis “`mailhive/common/images/`”
@@ -165,33 +170,48 @@ In der kostenlosen Grundversion sind folgende Schritte erforderlich:
    ```
    <img src=”{$catalog_server}mailhive/common/images/mynewheader.png” …>
    ```
+- leeren Sie den Cache der kompilierten Template Dateien unter MailBeez > Konfiguration > Template System
+- die Anpassungen sind jetzt in der Vorschau und auch in den Emails sichtbar.
+
+>>>Denken Sie daran: Änderungen an Dateien, deren Dateinamen mit `default_` beginnt, gehen bei Updates verloren. Diese Dateien werden überschrieben.
 
 #### Modul-Vorlage Anpassen – Bearbeiten Sie Grafik & Layout
 
 >>>>>>[plugin:content-inject](/content_blocks/pro_template_manager)
 
-Für dieses Beispiel verwenden wir das Geburtstags-Modul. In der kostenlosen Grundversion sind folgende Schritte erforderlich, um die Grafik anzupassen:
+Für dieses Beispiel verwenden wir das Geburtstags-Modul. 
 
+**In der kostenlosen Grundversion** sind folgende Schritte erforderlich, um das Bild anzupassen:
 
+- kopieren Sie die Modul-Hauptvorlage  
+ `/mailhive/mailbeez/birthday/email/default_body_html.tpl` nach  
+  `/mailhive/mailbeez/birthday/email/body_html.tpl`  
+  **Alle Vorlagen, deren Dateinamen mit `default_` beginnt, werden bei Updates überschrieben.**
 - Erstellen Sie ein neues Bildmotiv der Grösse 256px mal 256px
 - Speichern Sie das Bild z.B. als “`balloons.png`”
 - Laden Sie das Bild mit dem FTP Programm Ihrer Wahl auf den Server in das Verzeichnis “`/mailhive/mailbeez/birthday/images/`”
 - Bearbeiten Sie die Modul-Vorlage `/mailhive/mailbeez/birthday/email/body_html.tpl` wie folgt:
 - Finden Sie die Code-Linie, in der das Bildmotiv eingefügt wird: 
    ```
-   <img src=”{$catalog_server}mailhive/mailbeez/birthday/images/birthday\_cake.png” …>
+   <img src=”{$catalog_server}mailhive/mailbeez/birthday/images/birthday_cake.png” …>
    ```
 - Bearbeiten Sie den Code, um das neue Bild einzufügen: 
    ```
-   <img src=”{$catalog_server}mailhive/mailbeez/birthday/images/**balloons.png**” …>
+   <img src=”{$catalog_server}mailhive/mailbeez/birthday/images/balloons.png” …>
    ```
 - nehmen Sie weitere Anpassungen Ihrer Wahl vor
+- leeren Sie den Cache der kompilierten Template Dateien unter MailBeez > Konfiguration > Template System
+- die Anpassungen sind jetzt in der Vorschau und auch in den Emails sichtbar.
+
+
+>>>Denken Sie daran: Änderungen an Dateien, deren Dateinamen mit `default_` beginnt, gehen bei Updates verloren. Diese Dateien werden überschrieben.
 
 #### Mehr Informationen zum MailBeez Vorlagen System
 
 Sie können die Vorlagen auch direkt aus der Shop Administration mit der MailBeez Vorlagen Verwaltung bearbeiten. Mit einer einfachen “Drop-in” Installation können Sie in wenigen Minuten mit der Bearbeitung starten: [mehr dazu erfahren](/dokumentation/configbeez/config_tmplmngr/)
 
-Alle Premium-Module sind automatisch ohne den MailBeez Copyright Hinweis in der Fusszeile. Wenn Sie den MailBeez Copyright Hinweis aus den freien Modulen entfernen wollen, benötigen Sie den [MailBeez Copyright Remover](/dokumentation/configbeez/config_copyright_remover/)
+Alle Premium-Module sind automatisch ohne den MailBeez Copyright Hinweis in der Fusszeile. Bei Nutzung eines Profi-Tarifes werden auch die Emails der kostenlosen Module von dem MailBeez Copyright Hinweis befreit.
+Wenn Sie ohne Profi-Tarif den MailBeez Copyright Hinweis aus den freien Modulen entfernen wollen, benötigen Sie den [MailBeez Copyright Remover](/dokumentation/configbeez/config_copyright_remover/)
 
  
 
@@ -223,7 +243,7 @@ Die Konfiguration geht mit unserer Schritt-für-Schritt Anleitung schnell von de
 
 #### MailBeez automatisieren
 
-MailBeez kann rein manuell betrieben werden, als durch das tägliche Ausführen aller Module – was wohl schnell langweilig werden wird. Daher ist es besser, eine sogenannten “Cronjob” zu installieren, damit MailBeez automatisch täglich durchläuft. Wenn das Wort “Cronjob” wie der Namen einen Stadt in China klingt, dann empfiehlt sich das Modul “MailBeez automatisch ausführen”. Dieses Modul ist schnell und einfach zu installieren und eine gute Lösung für die meisten MailBeez User.
+MailBeez kann rein manuell betrieben werden, also durch das tägliche Ausführen aller Module – was wohl schnell langweilig werden wird. Daher ist es besser, eine sogenannten “Cronjob” zu installieren, damit MailBeez automatisch täglich durchläuft. Wenn das Wort “Cronjob” wie der Namen einen Stadt in China klingt, dann empfiehlt sich das Modul “MailBeez automatisch ausführen”. Dieses Modul ist schnell und einfach zu installieren und eine gute Lösung für die meisten MailBeez User.
 
 - [Installieren Sie das kostengünstige Modul “MailBeez automatisch ausführen](/dokumentation/configbeez/config_cron_simple/)
 
@@ -236,7 +256,7 @@ Wenn Sie mit dem Testen, der Anpassung der Vorlagen, Konfigurieren fertig und mi
 
 #### MailBeez aktuell halten
 
-Die MailBeez Versions Prüfung zeigt mit einem Klick alle Informationen, während das MailBeez Modul zum Prüfen auf Updates Ihnen die Informationen automatisch per Email schickt. Sie können also einen Webmaster oder Admin beauftragen, das MailBeez System für Sie aktuell zu halten – und ihm dazu automatisiert den Bericht senden!
+Dank der [integrierten Aktualisierungs-Funktion](/dokumentation/updates) können Sie das MailBeez System und auch die Profi-Tarife mit wenigen Klicks aktualisieren. Die kostenlosen Community Module müssen allerdings manuell per FTP Upload aktualisiert werden.
 
 
 

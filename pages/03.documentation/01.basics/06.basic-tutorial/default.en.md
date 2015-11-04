@@ -147,8 +147,14 @@ Whether you are using MailBeez free email templates or MailBeez premium email te
 
 >>>>>>[plugin:content-inject](/content_blocks/pro_template_manager)
 
-No doubt you will want to replace the template email header with an email header of your own. This will be a global customization as you want it to affect every email MailBeez generates. Follow these simple steps:
+No doubt you will want to replace the template email header with an email header of your own. This will be a global customization as you want it to affect every email MailBeez generates. 
 
+**Using the free basic system?** Follow these simple steps:
+
+- copy/rename the default main template  
+ `/mailhive/common/templates/default_email_html.tpl` to  
+  `/mailhive/common/templates/email_html.tpl`  
+   **All template have a filename starting with `default_` will be overwritten by the next update**
 - Create a new image with a width of 600px
 - Name the new image. For example “`mynewheader.png? ”
 - Using your preferred FTP program, upload the new image to “`/mailhive/common/images/`”
@@ -162,16 +168,24 @@ No doubt you will want to replace the template email header with an email header
    ```
    <img src=”{$catalog_server}mailhive/common/images/mynewheader.png” …>
    ```
+- clear the cache of compiled template files using the button in MailBeez > configuration > Template System
+- your changes are not effective in preview and emails
 
+>>>Remember: Changes in files having a filename starting with `default_` will be lost with the next update as these files are overwritten
 
 #### Try a Per-Module Customization – Change the Module Graphic
 
 >>>>>>[plugin:content-inject](/content_blocks/pro_template_manager)
 
-Using the Birthday Greeting module as an example, let’s say you want to change the ‘Happy Birthday’ graphic and it’s layout. Follow these simple steps:
+Using the Birthday Greeting module as an example, let’s say you want to change the ‘Happy Birthday’ graphic and it’s layout. 
+
+**Using the free basic system?** Follow these simple steps:
 
 
-
+- copy/rename the module template  
+ `/mailhive/mailbeez/birthday/email/default_body_html.tpl` nach  
+  `/mailhive/mailbeez/birthday/email/body_html.tpl`  
+   **All template have a filename starting with `default_` will be overwritten by the next update**
 - Create a new image, sized 256px by 256px
 - Name the new image. For example “`balloons.png`”
 - Using your preferred FTP program, upload the new image to  ”catalog/mailhive/mailbeez/birthday/images/”
@@ -184,6 +198,10 @@ Using the Birthday Greeting module as an example, let’s say you want to change
    ```
    <img src=”{$catalog_server}mailhive/mailbeez/birthday/images/**balloons.png**” …>
    ```
+- clear the cache of compiled template files using the button in MailBeez > configuration > Template System
+- your changes are not effective in preview and emails
+
+>>>Remember: Changes in files having a filename starting with `default_` will be lost with the next update as these files are overwritten
    
 
 #### More Information About MailBeez Email Template Modules
@@ -191,7 +209,7 @@ When you’re ready to see more examples or make more customizations to your ema
 
 Edit your templates right from your shop admin with the MailBeez Template Manager. A simple drop-in Installation means you can begin editing template files from your admin in minutes! [Visit the module now](/documentation/configbeez/config_tmplmngr/)
 
-All premium email module templates come packaged without the MailBeez Copyright Notice so you can truly brand the emails these modules generate. If you would like to have the additional footer containing the MailBeez Copyright Notice removed from the free email module templates, you may do so by either upgrading the free module to the premium version, or by purchasing the [MailBeez Copyright Remover Certificate](/documentation/configbeez/config_copyright_remover/)
+All premium email module templates come packaged without the MailBeez Copyright Notice so you can truly brand the emails these modules generate. If you would like to have the additional footer containing the MailBeez Copyright Notice removed from the free email module templates, you may do so by either upgrading the free module to the premium version, or by purchasing the [MailBeez Copyright Remover Certificate](/documentation/configbeez/config_copyright_remover/). Also having a valid Pro-Subscription will remove the copyright notice from any free module.
 
 
 
@@ -241,6 +259,6 @@ Once you have completed testing, email template customization, and a complete co
 
 #### Keep MailBeez Up to Date
 
-The MailBeez Check for Updates email module allows you to configure MailBeez to check for updates on a regular basis and send the results to you in a nicely formatted email. If you have a webmaster or admin who is responsible for managing the back-end of your store, you can configure this module to send the results report directly to them!
+Thanks to the [integrated Update feature](/documentation/updates) it is very easy to keep your MailBeez System and eventually installed Pro Subscriptions with a couple of clicks up to date. The free community modules need to be updated manually by uploading through FTP.
 
 
