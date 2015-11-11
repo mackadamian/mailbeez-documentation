@@ -54,6 +54,8 @@ Das Aktualiserungs-Programm führt dabei folgende Schritte durch:
 Nach Rückkehr zum MailBeez System sollten Sie einen entsprechenden Hinweis sehen.
 
 
+>>>>>>Falls der Backup-Prozess nicht durchläuft, bitte mit Hilfe eines FTP Programmes alle Dateien deren Dateiname mit `appcache_` startet aus dem Verzeichnis `/mailhive/common/templates_c` löschen. Ab MailBeez Version 3.3.4 werden alte Cache Dateien automatisch entfernt.
+
 ## Manuelles Aktualisieren
 
 In einigen Fällen kann es erforderlich sein, das Aktualisierungs-Programm manuell aufzurufen.
@@ -67,3 +69,13 @@ an die URL der MailBeez-Seite anhängen, also dass die URL im Browser etwa so au
 `http://<shop-url>/<admin>/mailbeez.php?cloudloader_mode=update_core`
 
 dann sollten Sie wie gewohnt durch den Aktualisierungs-Ablauf geführt werden.
+
+
+
+
+## Aktualisierung per FTP
+
+Sollte das Aktualisierungs-Programm aus unbekannten Gründen nicht durchlaufen, so kann das MailBeez Grundsystem auch "Old-School" per FTP aktualisiert werden:
+
+Hierzu das
+[MailBeez Grundsystem (.zip) downloaden](https://apps.mailbeez.com/api/public/v1/core/get), auf dem eigenen Rechner entpacken und dann per FTP auf den Server übertragen.

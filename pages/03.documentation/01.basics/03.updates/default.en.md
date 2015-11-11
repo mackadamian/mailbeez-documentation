@@ -54,6 +54,8 @@ The update tool is performing following steps
 
 Returning to the MailBeez admin you should see a notification.
 
+>>>>>>If you are facing issue with the Backup process not finishing please use your FTP Client to delete all files `appcache_` from the directory `/mailhive/common/templates_c`. With MailBeez Version 3.3.4 the cache is cleaned up automatically.
+
 
 ## Update manually
 
@@ -68,3 +70,11 @@ to the URL of your MailBeez page, so the URL in your browser looks similar to:
 `http://<shop-url>/<admin>/mailbeez.php?cloudloader_mode=update_core`
 
 then follow the steps for updating the core system.
+
+
+## Update using FTP
+
+The updater is just not doing what it should? You still can update the "Old-School" style using FTP:
+
+Please
+[download the MailBeez Core System (.zip)](https://apps.mailbeez.com/api/public/v1/core/get), unzip on your computer and upload to your store server using FTP.
