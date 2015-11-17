@@ -76,7 +76,7 @@ Aus dem Ordner “catalog” folgende Dateien in das Root-Verzeichnis des Shops 
  /admin/includes/column_left.php
 
 
-``
+```
 
 dort
 
