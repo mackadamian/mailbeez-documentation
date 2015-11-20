@@ -60,6 +60,9 @@ Sending an email newsletter from a vanilla install of any OScommerce variant sys
 
 As a seamless integrated module the MailBeez Newsletter Advanced Module has direct access to customers and their newsletter subscription setting. That allows your to e.g. send a newsletter campaign to all your subscribed customers without exporting or importing any data!
 
+[plugin:youtube](https://www.youtube.com/watch?v=Azs3fV7MD60)    
+
+
 The process of creating and editing newsletter is very easy: the intuitive visual editor allows you to create professional newsletters, which will show up best possible across different email clients. In combination with the [Responsive Template Manager](/documentation/configbeez/config_tmplmngr/) you will also be able to create mobil-friendly responsive newsletters which will look great e.g. on your customers iPhone.
 
 
