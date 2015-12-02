@@ -4,7 +4,7 @@ title: Email Web-Ansicht und Archiv
 slug: config_email_archive
 routes:
     aliases:
-        - /dokumentation/installation/config
+        - /dokumentation/installation/config/config_email_archive
         
 # menu: Email Web-Ansicht und Archiv
 date: 28-04-2014

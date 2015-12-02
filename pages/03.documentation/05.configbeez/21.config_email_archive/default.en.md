@@ -3,7 +3,7 @@ title: 'Email Web-View and Archive'
 slug: config_email_archive
 routes:
     aliases:
-        - /documentation/installation/config
+        - /documentation/installation/config/config_email_archive
 
 published: true
 date: '28-04-2014 00:00'
