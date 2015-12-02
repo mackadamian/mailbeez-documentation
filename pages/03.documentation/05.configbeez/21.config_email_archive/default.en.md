@@ -1,11 +1,15 @@
 ---
 title: 'Email Web-View and Archive'
+slug: config_email_archive
+routes:
+    aliases:
+        - /documentation/installation/config
+
 published: true
 date: '28-04-2014 00:00'
 publish_date: '28-04-2014 00:00'
 metadata:
     author: admin
-slug: config_email_archive
 visible: true
 template: docs
 taxonomy:

@@ -2,6 +2,10 @@
 # http://learn.getgrav.org/content/headers
 title: Email Web-Ansicht und Archiv
 slug: config_email_archive
+routes:
+    aliases:
+        - /dokumentation/installation/config
+        
 # menu: Email Web-Ansicht und Archiv
 date: 28-04-2014
 published: true
