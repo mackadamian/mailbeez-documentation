@@ -39,8 +39,6 @@ metadata:
 
 With Version 3.0 MailBeez contains a comfortable tool to keep your installation up to date!
 
-Ab Version 3.0 kann MailBeez sehr komfortabel mit dem integrierten Aktualisierungs-Programm auf die jeweils neueste Version gebracht werden.
-
 ## Updating when you get a notification
 
 The integrated version controll will give you a notification when there is a new Version. Please click on this notification and follow the steps of the update tool.
