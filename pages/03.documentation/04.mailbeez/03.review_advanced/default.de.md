@@ -53,7 +53,7 @@ metadata:
 #  last_modified: true
 ---
 
-**Produktbewertungen haben einen umsatzsteigernden Effekt – leider kommen die Produktbewertungen aber nicht ohne weiteres Zutun. Mit diesem Modul können Sie die optimale Anzahl an Produktbewertungen erhalten und so zur Umsatzsteigerung beitragen. Das Module integriert sich nahtlos mit dem Produktbewertungssystem vom Online-Shop**
+**Produktbewertungen haben einen umsatzsteigernden Effekt – leider kommen die Produktbewertungen aber nicht ohne weiteres Zutun. Mit diesem Modul können Sie die optimale Anzahl an Produktbewertungen erhalten und so zur Umsatzsteigerung beitragen. Das Modul integriert sich nahtlos mit dem Produktbewertungssystem vom Online-Shop**
 
 Wenn ein Kunde ersteinmal die Ware erhalten hat, besteht oft keine Motiviation mehr, den Shop später wieder zu besuchen, um eine Produktbewertung abzugeben. Einige Kunden haben vielleicht eine “Produktbewertungs-Kultur” von häufigen Besuchen auf den grossen Shops entwickelt – diese werden aber immer die Minderheit darstellen.
 
@@ -80,3 +80,10 @@ Abhängig von Ihrer Shop-Konfiguration erfordern die Vorlagen eine Anpassung der
 Auf dem Dashboard finden Sie das “[Review-O-Meter](/documentation/dashboardbeez/dashboard_review_o_meter/ "Review-O-Meter")“. Dieses praktische Widget gibt eine direkte Erfolgskontrolle und zeigt aktuell, wieviele Kunden eine Bewertung abgebeben haben.
 
 Optimieren Sie Ihre Emails (Text, Betreffzeile) anhand dieser Daten.
+
+
+
+#### Installation
+
+
+

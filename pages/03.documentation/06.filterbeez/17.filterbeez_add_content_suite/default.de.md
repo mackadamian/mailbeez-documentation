@@ -51,3 +51,5 @@ Mit Hilfe dieses Modules können Sie automatisch generierte Produkt-Listen in je
 - Angebote (Specials)
 - Ausgewählte
 - Cross-Selling Produkte
+- Top-Seller
+- Sehr gut bewertete Produkte

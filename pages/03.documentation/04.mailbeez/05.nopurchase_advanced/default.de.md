@@ -51,6 +51,8 @@ metadata:
 #  last_modified: true
 ---
 
+>>>>Diese Emails halten nicht die Ausnahme-Regeln des Verbotes von Email-Werbung ein, da noch kein Kauf getätigt worden ist - bitte selbst abwägen, ob dieses Modul zum Einsatz kommen soll.
+
 Dieses Modul gibt Ihnen ein automatisierbares Werkzeug, um neue Kunden mit Kunden-Konto aber bisher ohne Kauf zu kontaktieren. In der Kontakt-Abfolge ist es möglich, personalisierte zeitlich begrenzte Gutschein zu versenden um den Kunden den Schritt zur ersten Bestellung einfacher zu machen.
 
 ![](http://www.mailbeez.com/wp-content/uploads/2011/10/nopurchase_module.png "nopurchase_module")

@@ -26,4 +26,4 @@ MailBeez utilizes the popular template system "[Smarty](http://smarty.net)" to g
 
 Here you can empty the cache of the template system.
 
-No all email clients support external CSS files, so by default all CSS are converted into inline CSS. In case this causes issues with custom templates you can deactivate this behaviour.
+Not all email clients support external CSS files, so by default all CSS are converted into inline CSS. In case this causes issues with custom templates you can deactivate this behaviour.

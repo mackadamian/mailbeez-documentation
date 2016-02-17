@@ -49,7 +49,7 @@ This module lets you add a variety of additional customer information into your 
 
 For example, in addition to displaying the customer's name in your emails, you can also display or use their date of birth, age, phone number, company name, address, fax number, newsletter subscription status, and more!
 
- ```
+```
 {$data.customer.firstname} // firstname
 {$data.customer.lastname} // lastname
 {$data.customer.dob} // date of birth
@@ -77,7 +77,7 @@ smarty syntax
 {if $data.customer.age gt 30}
     above 30: hello sir, your age is {$data.customer.age} - dob: {$data.customer.dob}
 {else}
-    below 31: hi there, your are is {$data.customer.age} - dob {$data.customer.dob}
+    below 31: hi there, your age is {$data.customer.age} - dob {$data.customer.dob}
 {/if}
 ```
 
@@ -87,6 +87,6 @@ or in the visual editor use these tags protected from editing:
 [[if $data.customer.age gt 30]]
     above 30: hello sir, your age is [[$data.customer.age]] - dob: [[$data.customer.dob]]
 [[else]]
-    below 31: hi there, your are is [[$data.customer.age]] - dob [[$data.customer.dob]]
+    below 31: hi there, your age is [[$data.customer.age]] - dob [[$data.customer.dob]]
 [[/if]]
 ```

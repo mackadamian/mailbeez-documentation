@@ -12,7 +12,7 @@ publish_date: 11-08-2011
 # unpublish_date: 11-08-2011
 template: docs
 # theme: false
-visible: false
+visible: true
 summary:
     enabled: true
     format: short
