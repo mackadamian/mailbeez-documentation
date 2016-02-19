@@ -1,8 +1,8 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Shopvoting
+title: Shoprating
 slug: config_shopvoting
-# menu: Shopvoting
+# menu: Shoprating
 date: 01-04-2014
 published: true
 publish_date: 01-04-2014
@@ -39,7 +39,7 @@ metadata:
 
 This popular module is developed by [www.web4design.de](http://www.web4design.de/) in close cooperation with MailBeez.
 
-Plays well together with [Shopvoting Invitation Advanced](/documentation/mailbeez/shoprating_advanced/) module with auto-login, frequent-buyer recognition and more pro features
+Plays well together with [Shoprating Invitation Advanced](/documentation/mailbeez/shoprating_advanced/) module with auto-login, frequent-buyer recognition and more pro features
  
  
 ### Installation
@@ -67,7 +67,7 @@ The module hooks into the [BeezDesk CRM Customer Insight](/documentation/configb
 
 <div style="float:right" markdown="1">![](shoprating_box.en.png)</div>
 
-The new MailBeez Shopvoting Module allows your customers to rate your store and service. Hosted on your own server with complete control.
+The new MailBeez Shoprating Module allows your customers to rate your store and service. Hosted on your own server with complete control.
 
 **Store-Ratings are known to increase conversion and for this good reason there are many online services for hosted Store-Ratings.**
 
@@ -88,9 +88,9 @@ Clicking on the badge opens a professional designed page showing details about t
 
 ### Get serious - go advanced
 
-While the free module already works great, professional stores will go for the MailBeez Premium add-on "[Shopvoting Invitation Advanced](/documentation/mailbeez/shoprating_advanced/)" which provides a range of advanced features like **auto-login** and **recognition of regular customers** which will generate up to twice as many ratings. And you can even **integrate real-time ratings in any MailBeez-generated Email** by placing a simple template tag in MailBeez Emails
+While the free module already works great, professional stores will go for the MailBeez Premium add-on "[Shoprating Invitation Advanced](/documentation/mailbeez/shoprating_advanced/)" which provides a range of advanced features like **auto-login** and **recognition of regular customers** which will generate up to twice as many ratings. And you can even **integrate real-time ratings in any MailBeez-generated Email** by placing a simple template tag in MailBeez Emails
 
- [go to Shopvoting Invitation Advanced](/documentation/mailbeez/shoprating_advanced/)
+ [go to Shoprating Invitation Advanced](/documentation/mailbeez/shoprating_advanced/)
 
 ![](Screen_shoprating_email.en.png?resize=250)
 
@@ -100,6 +100,6 @@ While the free module already works great, professional stores will go for the M
 ![](Screen_shoprating_beezdesk.en.png)
 
 
-Just integrate the free [BeezDesk CRM Customer Insight](/documentation/configbeez/config_customer_insight/)  into your Store Admin panel by adding a single code-line and you will get **notified about new customer ratings**, see the current rating summary and have **direct access to the configuration panel** of the MailBeez Shopvoting Module!
+Just integrate the free [BeezDesk CRM Customer Insight](/documentation/configbeez/config_customer_insight/)  into your Store Admin panel by adding a single code-line and you will get **notified about new customer ratings**, see the current rating summary and have **direct access to the configuration panel** of the MailBeez Shoprating Module!
 
 [How to integrate BeezDesk CRM Customer Insight?](/documentation/configbeez/config_customer_insight/)

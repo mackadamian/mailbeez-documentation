@@ -1,5 +1,5 @@
 ---
-title: 'Shopvote Review Reward Coupon'
+title: 'Shoprating Review Reward Coupon'
 published: true
 date: '08-02-2012 00:00'
 publish_date: '08-02-2012 00:00'

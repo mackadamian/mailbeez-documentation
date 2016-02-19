@@ -1,5 +1,5 @@
 ---
-title: ShopVote
+title: ShopVote.de
 slug: shopvote
 routes:
     default: /documentation/mailbeez/shopvote
@@ -32,4 +32,4 @@ metadata:
 
 This simple, free module allows you to ask your customers for a review on ideal.
 
-The [ShopVote Advanced Module](/documentation/mailbeez/shopvote_advanced/) allows you to works smarter, e.g. configure multiple order status, responsive emails and recognition repeated orders.
+The [ShopVote.de Advanced Module](/documentation/mailbeez/shopvote_advanced/) allows you to works smarter, e.g. configure multiple order status, responsive emails and recognition repeated orders.

@@ -1,5 +1,5 @@
 ---
-title: 'ShopVote Advanced'
+title: 'ShopVote.de Advanced'
 slug: shopvote_advanced
 date:  02-11-2015
 published: true
@@ -31,9 +31,9 @@ module:
     pro: pro
     cert: 'true'
     price: '99 EUR'
-    title_en: 'ShopVote Advanced'
+    title_en: 'ShopVote.de Advanced'
     teaser_en: 'Advanced Features: Delay for international orders, multiple Order status, recognition of regular customers'
-    title_de: 'ShopVote Profi'
+    title_de: 'ShopVote.de Profi'
     teaser_de: 'Profi-Features: Verzögerung für internationale Bestellungen, Stammkunden-Erkennung und mehr'
     author: MailBeez.com
 author:
@@ -42,11 +42,11 @@ metadata:
     author: admin
 ---
 
-**Get most out of your ShopVote Subscription**
+**Get most out of your ShopVote.de Subscription**
 
 ## Advanced Features
 
-this advanced module gives you a couple of settings to streamline and improve your process of inviting customers to give a rating on ShopVote:
+this advanced module gives you a couple of settings to streamline and improve your process of inviting customers to give a rating on ShopVote.de:
 
 ## multiple order status
 
@@ -54,7 +54,7 @@ Do you have different order status marking orders as shipped! No problem, just c
 
 ## recognition of regular customers
 
-Don't want to bother your regular customers with an Email to rate on ShopVote? Simply define a delay (e.g. 120 days) between to invites and your are done. The module will check when the last invite was sent and decides whether to wait or to send a new rating invite.
+Don't want to bother your regular customers with an Email to rate on ShopVote.de? Simply define a delay (e.g. 120 days) between to invites and your are done. The module will check when the last invite was sent and decides whether to wait or to send a new rating invite.
 
 ## responsive email template
 
@@ -65,5 +65,5 @@ the emails are shown perfectly also on mobile deviced
 
 ### Want to integrated your valuable ratings with your Store and Email Marketing?
 
-Using the [ShopVote Integration Suite](/documentation/configbeez/config_shopvote_rss_importer/) you can easily integrate your ShopVote-Ratings with your Store - in a way that makes this "unique fresh content" visible to search engines - and your MailBeez generated Email Marketing emails!
+Using the [ShopVote.de Integration Suite](/documentation/configbeez/config_shopvote_rss_importer/) you can easily integrate your ShopVote.de-Ratings with your Store - in a way that makes this "unique fresh content" visible to search engines - and your MailBeez generated Email Marketing emails!
 -->

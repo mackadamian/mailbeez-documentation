@@ -29,7 +29,7 @@ module:
     pro: 'pro'
     cert: 'true'
     price: '99 EUR'
-    title_en: 'Shopvoting Advanced'
+    title_en: 'Shoprating Advanced'
     teaser_en: 'The advanced module for the professional application of the "shopvoting" addon'
     title_de: 'Shopbewertung Profi'
     teaser_de: 'Das Profi-Modul für den ernsthaften Einsatz des Modules "Shopbewertung"'

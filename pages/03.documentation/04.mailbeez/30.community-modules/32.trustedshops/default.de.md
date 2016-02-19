@@ -53,8 +53,9 @@ metadata:
 
 Dieses kostenfreie Modul bitte Kunden automatisch nach der Bestellung um Bewertung auf Trustedshops. Für den professionellen Einsatz empfehlen wir das [Trustedshops Profi](/dokumentation/mailbeez/trustedshops_advanced) Modul als Bestandteil der Profi-Tarife!
 
-**ACHTUNG:**  
- Aufgrund verschiedener gesetzlicher Regelung weist Trustedshops darauf hin, dass dieses Modul nur an Kunden Aufforderungen zur Bewertung schicken darf, die ausdrücklich ihre Einwilligung dazu gegeben haben. Dies kann über eine separate Checkbox oder aber den Newsletter-Abo geschehen:
+>>>>**ACHTUNG:** Aufgrund verschiedener gesetzlicher Regelungen weist Trustedshops darauf hin, dass dieses Modul nur an Kunden Aufforderungen zur Bewertung schicken darf, die ausdrücklich ihre Einwilligung dazu gegeben haben. 
+
+Dies kann über eine separate Checkbox oder aber den Newsletter-Abo geschehen:
 
 > Es ist möglich, die Einwilligung zum Erhalt einer Bewertungsaufforderung mit der Einwilligung zum Erhalt des Newsletters zu koppeln, dann muss jedoch in der Einwilligung bereits der (erweiterte) Umfang genau erkennbar sein. So müsste es etwa lauten “[  ]  Ich möchte den Newsletter erhalten und einmalig per E-Mail an die Abgabe einer Bewertung erinnert werden. Der Widerruf der Einwilligung ist jederzeit möglich.”.
 

@@ -74,3 +74,11 @@ Das Modul wird dann automatisch prüfen, ob bereits eine neuen Einladung versend
 ### Wollen Sie Ihre wertvollen Bewertungen mit Shop und Email-Marketing integrieren?
 
 Mit der [Trustedshops Integration Suite](/dokumentation/configbeez/config_trustedshops_rss_importer/) können Sie schnell und einfach Trustedshops-Bewertungen serverseitig in Ihren Shop (positiver SEO Effekt durch "unique fresh content") und auch in alle von MailBeez generieren Email Marketing Emails integrieren
+
+>>>>**ACHTUNG:** Aufgrund verschiedener gesetzlicher Regelungen weist Trustedshops darauf hin, dass dieses Modul nur an Kunden Aufforderungen zur Bewertung schicken darf, die ausdrücklich ihre Einwilligung dazu gegeben haben. 
+ 
+ Dies kann über eine separate Checkbox oder aber den Newsletter-Abo geschehen:
+
+> Es ist möglich, die Einwilligung zum Erhalt einer Bewertungsaufforderung mit der Einwilligung zum Erhalt des Newsletters zu koppeln, dann muss jedoch in der Einwilligung bereits der (erweiterte) Umfang genau erkennbar sein. So müsste es etwa lauten “[  ]  Ich möchte den Newsletter erhalten und einmalig per E-Mail an die Abgabe einer Bewertung erinnert werden. Der Widerruf der Einwilligung ist jederzeit möglich.”.
+
+Jeder Shopbetreiber ist also selbst für den Einsatz dieses Modules verantwortlich. Falls die Einwilligung mit dem Newsletter-Abo gekoppelt werden soll, bitte MailBeez entsprechend konfigurieren. Im Bereich MailBeez > Konfiguration findet sich die Option nur an Kunden mit einem Newsletter-Abo zu verschicken.

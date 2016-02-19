@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: ShopVote
+title: ShopVote.de
 slug: shopvote
 routes:
     default: /dokumentation/mailbeez/shopvote
@@ -47,4 +47,4 @@ metadata:
 
 Mit diesem einfachen, kostenlosen Modul können Sie Ihre Kunden automatisiert um die Abgabe einer Bewertung auf ShopVote.de bitten.
 
-Die [ShopVote Profi Version](/dokumentation/mailbeez/shopvote_advanced/) erlaubt es Ihnen, u.A. mehrere Bestell-Status zu konfigurieren, mit Responsive Email-Vorlagen die Darstellung auf Mobilen Geräten zu verbessern und Stamm-Kunden zu erkennen.
+Die [ShopVote.de Profi Version](/dokumentation/mailbeez/shopvote_advanced/) erlaubt es Ihnen, u.A. mehrere Bestell-Status zu konfigurieren, mit Responsive Email-Vorlagen die Darstellung auf Mobilen Geräten zu verbessern und Stamm-Kunden zu erkennen.
