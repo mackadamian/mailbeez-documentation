@@ -54,13 +54,26 @@ Scenarios where this module can be applied:
 - you would like to replace the default order status update email with a custom designed email
 - you would like to automatise processes depending on the order status
 
+**Template Variables**
+
+
+| Template Variable  | Output                                  |
+|--------------------|-----------------------------------------|
+| {$status_date}     | formated order status date              |
+| {$status_date_raw} | raw order status date                   |
+| {$status_id}       | status id                               |
+| {$status_name}     | order status name                       |
+| {$comments}        | comments                                |
+
+
+**Custom Email Message**
+
+You can build your custom messages depending on the order status using some [smarty.net code](http://www.smarty.net/docs/en/language.function.if.tpl)
+
+    {if $status_id == 3}
+       Your order is shipped
+    {/if}
+
+
+
 [plugin:content-inject](/content_blocks/pro_responsive_template)
-
-
-<!--
-**template variables**
-
- Template VariableOutput{$status\_date}formated order status date{$status\_date\_raw}  
-{$ORDER\_STATUS\_DATE}raw order status date{$status\_id}status id{$status\_name}  
-{$ORDER\_STATUS}order status name{$comments}comments
--->

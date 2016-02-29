@@ -63,11 +63,22 @@ Anwendungsbeispiele:
 **Vorlagen Variablen**
 
 
-<!--
- Vorlagen-VariableAusgabe{$status\_date}formatiertes Datum des Bestell-Status{$status\_date\_raw}  
-{$ORDER\_STATUS\_DATE}unformatiertes Datum des Bestell-Status{$status\_id}Bestell-Status-ID{$status\_name}  
-{$ORDER\_STATUS}Bestell-Status-Name{$comments}Kommentar
--->
+| Vorlage-Variable   | Ausgabe                                 |
+|--------------------|-----------------------------------------|
+| {$status_date}     | formatiertes Datum des Bestell-Status   |
+| {$status_date_raw} | unformatiertes Datum des Bestell-Status |
+| {$status_id}       | Bestell-Status-ID                       |
+| {$status_name}     | Bestell-Status-Name                     |
+| {$comments}        | Kommentar                               |
+
+**Beispiel für status-abhängigen Email-Text**
+
+Sie können mit etwas [Smarty.net Code](http://www.smarty.net/docs/en/language.function.if.tpl) beliebige Ausgaben z.B. in Abhängigkeit vom Bestell-Status generieren:
+
+    {if $status_id == 3}
+       Ihre Bestellung wurde versendet.
+    {/if}
+
 
 
 [plugin:content-inject](/content_blocks/pro_responsive_template)
