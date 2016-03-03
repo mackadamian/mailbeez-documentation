@@ -68,7 +68,7 @@ mailhive.php
 
 ```
 
-In the mailbeez_installer-v3.xx fileset, navigate to **extra_files > extra_zencart > zencart_1.5.x > admin**, then copy/merge its content into your zen-cart admin-directory.
+In the mailbeez_installer-v3.xx fileset, navigate to **extra_files > extra_zencart > zencart_1.5.x > admin**, then copy/merge its contents into your zen-cart admin-directory.
 
 Log in to your zen-cart administration panel. From the navigation bar, select **Tools > MailBeez**. Then, click the “Install” button.
 
