@@ -7,7 +7,7 @@ date: 30-05-2010
 published: true
 publish_date: 30-05-2010
 # unpublish_date: 30-05-2010
-template: docs
+template: changelog
 # theme: false
 visible: true
 summary:
@@ -38,12 +38,17 @@ metadata:
 #  cache_enable: false
 #  last_modified: true
 ---
+
+<!--
 {{ 'core'|mailbeez_core_version }}
 {{ 'core'|mailbeez_core_date|date("d. M. Y") }}
 {{ 'core'|mailbeez_core_filesize|mailbeez_formatBytes }}
+-->
 
 <hr>
+
+
 <div class="changelog" markdown="1" >    
-{{ 'core'|mailbeez_core_changelog|markdown }}
+<!--{{ 'core'|mailbeez_core_changelog|markdown }}-->
 </div>
 
