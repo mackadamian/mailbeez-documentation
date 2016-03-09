@@ -44,7 +44,7 @@ The installation is straight forward and can be done in a couple of minutes by f
 - copy new files
 - Install MailBeez
 
-MailBeez is maintaining it’s own tables – the shops existing table stay as they are.
+MailBeez maintains its own tables – the shopping cart's existing tables remain as they are... unchanged.
 
 
 ## Step 1 – copy new files
@@ -52,7 +52,7 @@ MailBeez is maintaining it’s own tables – the shops existing table stay as t
 [plugin:content-inject](/content_blocks/download_installer)
 
 
-copy following file to your admin-directory
+In the mailbeez_installer-v3.xx fileset, navigate to catalog > admin, then copy the following file to your zen-cart admin-directory.
 
 ```bash
  mailbeez.php
@@ -60,7 +60,7 @@ copy following file to your admin-directory
 ```
 
 
-copy following file and folder to your catalog-directory (where your index.php is located)
+In the mailbeez_installer-v3.xx fileset, navigate to the catalog folder, then copy the following file and folder to your root zen-cart directory (where your index.php is located).
 
 ```bash
 mailhive (folder)
@@ -68,9 +68,9 @@ mailhive.php
 
 ```
 
-In the MailBeez fileset, navigate to **extras\_zencart > zencart\_1.3.x > admin** and copy its content into your stores admin directory.
+In the mailbeez_installer-v3.xx fileset, navigate to **extras\_zencart > zencart\_1.3.x > admin**, then copy/merge its contents into your zen-cart admin-directory.
 
-Log in to your store admin and navigate to Tools > MailBeez. Click the “Install” button:
+Log in to your zen-cart administration panel. From the navigation bar, select Tools > MailBeez. Then click the “Install” button:
 
 
 ## Adoption of Zen-Cart
