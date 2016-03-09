@@ -23,7 +23,14 @@ author:
     name: admin
 metadata:
     author: admin
----
+module:
+    code: 'config_beezdesk'
+    category: [configbeez]
+    compatiblity: [comp_osc,comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]
+    thumbnail: 'http://www.mailbeez.com/wp-content/uploads/downloads/thumbnails/2014/04/icon_32.png'
+    pro: 'pro'
+    cert: 'true'
+----------------
 
 Integration des Shop-Systems mit BeezDesk CRM
 [mehr zum BeezDesk CRM](http://www.beezdesk.de)
