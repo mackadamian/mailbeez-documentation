@@ -24,7 +24,7 @@ author:
 metadata:
     author: admin
 ---
-### Abschnitt 07
+### Abschnitt 7
 
 # Kochbuch
 

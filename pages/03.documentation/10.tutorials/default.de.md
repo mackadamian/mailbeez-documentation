@@ -6,10 +6,8 @@ slug: tutorials
 date: 10-11-2010
 published: true
 publish_date: 10-11-2010
-# unpublish_date: 10-11-2010
 template: chapter
-# theme: false
-visible: false
+visible: true
 summary:
     enabled: true
     format: short
@@ -35,9 +33,11 @@ metadata:
 #  cache_enable: false
 #  last_modified: true
 ---
-### Abschnitt
+### Abschnitt 8
 
 # Tutorials
 
 
 Lernen Sie, wie das MailBeez System konfiguriert und angepasst werden kann.
+
+Bitte unbedingt zunächst den Abschnitt [Grundlagen](/dokumentation/grundlagen) und dort besonders den [Schnelleinstieg](/dokumentation/grundlagen/schnelleinstieg) lesen.

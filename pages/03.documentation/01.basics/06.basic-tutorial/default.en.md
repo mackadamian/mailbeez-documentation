@@ -18,7 +18,7 @@ summary:
 taxonomy:
     migration_status: done
     category: [docs]
-    tag: []
+    tag: [ce]
 author:
     name: admin
 metadata:

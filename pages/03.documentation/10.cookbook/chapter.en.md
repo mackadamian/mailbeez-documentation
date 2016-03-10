@@ -24,7 +24,7 @@ metadata:
     author: admin
 
 ---
-### Chapter 07
+### Chapter 7
 
 # Cookbook
 

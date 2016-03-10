@@ -4,10 +4,12 @@ title: Tutorials
 slug: tutorials
 # menu: Tutorials
 date: 10-11-2010
-published: true
+published: false
 publish_date: 10-11-2010
+# unpublish_date: 10-11-2010
 template: chapter
-visible: true
+# theme: false
+visible: false
 summary:
     enabled: true
     format: short
@@ -33,10 +35,9 @@ metadata:
 #  cache_enable: false
 #  last_modified: true
 ---
-### Chapter 8
+### Abschnitt
 
 # Tutorials
 
-Learn how to configure and customize your MailBeez system
 
-Please make sure you have read the [Basics](/documentation/basics) chapter and there the [Guide to Getting Started](/documentation/basics/guide-to-getting-started)!
+Lernen Sie, wie das MailBeez System konfiguriert und angepasst werden kann.
