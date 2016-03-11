@@ -4,20 +4,20 @@ taxonomy:
     category: docs
 ---
 
-MailBeez has intentionally been designed with few requirements and you can easily install MailBeez into your Shop-System with a very small footprint. 
+MailBeez is intentionally designed with few requirements. With a very small footprint, you can quickly and easily install MailBeez into your online shopping-cart system.  
 
-It maintains it's own tables and was developed not to interfer with other addons.
+It maintains it's own tables and is developed not to interfer with other addons.
 
-### Shop-System
+### eCommerce Systems
 
-MailBeez supports a range of store systems based on osCommerce and its forks like Zencart. Please visit
-[MailBeez Installation](/documentation/installation) to see if your Store System is compatible with MailBeez.
+MailBeez supports a range of online shopping-cart systems based on osCommerce and its forks.. like Zencart. Please visit
+[MailBeez Installation](/documentation/installation) to see if your online shopping-cart system is compatible with MailBeez.
 
 
 
 ### PHP Requirements
 
-Very likely you already have a shop running on a Server with PHP5.2+ - that’s enough for MailBeez to work!
+Very likely you already have an online shopping-cart system running on a Server with PHP5.2+ - that’s enough for MailBeez to work!
 
 
 
@@ -26,7 +26,7 @@ Very likely you already have a shop running on a Server with PHP5.2+ - that’s 
 
 ### FTP Clients
 
-To install MailBeez you need to have FTP access to transfer the new files to your Store-Server. The easiest way to accomplish this is with an [FTP Client](http://en.wikipedia.org/wiki/File_Transfer_Protocol).  There are many available, but some recommended ones include:
+For systems hosted by third party service providers, to install MailBeez, you need to have FTP access to transfer the new files to the server hosting your online shopping-cart. The easiest way to accomplish this is with an [FTP Client](http://en.wikipedia.org/wiki/File_Transfer_Protocol).  There are many available, but some recommended ones include:
 
 1. [Transmit](http://panic.com/transmit/) - OS X - The de facto FTP/SFTP client on OS X.  Easy to use, fast, folder-syncing and pretty much anything else you could ask for.
 2. [FileZilla](https://filezilla-project.org/) - OS X/Windows/Linux - Probably the best option for Windows and Linux users. Free and very powerful (but very ugly on the Mac!).
