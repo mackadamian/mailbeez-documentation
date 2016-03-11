@@ -47,10 +47,10 @@ metadata:
 #  last_modified: true
 ---
 
-Eine Übersicht der unterstützen Shopsysteme findet sich auf [MailBeez Kompatibilität](/dokumentation/compatibility/).
+Eine Übersicht der unterstützen Shopsysteme findet sich auf [MailBeez Kompatibilität](/dokumentation/kompatibilitat/).
 
 
-Der MailBeez Gutschein-Generator wird als Untermodul von alle MailBeez Modulen verwendet, welche personalisierte Gutscheine generieren und versenden.
+Der MailBeez Gutschein-Generator wird als Untermodul von allen MailBeez Modulen verwendet, welche personalisierte Gutscheine generieren und versenden.
 
 
 ###Vorteile von personalisierten Gutscheinen
