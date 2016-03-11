@@ -22,18 +22,17 @@ metadata:
 MailBeez unterscheidet grundsätzlich zwischen den Betriebsarten:
 
 1. **Simulation**
-2. **Production**
+2. **Produktion**
 
 
 ### Simulation [SIM]
 
-der Simulations-Modus ist gedacht, um - schwer zu erraten - die Funktion des Systemes anhand von Simulationen zu testen.
-Im Simulations-Modus arbeiten alle Module wie im Produktions-Modus, ABER: alle Emails werden nur an die hier hinterlegte Email-Adresse versendet und nicht an die Kunden!
-Zur Kennzeichnung von Simulations-Emails wird die Kennung [SIM] z.B. im Email-Betreff und in Gutschein-Code verwendet.
+Der Simulations-Modus ist gedacht, um - schwer zu erraten - die Funktion des MailBeez-Systemes anhand von Simulationen zu testen. Im Simulations-Modus arbeiten alle Module wie im Produktions-Modus, ABER: alle E-Mails werden nur an die hier hinterlegte E-Mail-Adresse versendet und NICHT an die Kunden!
+Zur Kennzeichnung von Simulations-E-Mails wird die Kennung [SIM] z.B. im E-Mail-Betreff und im Gutschein-Code verwendet.
 
-Beim Neu-Start einer Simulation werden alle Simulations-Daten gelöscht.
+Beim Neustart einer Simulation werden alle Simulations-Daten gelöscht.
 
 
-### Production
+### Produktion
 
-Wenn Sie mit den Ergebnissen der Simulations-Durchläufen zufrieden sind, können Sie beruhigt in die Betriebsart "Production" wechseln. Beim Ausführen der Module werden dann die Emails generiert und an die Kunden versendet.
+Wenn Sie mit den Ergebnissen der Simulations-Durchläufen zufrieden sind, können Sie beruhigt in die Betriebsart "Produktion" wechseln. Beim Ausführen der Module werden dann die E-Mails generiert und an die Kunden versendet.
