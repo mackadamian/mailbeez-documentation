@@ -36,6 +36,6 @@ metadata:
 #  last_modified: true
 ---
 
-Hier können Sie konfigurieren, ob ausschliesslich Kunden mit Newsletter-Abo (Newsletter Abo Check: true) oder alle Kunden kontaktiert werden sollen.
+Hier können Sie konfigurieren, ob ausschliesslich Kunden mit bestehendem Newsletter-Abo (Newsletter Abo Check: true) oder alle Kunden kontaktiert werden sollen.
 
-Zudem können Sie wählen, ob ein Klick auf einen Opt-Out Link in einer Email nur weitere Emails des jeweiligen Modules blockieren soll - oder bewirkt, dass generell für diesen Kunden keine Emails mehr versendet werden.
+Zudem können Sie wählen, ob ein Klick auf einen Opt-Out Link in einer E-Mail nur weitere E-Mails des jeweiligen Modules blockieren soll - oder bewirkt, dass generell für diesen Kunden keine E-Mails mehr versendet werden.
