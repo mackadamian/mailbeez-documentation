@@ -23,7 +23,7 @@ taxonomy:
 
 MailBeez generates all Emails based on a common main template and a module body template. In this tutorial you can learn, how to edit the common main template.
 
-<div style="padding: 30px; border: 1px solid #c0c0c0; background-color: #E7F2FA; max-width: 50%; margin:auto" markdown="1">
+<div style="padding: 30px; border: 1px solid #c0c0c0; background-color: #E7F2FA; width: 75%; max-width: 600px; margin:auto" markdown="1">
 Common Main-Template
 <div style="padding: 30px; border: 1px solid #c0c0c0; background-color: #FFFFFF;" markdown="1">[Module specific template](/documentation/tutorials/setting-up-module-templates)
 <br>
