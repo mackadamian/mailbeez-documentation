@@ -46,7 +46,7 @@ You can choose, which delivery engine MailBeez should use to send out the genera
 
 1. **Shop (default)**: Email-Function of your Shop-System
 1. **Newsletter2Go (recommended)**: Email delivery through the certified Servers of Newsletter2Go
-1. **PHPMailer 5.2.1**: any SMTP Server
+1. **SMTP**: any SMTP Server
 
 ###Shop (default)
 
@@ -78,7 +78,7 @@ Newsletter2Go says:
 
 >>>>>> Within the MailBeez System you can directly register at Newsletter2Go. This will automatically set up the integration for you. After approval of your account you are ready to let MailBeez send its emails through the certified servers of Newsletter2Go.
 
-###PHPMailer 5.2.1
+### SMTP (PHPMailer 5.2.1)
 
 This option allows you to configure any SMTP server.
 

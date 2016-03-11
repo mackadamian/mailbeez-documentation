@@ -59,7 +59,7 @@ Genervt von Bounce-Emails, auch bekannt als Rückläufer? Neben der Extra-Arbeit
 ## Voraussetzungen
 
 - Ein separates Email-Konto, welches nur für die Verarbeitung von Bounces eingerichtet  und als IMAP Mailbox in Ihrem Email Programm konfiguriert ist
-- Einstellung **PHPMailer** im MailBeez Email System
+- Einstellung **SMTP (PHPMailer)** im MailBeez Email System
 - Ihr Shop-Server muss mit IMAP Servern kommunizieren können - bitte mit Ihrem Hoster abklären, insbesondere wenn Sie GMail nutzen wollen, da einige Hoster den GMail-spezifischen Port geschlossen haben.
 
 ## Funktion
@@ -86,7 +86,7 @@ Die Bounce Verarbeitung kann manuell MailBeez über das Modul MailBeez Module > 
 Falls Sie historischen Bounce Emails gesammelt haben, können Sie diese von der BounceHive Rückläufer-Verarbeitung nachträglich analysieren lassen. Dazu bitte mit Hilfe eines Email Programmes (dort den Bounce Email-Account anlegen) die gesammelten Bounce Emails in die Inbox des Bounce Email-Accounts verschieben. Bei der nächsten Ausführung werden diese Emails dann verarbeitet.
 
 **Anforderungen:**  
- Die BounceHive Rückläufer-Verarbeitung erfordert, dass MailBeez die MailBeez-eignen PHPMailer Email Engine verwendet – dies kann unter MailBeez > Konfiguration > Email System konfiguriert werden. Auch muss der Server zulassen, dass PHP Verbindung zu einem IMAP Server aufnehmen kann, bitte fragen Sie bei Ihrem Hoster nach, ob es Einschränkungen gibt, besonders wenn Sie planen, GMail einzusetzen – einige Hoster blockieren den GMail spezifischen Port.
+ Die BounceHive Rückläufer-Verarbeitung erfordert, dass MailBeez die MailBeez-eigene SMTP Email Engine verwendet – dies kann unter MailBeez > Konfiguration > Email System konfiguriert werden. Auch muss der Server zulassen, dass PHP Verbindung zu einem IMAP Server aufnehmen kann, bitte fragen Sie bei Ihrem Hoster nach, ob es Einschränkungen gibt, besonders wenn Sie planen, GMail einzusetzen – einige Hoster blockieren den GMail spezifischen Port.
 
 Die Verwendung eines GMail Email Accounts kann sich schwierig gestalten, folgend die richtigen Einstellungen:
 

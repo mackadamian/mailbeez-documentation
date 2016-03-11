@@ -46,7 +46,7 @@ author:
 ## Requirements
 
 - A separate email account set up specifically for bounce handling & configured as an IMAP mailbox in your email client
-- Use of MailBeez own built in Email Engine – PHPMailer
+- Use of MailBeez own built in Email Engine – SMTP (PHPMailer)
 - Your server must allow you to connect to IMAP servers – Check with your hosting company, especially if you plan to use GMail, as some have blocked the GMail-specific port
 
 ## Get Your Bounced Emails Under Control

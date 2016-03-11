@@ -42,10 +42,11 @@ metadata:
 
 MailBeez gibt Ihnen volle Freiheit zu wählen, wie Sie die Emails versenden wollen:
 
+##Mögliche E-Mail Versand Methoden für MailBeez
 
 1. **Shop (Standard)**: Email-Funktion des Shop-Systems
 1. **Newsletter2Go (empfohlen)**: Versand über die zertifizierten Server von Newsletter2Go
-1. **PHPMailer 5.2.1**: Ein beliebiger SMTP Server
+1. **SMTP**: Ein beliebiger SMTP Server
 
 ###Shop (Standard)
 
@@ -78,7 +79,7 @@ Newsletter2Go schreibt:
 >>>>>> Im MailBeez System können Sie sich direkt bei Newsletter2Go registrieren. Dabei wird die Integration automatisch konfiguriert und nach Freischaltung Ihres Kontos können Sie sofort MailBeez über die Server von Newsletter2Go versenden lassen.
 
 
-###PHPMailer 5.2.1
+### SMTP (PHPMailer)
 
 Mit dieser Option können Sie MailBeez für den Versand über einen beliebigen SMTP Server konfigurieren.
 
