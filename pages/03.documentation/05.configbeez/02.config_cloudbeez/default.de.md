@@ -21,6 +21,6 @@ metadata:
 
 In diesem Modul kann die Integration mit dem apps.mailbeez.de Server konfiguriert werden - z.B. wichtig, damit gebuchte Tarife installiert und aktualisiert werden können.
 
-Den Api-Key finden Sie auf https://apps.mailbeez.de im Bereich "Übersicht". Dort entweder im Bereich "Tarife" oder "Domains" den passenden Eintrag öffnen und den API Key kopieren und hier einfügen.
+Den API-Key finden Sie auf https://apps.mailbeez.de im Bereich "Übersicht". Dort entweder im Bereich "Tarife" oder "Domains" den passenden Eintrag öffnen und den API-Key kopieren und hier einfügen.
  
-Wenn Sie einen Tarif nicht mehr nutzen wollen, empfiehlt es sich den API Key wieder zu löschen. Falls Sie lokale Zertifikate haben, werden diese dann wieder gültig.
+Wenn Sie einen Tarif nicht mehr nutzen wollen, empfiehlt es sich den API-Key wieder zu löschen. Falls Sie lokale Zertifikate haben, werden diese dann wieder gültig.
