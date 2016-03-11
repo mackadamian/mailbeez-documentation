@@ -38,29 +38,29 @@ metadata:
 #  last_modified: true
 ---
 
-Responsive Websites are in high demand, but what about responsive Email?
+Responsive websites are in high demand, but what about responsive emails?
 
 {{ page.find('/images').media['responsive.png'].html }}
 
 ##What are responsive Emails?
   
-Responsive Emails adopt to the screen size of the device. On a notebook they look like a "normal" Email, while on mobile devices the layout changes: Text is displayed larger, columns break into rows, buttons become bigger - delivering an improved user experience on small screens! 
+Responsive emails adapt to the screen size of the device on which they are being displayed. On a notebook, they look like a "normal" email, while on mobile devices the layout changes: text is displayed larger; columns break into rows; buttons become bigger - delivering an improved user experience on smaller device screens! 
 
 
 ## Did you know:
 
-- **more than 47% of email opens** are on **mobile devices**
-- **80% of people delete an email if it doesn't look good on their mobile device.**
-- Studies have fund that people look at their phones an **average of 150 times a day**. These brief interactions mean that you must focus on getting your point across quickly.
+- **more than 47% of email opens** happen on **mobile devices**
+- **80% of people deletes an email if it doesn't look good on their mobile device.**
+- Studies have found that people look at their phones an **average of 150 times a day**. These brief interactions mean that you must focus on getting your point across quickly.
 
-## Finally you can make your MailBeez Emails fully responsive!
+## You can make your MailBeez emails fully responsive!
 
-Supported with an intuitive, visual editor already giving your preview of different mobile devices it has never been easier to develop nice looking, responsive emails!
+With an intuitive, visual editor that gives you a preview of your email for different mobile devices, it has never been easier to develop great looking, responsive emails!
 
-Just upgrade your MailBeez System with the MailBeez Responsive Template Manager and you are ready to create emails that look great on your customers mobile Devices!   
+Just upgrade your MailBeez system with the MailBeez Responsive Template Manager and you're ready to create emails that look great on your customers mobile Devices!   
 [Read more about the Responsive Template Manager](/documentation/configbeez/config_tmplmngr)
 
-### devices supporting responsive emails
+### Devices supporting responsive emails
 
 **Currently 80% of the mobile devices are iPhone and iPad:**
 
@@ -92,4 +92,4 @@ Just upgrade your MailBeez System with the MailBeez Responsive Template Manager 
 
 <http://stylecampaign.com/blog/2012/10/responsive-email-support/>
 
-stats by [litmus](http://www.litmus.com) - an email testing and email marketing analytics company
+Stats by [litmus](http://www.litmus.com) - an email testing and email marketing analytics company
