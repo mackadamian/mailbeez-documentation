@@ -19,6 +19,25 @@ taxonomy:
  
 [TOC]
 
+## Template Structure
+
+MailBeez generates all Emails based on a common main template and a module body template. In this tutorial you can learn, how to edit the common main template.
+
+<div style="padding: 30px; border: 1px solid #c0c0c0; background-color: #E7F2FA; max-width: 50%; margin:auto" markdown="1">
+Common Main-Template
+<div style="padding: 30px; border: 1px solid #c0c0c0; background-color: #FFFFFF;" markdown="1">[Module specific template](/documentation/tutorials/setting-up-module-templates)
+<br>
+Placeholder `{$body}`
+<div style="padding: 30px; border: 1px solid #c0c0c0;" markdown="1">productlist template<br>
+Placeholder e.g. `{$list_engine.productlist}`
+</div>
+</div>
+</div>
+
+
+
+## Open common template for editing
+
 The visual editor comes with any Pro subscription and allows you to edit the common main template ( the "stationery" which any module prints its text on) in a compfortable and visual way.
 
 

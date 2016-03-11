@@ -18,6 +18,21 @@ taxonomy:
 
 [TOC]
 
+## Aufbau der Vorlagen
+
+Alle von MailBeez generierten Emails werden aus der gemeinsamen Haupt-Vorlage und Modul-Vorlagen zusammengesetzt. In diesem Tutorial wird beschrieben, wie die gemeinsame Haupt-Vorlage ("Briefpapier") bearbeitet werden kann.
+
+<div style="padding: 30px; border: 1px solid #c0c0c0; background-color: #E7F2FA; max-width: 50%; margin:auto" markdown="1">
+Gemeinsame Hauptvorlage
+<div style="padding: 30px; border: 1px solid #c0c0c0; background-color: #FFFFFF;" markdown="1">[Modul-spezifische Inhalts-Vorlage](/dokumentation/tutorials/anpassung-der-modul-vorlagen)
+Platzhalter `{$body}`
+<div style="padding: 30px; border: 1px solid #c0c0c0;" markdown="1">Produktlisten-Vorlage<br>
+Platzhalter z.B. `{$list_engine.productlist}`
+</div>
+</div>
+</div>
+
+## Gemeinsame Hauptvorlage zum Bearbeiten öffnen
 Alle Profi-Module enthalten den visuellen Editor, mit dem die gemeinsame Hauptvorlage (also das "Briefpapier" in welches die Module ihre Email-Texte einfügen) komfortabel und visuelle bearbeitet werden können.
 
 Die Hauptvorlage kann unter 
