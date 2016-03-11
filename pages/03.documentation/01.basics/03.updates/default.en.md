@@ -39,25 +39,25 @@ metadata:
 
 With Version 3.0 MailBeez contains a comfortable tool to keep your installation up to date!
 
-## Updating when you get a notification
+## Update after receiving notification
 
-The integrated version controll will give you a notification when there is a new Version. Please click on this notification and follow the steps of the update tool.
+The integrated version control will notify you when there is a new MailBeez version available. Please click on the notification and follow the steps in the update tool.
 
-The update tool is performing following steps
+The update tool will perform the following steps:
 1. Check server environment
 1. Download new version
 1. Check if all files are writable - this ensures that you won't get a "version mix" with old, not writable files
 1. Backup of /mailhive directory
-1. Writing new files (all core files will be overwritten)
+1. Write new files (all existing core files will be overwritten)
 
-Returning to the MailBeez admin you should see a notification.
+Upon returning to the MailBeez admin panel, you should see a new notification.
 
->>>>>>If you are facing issue with the Backup process not finishing please use your FTP Client to delete all files `appcache_` from the directory `/mailhive/common/templates_c`. With MailBeez Version 3.3.4 the cache is cleaned up automatically.
+>>>>>>If you are facing issues with the Backup process not finishing, please delete all files that begin `appcache_` from the directory `/mailhive/common/templates_c` on the server hosting your shopping-cart system. With MailBeez Version 3.3.4 the cache is cleaned up automatically.
 
 
 ## Update manually
 
-In some cases it will be necessary to open the update tool manually.
+In some cases, it will be necessary to update manually using the update tool.
 
 To do so please add
 
@@ -72,7 +72,9 @@ then follow the steps for updating the core system.
 
 ## Update using FTP
 
-The updater is just not doing what it should? You still can update the "Old-School" style using FTP:
+The updater is still not doing what it should? You can update "Old-School" style using FTP:
 
 Please
-[download the MailBeez Core System (.zip)](https://apps.mailbeez.com/api/public/v1/core/get), unzip on your computer and upload to your store server using FTP.
+[download the MailBeez Core System (.zip)](https://apps.mailbeez.com/api/public/v1/core/get), to your computer, then unzip. 
+
+Next, upload to the server hosting your shopping-cart using FTP.
