@@ -32,7 +32,7 @@ Whilst Mailbeez is a feature rich solution right out of the box, like any softwa
 
 **Easy adoption of your email templates**
   
-MailBeez generates Emails based on filebased templates which you can customize. There is a global main template defining header and footer content and content templates for each module.
+MailBeez generates emails based on filebased templates which you can customize. There is a global main template defining header and footer content and content templates for each module.
 
 [plugin:content-inject](/content_blocks/pro_template_manager)
 
@@ -43,18 +43,18 @@ MailBeez generates Emails based on filebased templates which you can customize. 
 - Google Analytics Integration – track MailBeez in GA
 - Activate / deactivate MailBeez
 - Secure Cronjob URL – Security Key generated
-- CC Emails to admin (configure number of emails per MailBeez module)
+- CC emails to admin (configure number of emails per MailBeez module)
 - check for updates online
 
 **The Modules**
 
 - Simple Design – based on class extension of mailbeez-class
 - Easy to customize
-- Templates for HTML and TXT Email
+- Templates for HTML and TXT emails
 - Common Frame-Template
 - Activate / deactivate MailBeez Modules
-- Preview HTML / TXT Email
-- Send Test Email
+- Preview HTML / TXT emails
+- Send test emails
 - List recipients (real time)
 - Run manually
 - Customers can opt-out (block) based on modules with a unified “unsubscribe link” in email footer
@@ -66,7 +66,7 @@ MailBeez generates Emails based on filebased templates which you can customize. 
 
 **Production Mode**
 
-- Tracking of sent Emails
+- Tracking of sent emails
 - Safe to restart sending – sent emails will be skipped
 
 **Technical**
