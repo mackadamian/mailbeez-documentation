@@ -31,22 +31,22 @@ metadata:
 
 ##### More Revenue – less work
 
-MailBeez gives you and your business the tools to create personalized, fully automated email campaigns, right from within your store’s existing admin interface.
+MailBeez gives you and your online shopping cart the tools to create personalized and fully automated email campaigns, right from your cart’s existing admin interface.
 
 ##### Easy Installation, rock-solid operation
 
-MailBeez is designed for easy installation, configuration and rock-solid operation. It works with read-only access to your existing shop-database tables and also maintains its own database tables, like for example, remembering which customer has already received a certain email.
+MailBeez is designed for easy installation, configuration and rock-solid operation. It works with read-only access to your existing shopping cart's database tables and also maintains its own database tables for things like remembering which customer has already received a certain email.
 
 **Not yet installed?** If you have not yet done so, please [install the MailBeez System.](/documentation/installation)
 
  
 ## Step 1: Learn All About MailBeez
 
->>>>>>Use the build-in tours to get guided around within the MailBeez system. You will find all available tours in the first tab.
+>>>>>>Use the built-in Guided Tours to get a quick feel for the MailBeez system. You will find all available tours in the first tab of the Mailbeez admin panel.
 
 #### The MailBeez Dashboard
 
-Once you install MailBeez, you will have a new Mailbeez link in your admin which you can use to navigate to your MailBeez Dashboard. Access this area and take a few moments to browse around.
+Once you have installed MailBeez, you get a new link added to your admin panel, which you'll then use to access your MailBeez Dashboard. Click the Mailbeez link, and take a few moments to browse around.
 
 
 ![MailBeez Admin](../Screen_Gambio_GX2_Administration.en.png)
@@ -54,22 +54,22 @@ Once you install MailBeez, you will have a new Mailbeez link in your admin which
 
 #### Mode Indicators
 
-By default MailBeez is placed in **Simulation Mode**, which is indicated by the orange “Simulation” button in the upper right corner of the interface and can be seen throughout the MailBeez interface. The mode is also clearly displayed in the MailBeez Dashboard with a big bold button. Clicking this button not only changes the mode you’re in, but it also changes the button accordingly, so you know from a quick glance at your MailBeez Dashboard which mode you’re in:
+By default, MailBeez starts in **Simulation Mode**, which is indicated by an orange button marked “Simulation” in the upper right corner of the dashboard view.  This button is visible throughout the MailBeez interface. The mode is also clearly visible in a widget section of the MailBeez main dashboard with a second larger button marked “Simulation”. Clicking either of these buttons not only changes the mode you’re in, but it also changes the button color accordingly. So that, with a quick glance, you can see which mode you’re in:
 
 
-When MailBeez is in Simulation Mode, you can freely play around with MailBeez and learn what you can edit, touch, and change with full confidence that your customers will not receive any emails as a result of your playing and testing.
+When MailBeez is in Simulation Mode, you can freely play around with MailBeez and tryout new configurations and test your ideas. You can do this with full confidence that your customers will not receive any emails as a result of your playing and testing actions.
 
 #### Navigation Tabs
 
-Across the top of the interface, you will see a number of tabs which group common functionality and settings:
+Across the top of the main interface, you will see a number of tabs which group common functionality and settings:
 
-- **Tour -** Start intactive guided Tours
-- **Home -** get a quick overview how MailBeez works for you
-- **MailBeez Modules -** This houses all of your MailBeez email modules. Go here to configure, test, and run these modules.
-- **Filter & Helper -** This houses all of your MailBeez filter & helper modules. Go here to configure, test, and run these modules.
-- **Reports -** All of your MailBeez reports are located in this tab. Go here to activate & view your MailBeez reports.
-- **Configuration -** Here you will find all of the configuration settings for the MailBeez framework, as well as extra configuration settings for various premium modules.
-- **About -** Here you will find information about MailBeez, links to rate MailBeez, view ratings, request a feature, and the domain information you will need when you purchase premium modules.
+- **Tour -** Start interactive guided Tours
+- **Home -** Get a quick overview how MailBeez works for you
+- **MailBeez Modules -** Find here all your MailBeez email modules. Go here to configure, test, and run these modules.
+- **Filter & Helper -** Find here all of your MailBeez filter & helper modules. Go here to configure, test, and run these modules.
+- **Reports -** Locate MailBeez reports in this tab. Go here to activate & view your reports.
+- **Configuration -** Adjsut configuration settings for the MailBeez framework, as well as activate extra configuration settings for premium modules.
+- **About -** Find information about MailBeez, links to rate MailBeez, view ratings, request a feature, and the domain information you will need when you purchase premium modules.
 
 #### Beez-O-Graph With MailBeez Analytics Data
 
@@ -97,9 +97,9 @@ When MailBeez is first installed, the widget will show you that the rate of your
 
 The Nopurchase-O-Meter is a powerful dashboard widget that lets you know how many customers with no prior purchases were converted into purchasing customers as a result of your Mailbeez Nopurchase email campaign. By default, it tracks & displays results for 30 days worth of data, but this number of days can be changed in the Nopurchase-O-Meter configuration settings.
 
-Additionally, you can set your conversion goals based on your industry standards, product demand, and customer conversion patterns. The number you enter into this configuration setting is the percentage of conversions you hope to achieve in relation to the number of Nopurchase emails sent. This setting has a direct impact on the behavior of the widget’s success measurement needle, so you’ll want to make this goal a reasonable one.
+Additionally, you can set your conversion goals based on your product demand, and customer conversion patterns. The number you enter into this configuration setting is the percentage of conversions you hope to achieve in relation to the number of Nopurchase emails sent. This setting has a direct impact on the behavior of the widget’s success measurement needle, so you’ll want to make this goal a reasonable one.
 
-When MailBeez is first installed, the widget will show you that your customer conversion rate is in the “orange zone”, because it doesn’t take into account any customer conversions that took place prior to installation. Once you start running your Nopurchase campaign and give it some time, you should see the needle start to rise so long as your conversion goal is reasonable. For example, if you set the percentage to 100, your widget will always be in the “orange zone” because this is a lofty and possibly unattainable goal. Start small and set your goals higher as the smaller ones are attained.
+When MailBeez is first installed, the widget will show you that your customer conversion rate is in the “orange zone”, because it doesn’t take into account any customer conversions that took place prior to installation. As with The Winback-O-Meter, once you start running your Nopurchase campaign and give it some time, you should see the needle start to rise so long as your conversion goal is reasonable. 
 
 #### The Loyalty-O-Graph
 
@@ -109,7 +109,7 @@ When MailBeez is first installed, this widget analyzes the database of orders fo
 
 #### The Google-Analytics-O-Pie
 
-**Tip:** You must have a Google Analytics account set up and have it activated & configured in MailBeez for this widget to function.
+**Note:** You must have a valid Google Analytics account, and it must be activated & configured in MailBeez for this widget to function.
 
 The Google-Analytics-O-Pie is a powerful widget that provides you with a visual report in the form of a pie chart of all the MailBeez activity data that Google Analytics tracks for you, such as site visits resulting from MailBeez email campaigns, revenue earned with MailBeez, and a breakdown of that revenue by module so that you can see which modules are working hardest for you! By default, it tracks & displays results for 30 days worth of data, but this number of days can be changed in the Google-Analytics\_O-Pie configuration settings.
 
@@ -118,11 +118,11 @@ When MailBeez is first installed, there won’t be a pie chart displayed by this
 
 
 ## Step 2: Send Your First Test Email
-
-1. Navigate to admin > MailBeez Interface > MailBeez Modules tab > Birthday Greetings
+From the MailBeez admin panel:
+1. Click on the MailBeez Modules tab > Birthday Greetings
 2. Click on the “Install” button
 1. This will bring up the Birthday Greetings module configuration panel.
-2. Go to “Activate Module”, click “True”, & click “Update” to turn the module on.
+2. Go to “Activate Module”, click “True”, and then click “Update” to turn the module on.
 
 The remaining configuration settings are fine for testing purposes.
 
