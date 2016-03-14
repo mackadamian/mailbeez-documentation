@@ -38,7 +38,7 @@ metadata:
 
 MailBeez works with Holbi TrueLoaded, running on PHP 5.2+
 
-The installation is straight forward and can be done in a couple of minutes by following these two steps:
+The installation is straight forward and can be done in a couple of minutes by following these three steps:
 
 - copy new files
 - modify existing files
@@ -46,7 +46,7 @@ The installation is straight forward and can be done in a couple of minutes by f
 
 ### Requirements
 
-You need to be able to upload new files to your TrueLoaded Shop and modify existing ones.
+You need to be able to upload new files to your TrueLoaded shopping cart system and modify existing ones.
 
 
 ## Step 1 – copy new files
@@ -54,14 +54,14 @@ You need to be able to upload new files to your TrueLoaded Shop and modify exist
 [plugin:content-inject](/content_blocks/download_installer)
 
 
-copy following file to your admin-directory
+In the mailbeez_installer-v3.xx fileset, navigate to catalog > admin, then copy the following file to your TrueLoaded admin-directory.
 
 ```bash
 mailbeez.php
 ```
 
 
-copy following file and folder to your catalog-directory (where your index.php is located)
+In the mailbeez_installer-v3.xx fileset, navigate to the catalog folder, then copy the following file and folder to your Trueloaded root directory (where your index.php is located).
 
 ```bash
 mailhive (folder)
@@ -73,7 +73,7 @@ mailhive.php
 
 ### Add a menu entry
 
-located and open the file
+In your Trueloaded shopping cart system files, locate and open the file:
 
 ```bash
 admin/includes/boxes/tools.php
@@ -87,7 +87,7 @@ tep_admin_files_boxes(FILENAME_WHOS_ONLINE, BOX_TOOLS_WHOS_ONLINE) .
 ```
 
 
-add in a new line
+add a new line with the following text:
 
 ```
  // mailbeez
