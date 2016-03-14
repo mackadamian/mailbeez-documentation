@@ -80,4 +80,4 @@ Mit der Zeit werden tausende von Gutscheinen generiert werden. Unter `MailBeez >
 
 Auf dem MailBeez Dashboard finden Sie eine Suchfunktion (ggf. unter `MailBeez > Konfiguration > Dashboard Konfiguration` nachinstallieren), mit der Sie schnell Gutscheine - oder auch Vorlagen-Gutscheine finden und dann zur Bearbeitung öffnen können.
 
->>>>>> Suche Sie nach **template_** um alle Vorlagen-Gutscheine zu finden und direkt zur Bearbeitung öffnen zu können
+>>>>>> Suchen Sie nach **template_**, um alle Vorlagen-Gutscheine zu finden und direkt zur Bearbeitung öffnen zu können
