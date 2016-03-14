@@ -22,7 +22,7 @@ taxonomy:
 ## Aufbau der Vorlagen
 Alle von MailBeez generierten Emails werden aus der gemeinsamen Haupt-Vorlage und Modul-Vorlagen zusammengesetzt. In diesem Tutorial wird beschrieben, wie die Vorlagen der Module bearbeitet werden können.
 
-<div style="padding: 30px; border: 1px solid #c0c0c0; background-color: #FFFFFF; width: 75%; max-width: 600px; margin:auto" markdown="1">
+<div style="padding: 30px; border: 1px solid #c0c0c0; background-color: #FFFFFF; width: 100%; max-width: 600px; margin:auto" markdown="1">
 [Gemeinsame Hauptvorlage](/dokumentation/tutorials/anpassung-der-hauptvorlage)
 <div style="padding: 30px; border: 1px solid #c0c0c0; background-color: #E7F2FA;" markdown="1">Modul-spezifische Inhalts-Vorlage<br>
 Platzhalter `{$body}`
