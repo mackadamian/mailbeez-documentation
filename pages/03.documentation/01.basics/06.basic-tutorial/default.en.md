@@ -31,7 +31,7 @@ metadata:
 
 ##### More Revenue – less work
 
-MailBeez gives you and your online shopping cart the tools to create personalized and fully automated email campaigns, right from your cart’s existing admin interface.
+MailBeez gives you and your online business the tools to create personalized and fully automated email campaigns, right from your store’s existing admin interface.
 
 ##### Easy Installation, rock-solid operation
 
@@ -54,7 +54,7 @@ Once you have installed MailBeez, you get a new link added to your admin panel, 
 
 #### Mode Indicators
 
-By default, MailBeez starts in **Simulation Mode**, which is indicated by an orange button marked “Simulation” in the upper right corner of the dashboard view.  This button is visible throughout the MailBeez interface. The mode is also clearly visible in a widget section of the MailBeez main dashboard with a second larger button marked “Simulation”. Clicking either of these buttons not only changes the mode you’re in, but it also changes the button color accordingly. So that, with a quick glance, you can see which mode you’re in:
+By default, MailBeez starts in **Simulation Mode**, which is indicated by an orange button marked “Simulation” in the upper right corner of the dashboard view.  This button is visible throughout the MailBeez interface. The mode is also clearly visible in a widget section of the MailBeez main dashboard with a second larger button marked. Clicking either of these buttons changes the mode to either "Production" or “Simulation”. Not only does this change the mode you’re in, but it also changes the button color accordingly. So that, with a quick glance, you can see which mode you’re in:
 
 
 When MailBeez is in Simulation Mode, you can freely play around with MailBeez and tryout new configurations and test your ideas. You can do this with full confidence that your customers will not receive any emails as a result of your playing and testing actions.
@@ -64,12 +64,12 @@ When MailBeez is in Simulation Mode, you can freely play around with MailBeez an
 Across the top of the main interface, you will see a number of tabs which group common functionality and settings:
 
 - **Tour -** Start interactive guided Tours
-- **Home -** Get a quick overview how MailBeez works for you
+- **Home -** Get a quick overview of how MailBeez works for you
 - **MailBeez Modules -** Find here all your MailBeez email modules. Go here to configure, test, and run these modules.
-- **Filter & Helper -** Find here all of your MailBeez filter & helper modules. Go here to configure, test, and run these modules.
-- **Reports -** Locate MailBeez reports in this tab. Go here to activate & view your reports.
+- **Filter & Helper -** Find here your MailBeez filter & helper modules. Go here to configure, test, and run these modules.
+- **Reports -** Locate your MailBeez reports in this tab. Go here to activate & view your reports.
 - **Configuration -** Adjsut configuration settings for the MailBeez framework, as well as activate extra configuration settings for premium modules.
-- **About -** Find information about MailBeez, links to rate MailBeez, view ratings, request a feature, and the domain information you will need when you purchase premium modules.
+- **About -** Find information about MailBeez, links to rate MailBeez, request a feature, and the domain information for premium modules.
 
 #### Beez-O-Graph With MailBeez Analytics Data
 
