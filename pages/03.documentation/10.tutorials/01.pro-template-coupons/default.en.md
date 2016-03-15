@@ -25,13 +25,13 @@ In this tutorial you will learn how to create template coupons and configure the
 
 ## Personalized Coupons
 
-The MailBeez [Coupon Generator](/documentation/configbeez/config_coupon_engine) is used as a sub-module of all MailBeez modules to generate and send personalized coupons.
+The MailBeez [Coupon Generator](/documentation/configbeez/config_coupon_engine) is a sub-module of all MailBeez coupon modules. It allows you to generate and send personalized coupons.
 
-As an example, we'll use the module [coupon: Birthday Greetings](/documentation/mailbeez/coupon_birthday) to go through the configuration steps. This procedure can be applied to all other MailBeez modules with a coupon function.
+We'll use the module [Birthday Greetings Coupon](/documentation/mailbeez/coupon_birthday) as an example, to show the configuration steps for setting up coupons. This procedure can be applied to all other MailBeez modules with a couponing function.
 
 ## How it works
 
-The MailBeez coupon generator generates new coupons based on a configured template. The generated coupon is a copy of the template coupon, but the **expiration date** and **coupon code** are generated individually. This ensures that every customer receives a personal coupon code that is only valid as long as the respective module (for example, "Coupon: Birthday Greetings") has been configured. 
+The MailBeez Coupon Generator generates new coupons based on a configured template. The generated coupon is a copy of the template coupon, but the **expiration date** and **coupon code** are generated individually. This ensures that every customer receives a unique coupon code that is only valid as long as has been configured in the respective module (for example, "Birthday Greetings Coupon"). 
 
 ## Creating a Template Coupon
 
@@ -41,23 +41,23 @@ From your shopping-cart's admin panel, navigate to the main configuration settin
 
 Then click on "New coupon".
 
-In the box **Coupon Code** (not name) enter the following: `template_birthday`.
+Find input field **Coupon Code** (not name), then enter the following: `template_birthday`.
 
 It is important that the **coupon code** starts with `template_` , as this identifies template couponsrs. Otherwise, the template's coupon will not be allocated in the following section.
 
-Configure the template coupon according to your wishes. For example, "10%" discount. Everything, except the expiration date, will be transferred to the coupon that's generated.
+Configure the template coupon according to your wishes by adding discount amount etc.. All info, except the expiration date, will be transferred to the coupon that's generated.
 
-Save from the promo. (Important: after one click, a page to verify the information is shown, then click again to confirm.)
+Now, save the coupon promo. (Important: after one click, a page to verify the information is shown, then click again to confirm.)
 
 ## Assigning the template coupon
 
 Make sure that the newly created template coupons can be seen in the coupon system of your shopping-cart.
 
-Navigate to `MailBeez > MailBeez Modules Switch > Coupon: Birthday` and click the **Edit** button at the top right side of the screen to open the Configuration view for this module. Further down the right side you will find a selection list, from which you can select the created template coupon.
+Navigate to `MailBeez > MailBeez Modules > Birthday Greetings Coupon` and click the **Edit** button at the top right side of the screen to open the Configuration view for this module. Further down the right side you will find a **Coupon Template** selection list, from which you can select the coupon template you just created.
 
-Save the configuration of the module.
+Now, save the configuration for this module.
 
-In the view of the right you see at the bottom that the templates coupon has been allocated.
+In the view of the right you see at the bottom that the template coupon has been activated.
 
 
 ## Find out more
