@@ -20,64 +20,64 @@ taxonomy:
 
 >>>>>> use the tour within MailBeez to see how it works in your Store
 
-In this tutorial you will learn how to create templates vouchers and configure the appropriate modules.
+In this tutorial you will learn how to create template coupons and configure the appropriate modules.
 
 
 ## Personalized Coupons
 
-The MailBeez [Coupon Generator](/documentation/configbeez/config_coupon_engine) is used as a sub-module of all MailBeez modules generate and send that personalized coupons.
+The MailBeez [Coupon Generator](/documentation/configbeez/config_coupon_engine) is a sub-module of all MailBeez coupon modules. It allows you to generate and send personalized coupons.
 
-As an example for the module [coupon: Birthday Congratulations](/documentation/mailbeez/coupon_birthday) we go the steps to configure through - this procedure can be applied to all other MailBeez modules with coupon function.
+We'll use the module [Birthday Greetings Coupon](/documentation/mailbeez/coupon_birthday) as an example, to show the configuration steps for setting up coupons. This procedure can be applied to all other MailBeez modules with a couponing function.
 
 ## How it works
 
-The MailBeez coupon generator generated based on a configured templates Coupons new vouchers. The generated certificate is a copy of the template voucher, but the  **expiration date** and **coupon code**  were generated individually. This ensures that every customer receives a personal coupon code that is only valid as long as the respective module (for example, "Voucher: Birthday congratulations") has been configured
+The MailBeez Coupon Generator generates new coupons based on a configured template. The generated coupon is a copy of the template coupon, but the **expiration date** and **coupon code** are generated individually. This ensures that every customer receives a unique coupon code that is only valid as long as has been configured in the respective module (for example, "Birthday Greetings Coupon"). 
 
-## Creating a Template voucher
+## Creating a Template Coupon
 
->>>>> Please ensure that the voucher system is activated (osCommerce: a [compatible coupon addon](/documentation/configbeez/config_coupon_engine) must be installed)
+>>>>> Please ensure that the coupon system is activated (osCommerce: a [compatible coupon addon](/documentation/configbeez/config_coupon_engine) must be installed)
 
-Navigate in the shop administration to the "vouchers".
+From your shopping-cart's admin panel, navigate to the main configuration settings for "coupons" or "vouchers".
 
-Then click on "New voucher".
+Then click on "New coupon".
 
-In the box **Coupon Code** (not name) enter the following: `template_birthday`.
+Find input field **Coupon Code** (not name), then enter the following: `template_birthday`.
 
-It is important that the  **coupon code** starts with `template_` , as this identifies templates vouchers. Otherwise, the templates Voucher not be allocated in the following section.
+It is important that the **coupon code** starts with `template_` , as this identifies template couponsrs. Otherwise, the template's coupon will not be allocated in the following section.
 
-Configure the templates voucher according to your wishes, for example, "10%" discount. Everything - except the expiration date - be transferred to the generated vouchers.
+Configure the template coupon according to your wishes by adding discount amount etc.. All info, except the expiration date, will be transferred to the coupon that's generated.
 
-Save from the promo. (Important: after 1 click a page to verify the information is shown, then click again there speichner)
+Now, save the coupon promo. (Important: after one click, a page to verify the information is shown, then click again to confirm.)
 
 ## Assigning the template coupon
 
-Make sure that the newly created templates coupons can be seen in the coupon system of your shop.
+Make sure that the newly created template coupons can be seen in the coupon system of your shopping-cart.
 
-then `MailBeez > MailBeez Modules Switch > Coupon: Birthday` and click there on the right side on top of the button **Edit** to open the Configuration view this module. Further down the right side you will find a selection list, from which you can select the created templates Voucher.
+Navigate to `MailBeez > MailBeez Modules > Birthday Greetings Coupon` and click the **Edit** button at the top right side of the screen to open the Configuration view for this module. Further down the right side you will find a **Coupon Template** selection list, from which you can select the coupon template you just created.
 
-Save the configuration of the module.
+Now, save the configuration for this module.
 
-In the view of the right you see at the bottom that the templates Voucher has been allocated.
+In the view of the right you see at the bottom that the template coupon has been activated.
 
 
 ## Find out more
 
 ### Testing the coupon generator
 
-You can test using the "Simulation" the generation of coupons. Ensure cause MailBeez in the "Simulation" is (upper right corner) and run the module "Certificate: Birthday congratulations" from - there are "real" emails generated, but they are all configuration of the simulation sends e-mail address and marked with **[SIM]** in the subject.
+You can test the generation of coupons using the "Simulation" mode. Ensure that MailBeez is in simulation mode by clicking the button in the upper right corner of the window. Now run the module "Birthday Greetings Coupon". There are "real" emails generated, but they are all configured and sent to the simulation e-mail address and marked with **[SIM]** in the subject.
 
-In coupon system you will find for each email a generated coupon. The simulation coupons are marked with **[SIM]** in the coupon code. These coupons are fully functional, that is, You can hereby make test orders.
+In the coupon system you will find for each email a generated coupon. The simulation coupons are marked with **[SIM]** in the coupon code. These coupons are fully functional, and you can now make test orders.
 
-### Deleting Simulation vouchers
+### Deleting Simulation coupons
 
-The scale in the simulation mode Vouchers can be deleted in the respective module with the structure appearing button. Alternatively you can use Generator the delete function in `MailBeez > Configuration > Certificate` .
+In simulation mode, coupons can be deleted in their respective modules with the structure appearing button. Alternatively, you can use the delete function in `MailBeez > Configuration > Certificate` .
 
 ### Deleting old Coupons
-Over time, thousands of coupons will be generated. Under `MailBeez > Configuration > Coupon Engine` contains a handy "cleanup" function to delete lapsed coupons.
+Over time, thousands of coupons will be generated. Under `MailBeez > Configuration > Coupon Engine` contains a handy "cleanup" function to delete expired coupons.
 
 
 ### Find vouchers
 
-On the MailBeez Dashboard you can find a search function (eventually you need to install on `MailBeez > Configuration > Dashboard Configuration` ) that lets you quickly Coupons - find templates or vouchers and then to open it for editing.
+On the MailBeez Dashboard you can find a search function (eventually you'll need to install on `MailBeez > Configuration > Dashboard Configuration` ) that lets you quickly find templates or coupons and then to open it for editing.
 
->>>>>> Search for **template_** to find all template Vouchers and open directly to the editor
+>>>>>> Search for **template_** to find all template coupons and open directly to the editor
