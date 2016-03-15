@@ -76,7 +76,7 @@ In simulation mode, coupons can be deleted in their respective modules with the 
 Over time, thousands of coupons will be generated. Under `MailBeez > Configuration > Coupon Engine` contains a handy "cleanup" function to delete expired coupons.
 
 
-### Find vouchers
+### Find coupons
 
 On the MailBeez Dashboard you can find a search function (eventually you'll need to install on `MailBeez > Configuration > Dashboard Configuration` ) that lets you quickly find templates or coupons and then to open it for editing.
 
