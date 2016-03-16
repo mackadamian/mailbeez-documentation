@@ -40,4 +40,4 @@ metadata:
 
 # MailBeez Modules
 
-You’re in the right place to start exploring the Mailbeez modules! Automated, intelligent and sat within your existing store admin, the Mailbeez suite of rich email modules gives you the tools to properly manage the [life cycle of your customer relationships](/documentation/tutorials/customer-life-cycle-management-and-how-mailbeez-can-help/ "Lifecycle management").
+You’re in the right place to start exploring the power of Mailbeez! Automated, intelligent, and integrated with your existing shopping-cart admin, the Mailbeez suite of rich email modules gives you the tools to properly manage the [life cycle of your customer relationships](/documentation/tutorials/customer-life-cycle-management-and-how-mailbeez-can-help/ "Lifecycle management").
