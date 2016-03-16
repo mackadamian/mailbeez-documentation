@@ -41,7 +41,7 @@ author:
     name: admin
 ---
 
-It does what it says it does:  It sends Birthday Greetings to your customers – each year – for free.
+It does what it says it does! It sends Birthday Greetings to your customers – each year – for free.
 
-To include a personalized generated Coupon with the Birthday Greetings with responsive Emails please choose the [Birthday Coupon Module](/documentation/mailbeez/coupon_birthday/ "The Mailbeez Birthday Coupon Module") as part of the matching Pro Subscriptions.
+To include a unique and personalized Coupon with a Birthday Greeting, sent through responsive design emails, please choose the [Birthday Coupon Module](/documentation/mailbeez/coupon_birthday/ "The Mailbeez Birthday Coupon Module") as part of the matching Pro Subscriptions.
 
