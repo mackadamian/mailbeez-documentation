@@ -51,7 +51,7 @@ metadata:
 
  
 
-This module adds gender information to all of your MailBeez email modules and allows you to email your customers on a gender specific basis, resulting in a higher degree of reader relevancy and making customers less likely to unsubscribe for receiving emails about products that don’t interest them.
+This module adds gender information to all of your MailBeez email modules. It allows you to email your customers based on gender, resulting in a higher degree of reader relevancy, in turn, making customers less likely to unsubscribe for receiving emails about products that don’t interest them.
 
 The module supports full gender recognition during testing & simulation to enable a full and complete test.
 
