@@ -44,7 +44,7 @@ metadata:
 ---
 
 
-**Please Note: This module is only compatible with Zen Cart, CRE Loaded B2B, xt:Commerce, xtc-Modified and Gambio GX .**
+**Please Note: This module is only compatible with Zen Cart, CRE Loaded B2B, xt:Commerce, xtc-Modified and Gambio GX systems.**
 
 If you sell to different customer groups, then the Customer Group Filter is for you! This handy module gives you complete control of your email sends, by allowing you to target specific customer groups to recieve your various Mailbeez campaigns.
 
