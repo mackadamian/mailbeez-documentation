@@ -44,9 +44,9 @@ metadata:
 ---
 
 
-**Please Note: This module is Zen Cart, CRE Loaded B2B, xt:Commerce, xtc-Modified and Gambio GX compliant only.**
+**Please Note: This module is only compatible with Zen Cart, CRE Loaded B2B, xt:Commerce, xtc-Modified and Gambio GX systems.**
 
-If you sell to different customer groups, then the Customer Group Filter is for you! This handy module gives you total email control by allowing you to choose which customer groups will receive your various Mailbeez campaigns.
+If you sell to different customer groups, then the Customer Group Filter is for you! This handy module gives you complete control of your email sends, by allowing you to target specific customer groups to recieve your various Mailbeez campaigns.
 
 ![zencart](Screen_zencart.png)
 Configuration in ZenCart
@@ -55,7 +55,7 @@ Configuration in ZenCart
 Configuration in Modified Shop
 
 
-Since different market sectors will almost certainly have individual marketing needs, splitting customers into groups is a great idea!
+Since different market sectors will almost certainly have individual marketing needs, segmenting customers into groups is a great idea!
 
 For example, you probably don’t want a wholesale customer to receive a product review request, or an end user customer to receive a product offer at the wholesale price.
 
