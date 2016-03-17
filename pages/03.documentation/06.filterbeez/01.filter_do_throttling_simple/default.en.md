@@ -46,12 +46,12 @@ metadata:
 
 **Control Your Email Send Rate**
 
->>>>>>We strongly recomment to [ configure Newsletter2Go as your  Email-Engine](/documentation/configbeez/config_email_engine). Then you don't have to worry about any sending limits.
+>>>>>>We strongly recommend to [ configure Newsletter2Go as your  Email-Engine](/documentation/configbeez/config_email_engine). Then you don't have to worry about any sending limits.
 
 
 
-Simple Throttling allows you to configure the **hourly rate** and **total number of emails** that MailBeez sends out. This is useful because many hosting companies place a limit on how many emails can be sent out at once and in total. Accounts exceeding those limits can trigger automatic spam alerts that hosting companies have in place to protect their servers.
+Simple Throttling allows you to configure the **hourly rate** and **total number of emails** that MailBeez sends . This is useful because many hosting companies place a limit on how many emails can be sent out at once and in total. Accounts exceeding these limits can trigger automatic spam alerts that hosting companies have in place to protect their servers.
 
-Simple Throttling keeps you in good standing with your hosting company and helps you ensure that your site is still responsive to visitors while the server fires off emails behind the scenes.
+Simple Throttling keeps you in good standing with your hosting service provider and helps you ensure that your site is still responsive to visitors while sending out emails behind the scenes.
 
 Just drop-in the module, activate it and configure the hourly rate and total number of emails to sent – done.
