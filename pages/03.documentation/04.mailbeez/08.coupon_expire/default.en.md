@@ -44,15 +44,15 @@ metadata:
     author: admin
 ---
 
-**Customer not used a store issued coupon yet? Never fear! Send them an automated coupon expiry reminder email with this handy Mailbeez module.**
+**Store issued coupons not used by customer yet? Never fear! Send them an automated coupon expiry reminder email with this handy Mailbeez module.**
 
-As we’re sure you know, whilst email has the highest Return on Investment of any eCommerce marketing strategy, your customer’s inbox is a seriously busy place. Therefore, if you want to maximize the opportunity for your coupon campaign to be viewed and used, it is a good idea to send them a timely coupon expiry reminder email; which is the reason this little Mailbeez module exists.
+As we’re sure you know, whilst email has the highest Return on Investment of any eCommerce marketing strategy, your customer’s inbox is a seriously busy place. Therefore, if you want to maximize the opportunity for your coupon campaign to be used, it is a good idea to send a timely expiration reminder email; which is the reason this little Mailbeez module exists.
 
 **Automated and intelligent**
 
-Like all Mailbeez modules, the Coupon Expiry Reminder bolt-on is fully automated, and once installed and styled, is a fit and forget addition that simply checks for any coupons that have not been used and that will expire in the configured time frame, and emails the qualifying customers accordingly.
+Like all Mailbeez modules, the Coupon Expiry Reminder is fully automated. Once installed and styled, it is a fit-and-forget functional addition that simply checks for any coupons that have yet to be used and that will expire within the configured time frame. It then sends a notification email to the identified customers accordingly.
 
-Mailbeez of course is one intelligent email system, so in case you are concerned that older customers with invalid coupons will be sent reminders, then you can rest easy; Mailbeez will only email customers with a valid coupon.
+Mailbeez is an intelligent email system, so in case you are concerned that previous customers with invalid coupons will be sent reminders, then you can rest easy; Mailbeez will only email customers with a valid coupon.
 
 [plugin:content-inject](/content_blocks/pro_responsive_template)
 
