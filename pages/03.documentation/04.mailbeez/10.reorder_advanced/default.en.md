@@ -45,13 +45,13 @@ metadata:
     author: admin
 ---
 
-**Say thanks to your customers, and send them a reorder coupon towards their next purchase with the Mailbeez Reorder Advanced module.**
+**Say thanks to your customers, and send them a reorder coupon for their next purchase, using the Mailbeez Reorder Advanced module.**
 
-Rewarding loyal customers with occasional offers is a great way to show your appreciation for their business, especially for online stores that exist in competitive environments where every order counts. The Mailbeez Reorder module gives you the tools to not only contact these customers a pre determined time after their initial order, but also allows you to set whether the offer is sent after their first, second, or even third order; which avoids providing the discount too early and unnecessarily hurting your margins.
+Rewarding loyal customers with occasional offers is a great way to show your appreciation for their business, especially for online stores that exist in competitive environments where every order counts. The Mailbeez Reorder module gives you the tools to not only contact these customers at a predetermined time after their initial order, but it also allows you to decide whether the offer is sent after their first, second, or even third order. This avoids providing the discount too early, and unnecessarily hurting your margins.
 
 **Using the 80/20 Rule to increase sales**
 
-It’s a well known business fact that 80% of your business will come from just 20% of your customer base. In reality, this means that there will only ever be certain bedrock customers that you can rely on to drive your business forward, and neglecting these key buyers could lead to an exponential drop in revenue and sales. For this all important group, Reorder Advanced is ideally suited, and can be configured to reward regular buyers for their loyalty – not customers who place one order and never return.
+It’s a well known business fact that 80% of your business will come from just 20% of your customer base. In reality, this means that there will only ever be a certain bedrock of customers that you can rely on to drive your business forward. Neglecting these key buyers could lead to an exponential drop in revenue and sales. For this all important group, Reorder Advanced is ideally suited, and can be configured to reward regular buyers for their loyalty – not customers who place one order and never return.
 
 
 **Intelligent activation**
