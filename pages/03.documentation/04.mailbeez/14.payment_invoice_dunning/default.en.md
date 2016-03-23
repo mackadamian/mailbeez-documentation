@@ -44,21 +44,21 @@ metadata:
 
 **The Mailbeez Invoice Dunning module is an incredibly powerful solution for stores that send out orders for clients on invoice terms, and one that drastically reduces store administration; allowing the business owner to focus on sales rather than admin.**
 
-In effect an intelligent and fully automated payment reminder system, the Invoice Dunning module can be configured to send emails to all open on account orders that are awaiting payment, with emails developing from friendly reminders, all the way through to debt collection.
+As an intelligent and fully automated payment reminder system, the Invoice Dunning module can be configured to send emails to all open account orders that are awaiting payment. Emails develop, naturally, from friendly reminders, all the way through to debt collection.
  
 
 **Easy configuration**
 
-For each step you can easily configure the email template, and the delay between steps, providing total control over the eco-system of emails.
+For each step, you can easily configure the email template, and the delay between steps, providing total control over the eco-system of emails.
 
 **Preparation:**
 
-To identify which orders are waiting for payment you simply need to configure your order status / payment modules as following:
+To identify which orders are waiting for payment, you simply need to configure your order status / payment modules as following:
 
 - You need to have an order status which identifies orders with open payment, e.g. “open payment of invoice”
 - All “invoice” payment orders need to be set to this status until you received the payment. You can choose the default order status in the payment module setting
 
-For automatic identification of orders with long overdue payments the module can assign an order status of “debt collection”
+For automatic identification of orders with long overdue payments, the module can assign an order status of “debt collection”
 
 
 [plugin:content-inject](/content_blocks/pro_responsive_template)
