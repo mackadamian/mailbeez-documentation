@@ -42,11 +42,11 @@ metadata:
     author: admin
 ---
 
-This handy module sends a custom notification email to the customer once an order is set to one ore more configured order status.
+This handy module sends a custom email notification to a customer once an order is set to one or more configured order status.
 
-Optionally you can configure the module to change the order status to a new status. The order comment, order status name and order status date can be inserted into the email using a template variable.
+Optionally, you can configure the module to change the order status to a new status. The order comment, order status name, and order status date can be inserted into the email using a template variable.
 
-The notification email is sent the next time MailBeez sends out emails - it is recommended to set up a cronjob running every minute to reduce the time delay between setting the order status and sending out the notification email. The MailBeez Support is happy to help you in case you have some questions.
+The notification email is sent out at the next batch MailBeez email send - it is recommended to set up a cronjob running every minute to reduce the time delay between setting the order status and sending out the notification email. The MailBeez Support is happy to help you in case you have some questions.
 
 Scenarios where this module can be applied:
 
