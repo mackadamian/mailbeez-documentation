@@ -42,28 +42,28 @@ metadata:
     author: admin
 ---
 
-**Get most out of your Trustpilot Subscription**
+**Get the most out of your Trustpilot Subscription**
 
-Trustpilot Unique Link Edition: [Trustpilot Advanced Unique Link Edition](/documentation/mailbeez/trustpilot_advanced_ul/)
+See the Trustpilot Unique Link Edition here: [Trustpilot Advanced Unique Link Edition](/documentation/mailbeez/trustpilot_advanced_ul/)
 
 ## Advanced Features
 
-compared to the free, basic module to ask your customers for a rating on Trustpilot by integrating with the Trustpilot Feedback Service, this advanced module gives you a couple of settings to streamline and improve your process of inviting customers to give a rating on Trustpilot:
+By integrating with the Trustpilot Feedback Service, this advanced module gives you a couple of settings to streamline and improve the process of inviting your customers to provide a rating on Trustpilot.
 
-## multiple order status
+## Multiple order status
 
-Do you have different order status marking orders as shipped! No problem, just check all orders status you want the module to react on
+Do you use different order status? No problem, you decide which orders status you want the module to react on.
 
-## delay times for international orders
+## Delay times for international orders
 
 Shipping to international customers typically takes a couple days longer. To avoid sending a rating invite before delivery, you can define an additional delay for orders shipping to other countries than your own!
 
-The module automatically applies this delay to all orders which are shipped to a country, which is different from the country you configured in your store system.
+The module automatically applies this delay to all orders which are shipped to a country, which is different from the home country you configured in your shopping-cart system.
 
-## recognition of regular customers
+## Recognition of regular customers
 
-Don't want to bother your regular customers with an Email to rate on Trustpilot? Simply define a delay (e.g. 120 days) between to invites and your are done. The module will check when the last invite was sent and decides whether to wait or to send a new rating invite.
+Don't want to bother your regular customers with an invite to rate on Trustpilot? Simply define a delay (e.g. 120 days) between two invites and you're done. The module will check when the last invite was sent and decide whether to wait or to send a new invite.
 
-### Want to integrated your valuable ratings with your Store and Email Marketing?
+### Want to integrate your valuable Trustpilot ratings with your marketing efforts?
 
-Using the [Trustpilot Integration Suite](/documentation/configbeez/config_trustpilot_rss_importer/) you can easily integrate your Trustpilot-Ratings with your Store - in a way that makes this "unique fresh content" visible to search engines - and your MailBeez generated Email Marketing emails!
+Using the [Trustpilot Integration Suite](/documentation/configbeez/config_trustpilot_rss_importer/), you can easily integrate your Trustpilot ratings with your online shopping-cart - in a way that makes this unique and "fresh" content visible to search engines - and your MailBeez generated marketing emails!
