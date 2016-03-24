@@ -42,24 +42,24 @@ metadata:
     author: admin
 ---
 
-**Get most out of your Idealo Subscription**
+**Get the most out of your Idealo Subscription**
 
 ## Advanced Features
 
-this advanced module gives you a couple of settings to streamline and improve your process of inviting customers to give a rating on Idealo:
+This advanced module gives you a couple of settings to streamline and improve the process of inviting customers to give you a rating on Idealo:
 
-## multiple order status
+## Multiple order status
 
-Do you have different order status marking orders as shipped! No problem, just check all orders status you want the module to react on
+Do you use different order status? No problem, you decide which order status you want the module to react on.
 
-## recognition of regular customers
+## Recognition of regular customers
 
-Don't want to bother your regular customers with an Email to rate on Idealo? Simply define a delay (e.g. 120 days) between to invites and your are done. The module will check when the last invite was sent and decides whether to wait or to send a new rating invite.
+Don't want to bother your regular customers with an invite to rate on Trustpilot? Simply define a delay (e.g. 120 days) between two invites and you're done. The module will check when the last invite was sent and decide whether to wait or to send a new invite.
 
-## responsive email template
+## Responsive email template
 
-the emails are shown perfectly also on mobile deviced
+The invitation emails are shown perfectly on all devices.. including mobile.
 
-### Want to integrated your valuable ratings with your Store and Email Marketing?
+### Want to integrate your valuable Trustpilot ratings with your marketing efforts?
 
-Using the [Idealo Integration Suite](/documentation/configbeez/config_idealo_rss_importer/) you can easily integrate your Idealo-Ratings with your Store - in a way that makes this "unique fresh content" visible to search engines - and your MailBeez generated Email Marketing emails!
+Using the [Idealo Integration Suite](/documentation/configbeez/config_idealo_rss_importer/), you can easily integrate your Trustpilot ratings with your online shopping-cart - in a way that makes this unique and "fresh" content visible to search engines - and your MailBeez generated marketing emails!
