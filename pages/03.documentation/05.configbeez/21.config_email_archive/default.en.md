@@ -44,20 +44,22 @@ author:
     name: admin
 ---
 
-Enhance your MailBeez system with the module "Email web-view and archive" with following features:
+Enhance your MailBeez system with the "Email web-view and archive" module:
 
 ## Web-View
 
-Use the new template variable
+In the main- or body of your email template, use the variable:
 
 ```
 <a href="{$webversion_url}">Web-View</a>
 ```
 
 
-in your common main- or body-template. The recipients click on this link and will be redirect to a website showing the web-version of the email.
+ When the recipients of the email clicks on this link, they will then be redirected to a web version of the email.
 
 ## Archive
 
-All Mailbeez generated emails will automatically get archived both in TXT and HTML format. The archived versions can be displayed easily and comfortable either going through the Beez-O-Graph or when working on a customer using the free [BeezDesk CRM Customer Insight](/documentation/configbeez/config_customer_insight/) add-on. Check which email a customer has received becomes a simple task.
+All Mailbeez generated emails will be automatically archived in both TXT and HTML format. The archived versions can be displayed easily by either the Beez-O-Graph or when working directly with a customer using the free [BeezDesk CRM Customer Insight](/documentation/configbeez/config_customer_insight/) add-on. 
+
+Checking which emails a customer has received has now become a very simple task!
 
