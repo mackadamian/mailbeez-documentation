@@ -52,30 +52,30 @@ metadata:
 #  last_modified: true
 ---
 
-The Mailbeez Newsletter module represents a completely new approach to an integrated eCommerce newsletter module, offering store owners exciting Mailbeez enhancements, and the ability to create personalized, intelligent email campaigns right from the store admin area.
+The Mailbeez Newsletter module represents a completely new approach to an integrated eCommerce newsletter function, offering store owners exciting new enhancements, and the ability to create personalized, intelligent email campaigns right from the shopping-cart's admin area.
 
 [plugin:content-inject](/content_blocks/pro_responsive_template)
 
-Sending an email newsletter from a vanilla install of any OScommerce variant system is a very unappetizing task, which is why there has, in recent years, been a proliferation of 3rd party email newsletter subscribers who have provided the tools most merchants wished their eCommerce store could provide. However, with the introduction of the Mailbeez Newsletter module, store owners finally have the tools to create email campaigns from their admin areas; campaigns that lack nothing in comparison to the offerings of feature rich 3rd party systems.
+Sending an email newsletter from a standard install of any system variant of OScommerce is a very unappetizing task, which is why there has, in recent years, been a proliferation of 3rd party email newsletter subscribers who have provided the tools that most merchants wished their online shopping-cart system could provide. With the introduction of the Mailbeez Newsletter module, store owners finally have the tools to create email campaigns directly from their admin panel; campaigns that match those of feature rich 3rd party systems.
 
-As a seamless integrated module the MailBeez Newsletter Advanced Module has direct access to customers and their newsletter subscription setting. That allows your to e.g. send a newsletter campaign to all your subscribed customers without exporting or importing any data!
+As a seamless integrated module, the MailBeez Newsletter Advanced Module has direct access to your customer's newsletter subscription setting. This allows you to send a newsletter campaign to all your subscribed customers without exporting or importing any data!
 
 [plugin:youtube](https://www.youtube.com/watch?v=Azs3fV7MD60)    
 
 
-The process of creating and editing newsletter is very easy: the intuitive visual editor allows you to create professional newsletters, which will show up best possible across different email clients. In combination with the [Responsive Template Manager](/documentation/configbeez/config_tmplmngr/) you will also be able to create mobil-friendly responsive newsletters which will look great e.g. on your customers iPhone.
+The process of creating and editing a newsletter is very easy: the intuitive visual editor allows you to create professional newsletters that display in the best possible manner across different email clients. In combination with the [Responsive Template Manager](/documentation/configbeez/config_tmplmngr/) you will also be able to create mobil-friendly responsive newsletters which will look great e.g. on your customers iPhone.
 
 
 
 #### Free choice of Email-Server
 
-The open and conversion rates of your bulk mailings are strongly depending on the sending email server. MailBeez allows you to either send the generated emails through your store-servers email function, a SMTP Server of your choice or the certfied email servers of our partner Newsletter2Go.
+The open and conversion rates of your bulk mailings are strongly dependent on the sending email server. MailBeez allows you to either send the generated emails through your shopping-cart's host server's email function, an SMTP server of your choice, or the certfied email servers of our partner Newsletter2Go.
 
 
 
-#### powerful segmentation rules
+#### Powerful segmentation rules
 
-Thanks to the seamless integration of MailBeez with your store system the newsletter advanced module has access to all existing data. The included segmentation engine allows you to build up customer segments based on purchase behaviour and other parameters (geographic, demographic) to personalize your bulk mailings!
+Thanks to the seamless integration of MailBeez with your shopping-cart system, the Newsletter Advanced module has access to all existing data. The built-in segmentation engine allows you to build customer segments based on purchase behaviour and other parameters, (geographic, demographic) to personalize your bulk mailings!
 
 The powerful segmentation rules allow you to create a virtually endless number of targeted newsletter campaigns:
 
@@ -104,14 +104,14 @@ The powerful segmentation rules allow you to create a virtually endless number o
 
 - segmentation: customer since x days, but less than y day
 
-**product recall / warning email**
+**Product recall / warning email**
 
 - segmentation: customers, who purchased product x, regardless of their newsletter subscription status
 
 
 ### Features
 
-**lists**
+**Lists**
 
 - create, edit and delete lists for recipients
 - unlimited number of lists
@@ -127,14 +127,14 @@ The powerful segmentation rules allow you to create a virtually endless number o
 - orders: max. number of orders, last order before / after date
 - configure countries to ignore customer subscription status for
 
-**campaigns**
+**Campaigns**
 
 - create, edit and delete campaigns
 - unlimited number of campaigns
 - a campaign can hold unlimited number of newsletters
 - assign default list for campaigns (can be overridden on newsletter level)
 
-**Newsletter**
+**Newsletters**
 
 - active from / to date
 - select list or you campaign default
@@ -144,17 +144,17 @@ The powerful segmentation rules allow you to create a virtually endless number o
 
 - utilising the MailBeez coupon engine
 - create coupon templates utilising all available options
-- automatically generated personalised coupons
+- automatically generate personalised coupons
 - configure the length and number of days being valid
 
-**reports**
+**Reports**
 
 - fully integrated with MailBeez Analytics and Google Analytics
 - analyse open, click, order
 
-### sending process
+### Sending process
 
-Newsletter can be sent either manually or automatically. With each run the sending process will send the number of emails you configured as "chunk size". So you need to run the sending process often enough until the complete list has been sent out.
+Newsletter can be sent either manually or automatically. With each run, the sending process will send the number of emails you configured as "chunk size". So you will need to run the sending process until the complete list has been sent.
 
 **Configuration example for automata sending:**
 
@@ -167,22 +167,22 @@ Set up a cronjob (e.g. all 5 minutes), which exclusively will work on the newsle
 chunk size:
 
  
-    100 Emails
+    100 emails
 
 
 Simple throttling (additional module):
 
  
-    3600 Emails per hour
+    3600 emails per hour
 
 
-Per run the sending process will send out 100 Emails, approx. 1 per Second. The Cronjob starts the sending process every 5 minutes (12 times per hour), so it will send out 1200 Emails per hours.
+The sending process will send out 100 emails per run, approx. one email per second. The Cronjob starts the sending process every 5 minutes (12 times per hour), so it will send out 1200 emails per hour.
 
-Depending on your mailserver you can increase the throughput or you need to increase it.
+Depending on your mailserver you can increase the sending throughput or you can decrease it.
 
-Thanks to throttling and limiting the number of emails sent per run (chunk size) you can stay within the limits given by your hoster or email server. Also this helps to reduce the risk of getting a spam rating.
+Thanks to throttling and limiting the number of emails sent per run (chunk size), you can stay within the limits given by your hosting service or email server. Also, this helps to reduce the risk of getting flagged as a spam sender.
 
-### recommendes modules
+### Recommended modules
 
 For best operations we recommend following modules, which will enhance the MailBeez platform. So all other MailBeez modules will be enhanced.
 
@@ -194,7 +194,7 @@ To create and send responsive Emails you need to install the Responsive Template
 
 - [Responsive Template Manager](/documentation/configbeez/config_tmplmngr/)
 
-### future developments
+### Future developments
 
 - additional Email-templates
 - additional content templates
