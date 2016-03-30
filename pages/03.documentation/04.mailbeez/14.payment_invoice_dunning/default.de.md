@@ -58,7 +58,7 @@ Für jeden Schritt kann ein eigene Email Vorlage erstellt werden und die Anzahl 
 Um Rechnungs-Bestellungen mit offener Zahlung im System erkennen zu können, müssen folgende Bestell-Status informationen vorliegen
 
 - Es muss einen Bestell-Status z.B. “offene Rechnung” geben
-- Alle Zahlarten vom typ “Kauf auf Rechnung” müssen diesen Status erhalten, wenn die Bestellung versendet wurde
+- Alle Zahlarten vom Typ “Kauf auf Rechnung” müssen diesen Status erhalten, wenn die Bestellung versendet wurde
 
 Für die Identifikation von Bestellungen, die ein Inkasso-Verfahren (manueller Vorgang) erfordern, muss es eine Bestellstatus z.B. “Inkasso” geben.
 

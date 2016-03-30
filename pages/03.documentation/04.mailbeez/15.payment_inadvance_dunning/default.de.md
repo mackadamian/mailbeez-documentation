@@ -59,7 +59,7 @@ Für jeden Schritt kann ein eigene Email Vorlage erstellt werden und die Anzahl 
 Um Vorkasse-Bestellungen mit offener Zahlung im System erkennen zu können, müssen folgende Bestell-Status informationen vorliegen
 
 - Es muss einen Bestell-Status z.B. “Wartet auf Zahlungseingang” geben
-- Alle Zahlarten vom typ “Vorkasse” müssen diesen Status als Standardstatus erhalten, wenn Bestellungen eingehen oder Bestellung nach Prüfung akzeptiert werden. Dies kann typisch bei der Zahlart eingestellt werden
+- Alle Zahlarten vom Typ “Vorkasse” müssen diesen Status als Standardstatus erhalten, wenn Bestellungen eingehen oder Bestellung nach Prüfung akzeptiert werden. Dies kann typisch bei der Zahlart eingestellt werden
 
 Für eine automatische Stornierung muss es eine Bestellstatus z.B. “storniert” geben.
 
