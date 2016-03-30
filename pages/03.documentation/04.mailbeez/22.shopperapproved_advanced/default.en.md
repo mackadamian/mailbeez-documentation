@@ -42,47 +42,47 @@ metadata:
     author: admin
 ---
 
-**Get most out of your Shopper Approved Plan**
+**Get the most out of your Shopper Approved plan**
 
-This module allows to invite your Customers to review your Store on Shoppperapproved.com - also you can go back in time to kickstart your reviews!
+This module allows you to invite your customers to review your Store on Shoppperapproved.com. You can even go back in time to kickstart your reviews!
 
 ## Advanced Features
 
-This advanced module gives you a couple of settings to streamline and improve your process of inviting customers to give a rating on Shopper Approved:
+This advanced module gives you a couple of settings to streamline and improve the process of inviting customers to give a review on Shopper Approved.
 
-## multiple order status
+## Multiple order status
 
-Do you have different order status marking orders as shipped! No problem, just check all orders status you want the module to react on
+Do you use different order status? No problem, you decide which order status you want the module to react on.
 
-## delay times for international orders
+## Delay times for international orders
 
-Shipping to international customers typically takes a couple days longer. To avoid sending a rating invite before delivery, you can define an additional delay for orders shipping to other countries than your own!
+Shipping to international customers typically takes a couple days longer. To avoid sending a review invite before delivery, you can define an additional delay for orders shipping to other countries than your own!
 
-The module automatically applies this delay to all orders which are shipped to a country, which is different from the country you configured in your store system.
+The module automatically applies this delay to all orders which are shipped to a country, which is different from the home country you configured in your shopping-cart system.
 
-## recognition of regular customers
+## Recognition of regular customers
 
-Don't want to bother your regular customers with an Email to rate on Shopper Approved? Simply define a delay (e.g. 120 days) between to invites and your are done. The module will check when the last invite was sent and decides whether to wait or to send a new rating invite.
+Don't want to bother your regular customers with an invite to review on Shopper Approved? Simply define a delay (e.g. 120 days) between two invites and you're done. The module will check when the last invite was sent and decide whether to wait or to send a new invite.
 
 ## Segmentation by number of orders
 
-Select how many Orders a customer must have place before the module invites for giving a rating!
+Select how many orders a customer must haved placed before the module invites them to give a review!
 
-### Want to integrated your valuable ratings with your Store and Email Marketing?
+### Want to integrate your valuable Shopper Approved ratings with your marketing efforts?
 
-Using the [Shopper Approved Integration Suite](/documentation/configbeez/config_shopperapproved_integration/) you can easily integrate your Reviews with your Store - in a way that makes this "unique fresh content" visible to search engines - and your MailBeez generated Email Marketing emails!
+Using the [Shopper Approved Integration Suite](/documentation/configbeez/config_shopperapproved_integration/) you can easily integrate your Shopper Approved reviews with your online shopping-cart - in a way that makes this unique and "fresh" content visible to search engines - and your MailBeez generated marketing emails!
 
-## Different Ways to invite - adoptable to your needs!
+### Different ways to invite 
 
-### Invite to initial Survey with pre-populated customer data
+Choose different ways to invite your customers to give reviews - all customizable to your needs! You can also create the initial invite with pre-populated customer data!
 
-## default review page
+## Default review page
 
 The default review page is template based and you can easily set up your own, customized template!
 
-### make any page a review page
+### Make any page a review page
 
-insert the following code on the page (e.g. `my-custom-page.php`) you want to direct the customers to place a review
+Insert the following code on the page (e.g. `my-custom-page.php`) where you want to direct the customers to place a review:
 
 ```
 if (isset($_GET['SA'])) {
@@ -94,7 +94,7 @@ if (isset($_GET['SA'])) {
 ```
 
 
-and adjust the invite link in your MailBeez Email template to e.g.
+...then adjust the invite link in your MailBeez email template to e.g.:
 
 `http://mydomain.com/my-custom-page.php?SA={$sa_invite_parameter_value}`
 
@@ -102,6 +102,6 @@ and adjust the invite link in your MailBeez Email template to e.g.
 
 Do you want to skip the initial survey? No Problem!
 
-Copy the link to full surveys from your shopper approved account into your MailBeez email template and replace `<order-id>` with `{$order_id}`
+Copy the link to the full survey from your Shopper Approved account into your MailBeez email template. Replace `<order-id>` with `{$order_id}`
 
-Now customers are directed to the full surver with pre-filled order id!
+Now customers are directed to the full survey with pre-filled order id!
