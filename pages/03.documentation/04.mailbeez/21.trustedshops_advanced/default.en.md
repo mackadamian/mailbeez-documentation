@@ -42,26 +42,26 @@ metadata:
     author: admin
 ---
 
-**Get most out of your Trustedshops Subscription**
+**Get the most out of your Trustedshops subscription**
 
 ## Advanced Features
 
-compared to the free, basic module to ask your customers for a rating on Trustedshops, this advanced module gives you a couple of settings to streamline and improve your process of inviting customers to give a rating on Trustedshops:
+This advanced module gives you a couple of settings to streamline and improve the process of inviting customers to provide a rating of your store on Trustedshops:
 
-## multiple order status
+## Multiple order status
 
-Do you have different order status marking orders as shipped! No problem, just check all orders status you want the module to react on
+Do you use different order status? No problem, you decide which order status you want the module to react on.
 
-## delay times for international orders
+## Delay times for international orders
 
-Shipping to international customers typically takes a couple days longer. To avoid sending a rating invite before delivery, you can define an additional delay for orders shipping to other countries than your own!
+Shipping to international customers typically takes a couple days longer. To avoid sending a rating invite before delivery, you can define an additional delay for orders shipping to countries other than your own!
 
-The module automatically applies this delay to all orders which are shipped to a country, which is different from the country you configured in your store system.
+The module automatically applies this delay to all orders which are shipped to a country, which is different from the home country you configured in your shopping-cart system.
 
-## recognition of regular customers
+## Recognition of regular customers
 
-Don't want to bother your regular customers with an Email to rate on Trustedshops? Simply define a delay (e.g. 120 days) between to invites and your are done. The module will check when the last invite was sent and decides whether to wait or to send a new rating invite.
+Don't want to bother your regular customers with an invite to rate on Trustpilot? Simply define a delay (e.g. 120 days) between two invites and you're done. The module will check when the last invite was sent and decide whether to wait or to send a new invite.
 
-### Want to integrated your valuable ratings with your Store and Email Marketing?
+### Want to integrate your valuable Trustedshop ratings with your marketing efforts?
 
-Using the [Trustedshops Integration Suite](/documentation/configbeez/config_trustedshops_rss_importer/) you can easily integrate your Trustedshops-Ratings with your Store - in a way that makes this "unique fresh content" visible to search engines - and your MailBeez generated Email Marketing emails!
+Using the [Trustedshops Integration Suite](/documentation/configbeez/config_trustedshops_rss_importer/) you can easily integrate your Trustedshops-Ratings with your shopping-cart - in a way that makes this "unique" and fresh content visible to search engines - and your MailBeez generated marketing emails!
