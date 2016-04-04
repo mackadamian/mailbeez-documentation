@@ -46,9 +46,9 @@ metadata:
 
 The Numinix Store Credit Balance Reminder module will periodically send a store credit balance reminder to your customers. 
 
-Once set-up, it will start sending a defined chunk of emails per run to customers with a defined minimum balance amount.
+Once set-up, it will send a defined block of emails, per run, to customers with a defined minimum balance amount.
 
-The module easily allows you to configure how often the balance statement will be sent out, with the time delay checked against the Review Reward Module which already contains the updated Balance; a nice feature that avoids spamming customers with too high a frequency of emails with similar content.
+The module easily allows you to configure how often the balance statement will be sent out. The delay time is checked against the Review Reward Module which already contains the updated Balance - a nice feature that avoids spamming customers with too high a frequency of emails with similar content.
 
 [plugin:content-inject](/content_blocks/pro_responsive_template)
 
