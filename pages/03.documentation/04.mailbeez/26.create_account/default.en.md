@@ -42,16 +42,16 @@ metadata:
     author: admin
 ---
 
-**A helpful module that sends out a welcome email a defined period of time after a customer has created an account.**
+**A helpful module that sends a Welcome email at a pre-defined time after a customer has created an account.**
 
-You might be thinking that this module simply doubles up on the email that your shopping cart system already sends when a customer creates an account. However, with some creative thinking, this secondary ‘welcome’ email can be used for some really interesting ideas, like providing additional store information, or to alert the customer to current special offers. With the rise on social commerce, this email could even be exclusively tailored to attract visitors to your Facebook or Twitter pages.
+You might be thinking that this module simply doubles up on the email that your shopping cart system already sends when a customer creates an account. However, with some creative thinking, this secondary ‘welcome’ email can be used for some really interesting ideas, like providing additional store information, or to alert the customer to current specials and offers. With the rise on social commerce, this email could even be tailored to attract visitors exclusively to your Facebook or Twitter pages.
 
 [plugin:content-inject](/content_blocks/pro_responsive_template)
 
 
 **Add gender for dynamic content**
 
-For stores that cater for both men and women, this second MailBeez generated email could actually be used for more advanced email processes, like providing differentiated content for male and female recipients, which would make use of the Mailbeez “[Add Gender](/documentation/filterbeez/filter_add_gender/ "Add Gender")” plugin.
+For stores that cater for both men and women, this second MailBeez generated email could actually be used for more advanced email processes, like providing differentiated content for male and female recipients - which would make use of the Mailbeez “[Add Gender](/documentation/filterbeez/filter_add_gender/ "Add Gender")” plugin.
 
 **Easy configuration**
 
