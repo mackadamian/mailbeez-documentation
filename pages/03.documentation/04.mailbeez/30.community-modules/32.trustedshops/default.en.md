@@ -44,6 +44,6 @@ metadata:
     author: admin
 ---
 
-This free module automatically asks your customers to rate your store on trustedshops. For professional application we recommend the [Trustedshops Advanced](/documentation/mailbeez/trustedshops_advanced) module which comes with any Pro Plan!
+This free module, when installed, automatically asks your customers to rate your store on the Trustedshops rating service. For professional application, we recommend the [Trustedshops Advanced](/documentation/mailbeez/trustedshops_advanced) module which comes with any Pro Plan!
 
 The [Trustedshops Integration Suite](/documentation/configbeez/config_trustedshops_rss_importer) allows you to integrate your valuable TrustedShops rating into your Store-Front (SEO!) and into MailBeez generated Emails!
