@@ -44,12 +44,12 @@ metadata:
     author: admin
 ---
 
-This MailBeez Module allows you to contact customers with an account but no purchase.
+This MailBeez Module allows you to contact customers who have an account, but no purchases.
 
 
 **Great for stores just starting out**
 
-Whilst Nopurchase Simple does not include the more advanced features of the [Nopurchase Advanced with Coupons](/documentation/mailbeez/nopurchase_advanced/ "Nopurchase Advanced"), a module we would recommend you upgrade to once you have tested Nopurchase Simple for a few days, nevertheless it will allow you to start automatically emailing customers without a purchase straight out of the box.
+Whilst Nopurchase Simple does not include the more advanced features of the [Nopurchase Advanced with Coupons](/documentation/mailbeez/nopurchase_advanced/ "Nopurchase Advanced") - a module we recommend you upgrade to once you've tested Nopurchase Simple for a few days - nevertheless it will allow you to start automatically emailing customers who have no purchases straight out of the box.
 
 **Easily installed and configured**
 
