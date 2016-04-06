@@ -44,14 +44,14 @@ metadata:
     author: admin
 ---
 
-This Module will offer your customers to share their reviews on Facebook.
+This module offers your customers the ability to share their reviews of your store and products on Facebook.
 
-The email contains a list of purchased products with
+The email contains a list of purchased products and includes:
 
-- Image
-- direct link to Facebook sharerer
+- image
+- direct link to Facebook sharer
 
-Like all MailBeez Moduls the email content is taken from a template, the list of products is defined in a sub-template.
+Like all MailBeez modules, the email content is generated from a template, and the list of products is defined in a sub-template.
 
-The Facebook Sharer link is pointing to the review-info page where the review defined by products_id and review_id is displayed. 
+The Facebook sharer link points to the review-info page, where the review defined by products_id and review_id is displayed. 
 Facebook should be able to extract the Review-Text from this page.
