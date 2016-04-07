@@ -44,10 +44,12 @@ metadata:
     author: admin
 ---
 
-This MailBeez Service Module optimizes your DataBase and sends you an Email with the result.
+To keep your orders database functioning smoothly, it is sometimes necessary to reclaim unused space and defragment the data for optimal performance. Optimizing the table can many times improve the performance of your database significantly.
 
-Intervals:
+This MailBeez service module optimizes your database and sends you an email with the results.
 
-- daily
-- weekly
-- monthly
+Can be at run at intervals:
+
+- Daily
+- Weekly
+- Monthly
