@@ -28,8 +28,8 @@ metadata:
     author: admin
 ---
 
-**more reviews on ShopVote.de.**
+**Get more reviews on ShopVote.de**
 
-This simple, free module allows you to ask your customers for a review on ideal.
+This simple, free module allows you to ask your customers for reviews on the German ecommerce rating service ShopVote.
 
 The [ShopVote.de Advanced Module](/documentation/mailbeez/shopvote_advanced/) allows you to works smarter, e.g. configure multiple order status, responsive emails and recognition repeated orders.
