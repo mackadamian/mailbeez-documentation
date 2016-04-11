@@ -28,8 +28,8 @@ metadata:
     author: admin
 ---
 
-**more reviews on idealo.**
+**Get more reviews on Idealo.**
 
-This simple, free module allows you to ask your customers for a review on ideal.
+This simple, free module allows you to ask your customers for reviews on Idealo price comparison and shopping sites.
 
 The [Idealo Advanced Module](/documentation/mailbeez/idealo_advanced/) allows you to works smarter, e.g. configure multiple order status, responsive emails and recognition repeated orders.

@@ -44,4 +44,4 @@ metadata:
     author: admin
 ---
 
-This simple, free module allows you to ask your customers for a review on the dutch Portal [The Feedback Company](https://www.feedbackcompany.nl/).
+This simple, free module allows you to ask your customers for a review within the Dutch review service [The Feedback Company](https://www.feedbackcompany.nl/).
