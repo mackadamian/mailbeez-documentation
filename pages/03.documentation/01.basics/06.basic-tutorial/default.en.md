@@ -27,13 +27,13 @@ metadata:
 
 [TOC]
 
-## Welcome to the Guide to Getting Started!
+## Welcome to Guide to Getting Started!
 
-##### More Revenue – less work
+##### More Revenue – Less Work
 
-MailBeez gives you and your online business the tools to create personalized and fully automated email campaigns, right from your store’s existing admin interface.
+MailBeez gives you and your online business the tools to create personalized and fully automated email campaigns, right from your store’s existing administration interface.
 
-##### Easy Installation, rock-solid operation
+##### Easy Installation, Rock-solid Operation
 
 MailBeez is designed for easy installation, configuration and rock-solid operation. It works with read-only access to your existing shopping cart's database tables and also maintains its own database tables for things like remembering which customer has already received a certain email.
 
@@ -46,7 +46,7 @@ MailBeez is designed for easy installation, configuration and rock-solid operati
 
 #### The MailBeez Dashboard
 
-Once you have installed MailBeez, you get a new link added to your admin panel, which you'll then use to access your MailBeez Dashboard. Click the Mailbeez link, and take a few moments to browse around.
+Once you've installed MailBeez, a new link is added to your admin panel, which you'll then use to access your MailBeez Dashboard. Click on the Mailbeez link to open the dashboard, and take a few moments to browse around.
 
 
 ![MailBeez Admin](../Screen_Gambio_GX2_Administration.en.png)
@@ -57,7 +57,7 @@ Once you have installed MailBeez, you get a new link added to your admin panel, 
 By default, MailBeez starts in **Simulation Mode**, which is indicated by an orange button marked “Simulation” in the upper right corner of the dashboard view.  This button is visible throughout the MailBeez interface. The mode is also clearly visible in a widget section of the MailBeez main dashboard with a second larger button marked. Clicking either of these buttons changes the mode to either "Production" or “Simulation”. Not only does this change the mode you’re in, but it also changes the button color accordingly. So that, with a quick glance, you can see which mode you’re in:
 
 
-When MailBeez is in Simulation Mode, you can freely play around with MailBeez and tryout new configurations and test your ideas. You can do this with full confidence that your customers will not receive any emails as a result of your playing and testing actions.
+When MailBeez is in Simulation Mode, you can freely play around with MailBeez settings and configurations to test your messaging and branding ideas. You can do this with full confidence that your customers will not receive any inadvertant emails as a result of these actions.
 
 #### Navigation Tabs
 
@@ -109,9 +109,9 @@ When MailBeez is first installed, this widget analyzes the database of orders fo
 
 #### The Google-Analytics-O-Pie
 
-**Note:** You must have a valid Google Analytics account, and it must be activated & configured in MailBeez for this widget to function.
+**Note:** You must have a valid Google Analytics account, and it must be activated and configured in MailBeez for this widget to function.
 
-The Google-Analytics-O-Pie is a powerful widget that provides you with a visual report in the form of a pie chart of all the MailBeez activity data that Google Analytics tracks for you, such as site visits resulting from MailBeez email campaigns, revenue earned with MailBeez, and a breakdown of that revenue by module so that you can see which modules are working hardest for you! By default, it tracks & displays results for 30 days worth of data, but this number of days can be changed in the Google-Analytics\_O-Pie configuration settings.
+The Google-Analytics-O-Pie is a powerful widget that provides you with a visual report in the form of a pie chart, of all the MailBeez activity data that Google Analytics tracks for you, such as site visits resulting from MailBeez email campaigns, revenue earned with MailBeez, and a breakdown of that revenue by module so that you can see which modules are working hardest for you! By default, it tracks & displays results for 30 days worth of data, but this number of days can be changed in the Google-Analytics\_O-Pie configuration settings.
 
 When MailBeez is first installed, there won’t be a pie chart displayed by this widget because there has been no data tracked and therefore nothing to display. Once you get your MailBeez email campaigns up and running, and configure your built-in Google Analytics settings to begin tracking MailBeez activities, this widget will be populated with data in no time at all!
 
@@ -237,7 +237,7 @@ MailBeez is in the process of creating step-by-step configuration tutorials for 
 
 #### Configure MailBeez
 
-In most cases the default configuration settings are sufficient for you to begin testing, however there are a couple settings which you’ll need to configure before you can begin testing, such as the “Send Copy to” and “Send Simulation to” email addresses.
+In most cases, the default configuration settings are sufficient for you to begin testing, however there are a couple settings which you’ll need to configure before you can begin testing, such as the “Send Copy to” and “Send Simulation to” email addresses.
 
 Configuration is easy with our step-by-step configuration tutorials! Begin with the Quick Start Configuration Tutorial to prepare your MailBeez installation for testing. When you’ve completed testing and are ready to go live, use our Comprehensive Configuration Tutorial to ensure all of your settings are as you want them before you switch over to Production Mode.
 
