@@ -162,7 +162,7 @@ The System will try to load the templates in following order:
 ```bash
 sharepage_<language>.tpl.html
 sharepage.tpl.html
-default_sharepage_<language.tpl.html
+default_sharepage_<language>.tpl.html
 default_sharepage.tpl.html
 
 ```
