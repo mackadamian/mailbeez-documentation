@@ -5,7 +5,8 @@ slug: config_email_engine
 routes:
     aliases:
         - /documentation/installation/config_queen/email-engine-configuration
-        
+        - /documentation/installation/config/config_email_engine
+
 # menu: Email Engine Configuration
 date: 26-03-2012
 published: true
