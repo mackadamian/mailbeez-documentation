@@ -4,13 +4,15 @@ title: Guide to Getting Started
 slug: guide-to-getting-started
 routes:
     aliases:
-        - /documentation/tutorials/guide-to-getting-started/
+        - /documentation/tutorials/guide-to-getting-started
+        - /documentation/basics/guide-to-getting-started
         
 date: 10-11-2010
 published: true
 publish_date: 10-11-2010
 template: tutorial
 visible: true
+hide_in_menu: true
 summary:
     enabled: true
     format: short
@@ -18,7 +20,6 @@ summary:
 taxonomy:
     migration_status: done
     category: [docs]
-    tag: [ce]
 author:
     name: admin
 metadata:
@@ -49,7 +50,7 @@ MailBeez is designed for easy installation, configuration and rock-solid operati
 Once you've installed MailBeez, a new link is added to your admin panel, which you'll then use to access your MailBeez Dashboard. Click on the Mailbeez link to open the dashboard, and take a few moments to browse around.
 
 
-![MailBeez Admin](../Screen_Gambio_GX2_Administration.en.png)
+![MailBeez Admin](../01.basics/Screen_Gambio_GX2_Administration.en.png)
 
 
 #### Mode Indicators
@@ -111,7 +112,7 @@ When MailBeez is first installed, this widget analyzes the database of orders fo
 
 **Note:** You must have a valid Google Analytics account, and it must be activated and configured in MailBeez for this widget to function.
 
-The Google-Analytics-O-Pie is a powerful widget that provides you with a visual report in the form of a pie chart, of all the MailBeez activity data that Google Analytics tracks for you, such as site visits resulting from MailBeez email campaigns, revenue earned with MailBeez, and a breakdown of that revenue by module so that you can see which modules are working hardest for you! By default, it tracks & displays results for 30 days worth of data, but this number of days can be changed in the Google-Analytics\_O-Pie configuration settings.
+The Google-Analytics-O-Pie is a powerful widget that provides you with a visual report in the form of a pie chart, of all the MailBeez activity data that Google Analytics tracks for you, such as site visits resulting from MailBeez email campaigns, revenue earned with MailBeez, and a breakdown of that revenue by module so that you can see which modules are working hardest for you! By default, it tracks & displays results for 30 days worth of data, but this number of days can be changed in the Google-Analytics'O-Pie configuration settings.
 
 When MailBeez is first installed, there won’t be a pie chart displayed by this widget because there has been no data tracked and therefore nothing to display. Once you get your MailBeez email campaigns up and running, and configure your built-in Google Analytics settings to begin tracking MailBeez activities, this widget will be populated with data in no time at all!
 
@@ -235,6 +236,8 @@ MailBeez is in the process of creating step-by-step configuration tutorials for 
 
 ## Next Steps
 
+<!--
+
 #### Configure MailBeez
 
 In most cases, the default configuration settings are sufficient for you to begin testing, however there are a couple settings which you’ll need to configure before you can begin testing, such as the “Send Copy to” and “Send Simulation to” email addresses.
@@ -243,6 +246,7 @@ Configuration is easy with our step-by-step configuration tutorials! Begin with 
 
 - [Quick Start Configuration Tutorial](/documentation/tutorials/mailbeez-quick-start-configuration-tutorial/)
 - [Comprehensive Configuration Tutorial](/documentation/tutorials/mailbeez-comprehensive-configuration-tutorial/)
+-->
 
 #### Run MailBeez Automatically
 

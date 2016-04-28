@@ -5,20 +5,21 @@ slug: schnelleinstieg
 routes:
     aliases:
         - /dokumentation/tutorials/schnelleinstieg
+        - /dokumentation/grundlagen/schnelleinstieg
         
 date: 10-11-2010
 published: true
 publish_date: 10-11-2010
 template: tutorial
 visible: true
+hide_in_menu: true
 summary:
     enabled: true
     format: short
     size: 128
 taxonomy:
     migration_status: done
-    category: [docs]
-    tag: [ce]
+    category: [docs]    
 author:
     name: admin
 metadata:
@@ -49,7 +50,7 @@ MailBeez ist für einfachste Installation, Konfiguration und stabilen Betrieb en
 
 Nach der Installation finden Sie im Menü der Shop-Administration einen Link “MailBeez” – hierüber gelangen Sie zur MailBeez Administration. Nehmen Sie sich einen Augenblick Zeit und sehen Sie sich um.
 
-![MailBeez Admin](../Screen_Gambio_GX2_Administration.de.png)
+![MailBeez Admin](../01.basics/Screen_Gambio_GX2_Administration.de.png)
 
 
 #### Betriebsart Anzeige
@@ -229,8 +230,14 @@ Von hier aus können Sie direkt auf die Module klicken und gelangen dann zur ent
 
 
  
-
 ## Weitere Schritte
+
+#### MailBeez konfigurieren
+In den meisten Fällen ist die Standard-Konfiguration ausreichend, um erste Tests durchführen zu können. Es gibt jedoch einige Einstellungen, die Sie vornehmen sollten, bevor Sie mit dem Testen anfangen, z.B. die Angabe der “Sende Kopie an” und “Sende Simulation an” Email Adressen.
+
+Sehe Sie sich im System um und probieren Sie alle aus. So lange sich MailBeez im Simulations-Modus befindet, werde
+
+<!--
 
 #### MailBeez konfigurieren
 
@@ -241,13 +248,14 @@ Die Konfiguration geht mit unserer Schritt-für-Schritt Anleitung schnell von de
 - [MailBeez Konfiguration einfach](/dokumentation/tutorials/mailbeez-konfiguration-einfach/)
 - [MailBeez Konfiguration ausführlich](/dokumentation/tutorials/mailbeez-konfiguration-ausfuehrlich/)
 
+-->
 #### MailBeez automatisieren
 
-MailBeez kann rein manuell betrieben werden, also durch das tägliche Ausführen aller Module – was wohl schnell langweilig werden wird. Daher ist es besser, eine sogenannten “Cronjob” zu installieren, damit MailBeez automatisch täglich durchläuft. Wenn das Wort “Cronjob” wie der Namen einen Stadt in China klingt, dann empfiehlt sich das Modul “MailBeez automatisch ausführen”. Dieses Modul ist schnell und einfach zu installieren und eine gute Lösung für die meisten MailBeez User.
+MailBeez kann rein manuell betrieben werden, also durch das tägliche Ausführen aller Module – was wohl schnell langweilig werden wird. Daher ist es besser, einen sogenannten “Cronjob” zu installieren, damit MailBeez automatisch täglich durchläuft. Wenn das Wort “Cronjob” wie der Namen einen Stadt in China klingt, dann empfiehlt sich das Modul “MailBeez automatisch ausführen”. Dieses Modul ist schnell und einfach zu installieren und eine gute Lösung für die meisten MailBeez User.
 
-- [Installieren Sie das kostengünstige Modul “MailBeez automatisch ausführen](/dokumentation/configbeez/config_cron_simple/)
+- [Modul "MailBeez automatisch ausführen"](/dokumentation/configbeez/config_cron_simple/)
 
-Einfach downloaden, installieren und die Zeit zwischen den Ausführungen auf z.B. “12″ Stunden setzen – dann wird MailBeez zweimal täglich durchlaufen und neue Emails versenden.
+Einfach als Bestandteil aller Profi-Tarife installieren und die Zeit zwischen den Ausführungen auf z.B. “12″ Stunden setzen – dann wird MailBeez zweimal täglich durchlaufen und neue Emails versenden.
 
 #### In den Produktionsmodus wechseln
 
