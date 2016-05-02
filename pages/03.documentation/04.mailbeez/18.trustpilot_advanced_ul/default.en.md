@@ -32,8 +32,7 @@ module:
     cert: 'true'
     price: '99 EUR'
     title_en: 'Trustpilot Advanced Unique Links'
-    teaser_en: 'Unique Links and Advanced Features: Delay for international orders, multiple o
-    rder status, recognition of regular customers'
+    teaser_en: 'Unique Links and Advanced Features: Delay for international orders, multiple order status, recognition of regular customers'
     title_de: 'Trustpilot Profi Unique Links Version'
     teaser_de: 'Unique Links und Profi-Features: Verzögerung für internationale Bestellungen, Stammkunden-Erkennung und mehr'
     author: MailBeez.com
