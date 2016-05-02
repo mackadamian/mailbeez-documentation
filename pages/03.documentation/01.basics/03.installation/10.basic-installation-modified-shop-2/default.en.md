@@ -35,6 +35,8 @@ metadata:
 #  last_modified: true
 ---
 
+>>>>> The pre-integration of MailBeez didn't made it into Modified-Shop V2.0.0.0 - but it is planed for the next update. Until then please download <http://mailbeez-support.com/cloudfiles/modified-shop-2.00r6510-delta.zip> unzipp and merge with the  Modified-Shop V2.0.0.0 files.
+
 MailBeez is pre-integrated with **Modified-Shop V2.x** - please activate the MailBeez module through the store administration interface.
 
 
