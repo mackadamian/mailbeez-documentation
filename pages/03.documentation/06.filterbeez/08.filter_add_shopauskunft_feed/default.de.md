@@ -44,11 +44,11 @@ metadata:
 
 Fügen Sie Ihre wertvollen Shopauskunft Bewertungen automatisch in Ihre MailBeez Email Kampagnen ein – hervorragend geeignet, um z.B. die Emails zur [Kundenrückgewinnung](/dokumentation/mailbeez/winback_advanced) und [Kunden ohne Kauf](/dokumentation/mailbeez/nopurchase_advanced) aufzuwerten.
 
-Dieses Hilfsmodule ist Teil der [Shopauskunft Integration Suite](/dkcumentation/configbeez/config_shopauskunft_rss_importer/?lang=de "Shopauskunft Integration Suite").
+Dieses Hilfsmodule ist Teil der [Shopauskunft Integration Suite](/dokumentation/configbeez/config_shopauskunft_rss_importer/ "Shopauskunft Integration Suite").
 
 ### Installation
 
-Modul installieren und aktivieren – vorher die [Shopauskunft Integration Suite](/dkcumentation/configbeez/config_shopauskunft_rss_importer/?lang=de "Shopauskunft Integration Suite") konfigurieren und testen.
+Modul installieren und aktivieren – vorher die [Shopauskunft Integration Suite](/dokumentation/configbeez/config_shopauskunft_rss_importer/ "Shopauskunft Integration Suite") konfigurieren und testen.
 
 Mit folgenden Platzhaltern können Sie die konfigurierte Anzahl an Bewertungen in von MailBeez generierten Emails einfügen. Die Platzhalter können an jeder beliebigen Stellen in den MailBeez Vorlagen eingefügt werden. Sollen die Bewertungen in allen Emails sichtbar sein, am besten die Platzhalter direkt in die Hauptvorlage einfügen
 

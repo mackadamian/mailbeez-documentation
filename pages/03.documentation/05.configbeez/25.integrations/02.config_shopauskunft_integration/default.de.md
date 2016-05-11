@@ -70,15 +70,11 @@ Die wichtigsten Funktionen im Überblick:
 
 - Vorlagenbasierte Darstellung der Bewertungen
 - Caching des Shopauskunft Bewertungs Feed für schnelle Ladezeiten
-- Unbeschränkte Anzahl von Vorlagen zur Integration an verschieden Stellen, eine Vorlage für Email Integration.
+- Unbeschränkte Anzahl von Vorlagen zur Integration an verschiedenen Stellen, eine Vorlage für Email Integration.
 - Auswahl der anzuzeigenden Bewertungen, z.B. “Mindestens 4 Sterne”
 - Zufällige oder chronologische Auflistung der Bewertungen
-- Einfachste “Drop-In” installation
 - Einfachster Funktionsaufruf für die Einbindung der Ausgabe in den Onlineshop
 
-und natürlich:
-
-- Handhabung der Zusatzdaten des Shopauskunft Bewertungs Feeds – zeitraubende Anpassungen entfallen damit
 
 ### Anwendung
 

@@ -61,16 +61,16 @@ Basierend auf 100% anpassbaren Vorlagen können Sie z.B. 5-Sterne Bewertungen an
 
 Da die Bewertungen direkt in das HTML des Shops eingefügt werden, haben diesen einen positiven SEO Effekt – alle Bewertungen können somit von Suchmaschinen erfasst werden.
 
-Durch die nahtlose Integration mit den MailBeez Email Kampagnen können Sie auf einfachste Weise z.B. in Emails zur [Kunden Rückgewinnung](/documentation/mailbeez/winback_advanced/ "Winback Advanced") oder auch beim [Kontakt von Kunden ohne Bestellung](/documentation/mailbeez/nopurchase_advanced/ "No Purchase Advanced") Ihre positive Bewertungen herausstellen und somit das Kaufverhalten positiv beeinflussen.
+Durch die nahtlose Integration mit den MailBeez Email Kampagnen können Sie auf einfachste Weise z.B. in Emails zur [Kunden Rückgewinnung](/dokumentation/mailbeez/winback_advanced/ "Winback Advanced") oder auch beim [Kontakt von Kunden ohne Bestellung](/dokumentation/mailbeez/nopurchase_advanced/ "No Purchase Advanced") Ihre positive Bewertungen herausstellen und somit das Kaufverhalten positiv beeinflussen.
 
 Die wichtigsten Funktionen im Überblick:
 
-- Caching des Trustpilot Bewertunge Feed für schnelle Ladezeiten
+- Caching des Trustpilot Bewertunges-Feed für schnelle Ladezeiten
 - Vorlagenbasierte Darstellung der Bewertungen
-- Unbeschränkte Anzahl von Vorlagen zur Integration an verschieden Stellen, eine Vorlage für Email Integration.
+- Unbeschränkte Anzahl von Vorlagen zur Integration an verschiedenen Stellen, eine Vorlage für Email Integration.
 - Auswahl der anzuzeigenden Bewertungen, z.B. “Mindestens 4 Sterne”
 - Zufällige oder chronologische Auflistung der Bewertungen
-- Einfachste “Drop-In” installatoin
+- Einfachste “Drop-In” Installation
 - Einfachster Funktionsaufruf für die Einbindung der Ausgabe in den Onlineshop
 
 und natürlich:
@@ -147,7 +147,7 @@ Die mitgelieferte DIV/CSS basierende Vorlagee `rss_reviewpage.tpl` liefert folge
 Standard Vorlage für Trustpilot Bewertungen
 
 
-Mit dem Anlegen und Anpassen verschiedener eigener Vorlagen, z.B. `rss_shoppingcart.tpl` für eine zufällige Bewertunge im Einkaufwagen – können die Trustpilot Bewertungen sehr flexibel eingebunden werden.
+Mit dem Anlegen und Anpassen verschiedener eigener Vorlagen, z.B. `rss_shoppingcart.tpl` für eine zufällige Bewertung im Einkaufwagen – können die Trustpilot Bewertungen sehr flexibel eingebunden werden.
 
 **Einbindung der Trustpilot Bewertungen in MailBeez Kampagnen:**  
  Mit dem leichten Einfügen eines einfachen Platzhalters in MailBeez Vorlagen können Trustpilot Bewertungen in alle oder ausgewählten von MailBeez generierten Emails angezeigt werden. Mehr hierzu auf der Seite zum Hilfsmodule [Trustpilot Bewertungen in Emails](/dokumentation/filterbeez/filter_add_trustpilot_rss/ "Trustpilot Bewertungen in Emails").

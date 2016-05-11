@@ -61,12 +61,12 @@ Basierend auf 100% anpassbaren Vorlagen können Sie z.B. 5-Sterne Bewertungen an
 
 Da die Bewertungen direkt in das HTML des Shops eingefügt werden, haben diesen einen positiven SEO Effekt – alle Bewertungen können somit von Suchmaschinen erfasst werden.
 
-Durch die nahtlose Integration mit den MailBeez Email Kampagnen können Sie auf einfachste Weise z.B. in Emails zur [Kunden Rückgewinnung](/documentation/mailbeez/winback_advanced/ "Winback Advanced") oder auch beim [Kontakt von Kunden ohne Bestellung](/documentation/mailbeez/nopurchase_advanced/ "No Purchase Advanced") Ihre positive Bewertungen herausstellen und somit das Kaufverhalten positiv beeinflussen.
+Durch die nahtlose Integration mit den MailBeez Email Kampagnen können Sie auf einfachste Weise z.B. in Emails zur [Kunden Rückgewinnung](/dokumentation/mailbeez/winback_advanced/ "Winback Advanced") oder auch beim [Kontakt von Kunden ohne Bestellung](/dokumentation/mailbeez/nopurchase_advanced/ "No Purchase Advanced") Ihre positive Bewertungen herausstellen und somit das Kaufverhalten positiv beeinflussen.
 
 Die wichtigsten Funktionen im Überblick:
 - Caching des Trustedshops Bewertungs Feed für schnelle Ladezeiten
 - Vorlagenbasierte Darstellung der Bewertungen
-- Unbeschränkte Anzahl von Vorlagen zur Integration an verschieden Stellen, eine Vorlage für Email Integration.
+- Unbeschränkte Anzahl von Vorlagen zur Integration an verschiedenen Stellen, eine Vorlage für Email Integration.
 - Auswahl der anzuzeigenden Bewertungen, z.B. “Mindestens 4 Sterne”
 - Zufällige oder chronologische Auflistung der Bewertungen
 - Einfachste “Drop-In” installation
@@ -154,7 +154,7 @@ Die mitgelieferte DIV/CSS basierende Vorlage `rss_reviewpage.tpl` liefert folgen
 ![](Screen_trustedshops_rss_contact_us_gbo.png "trustedshops_rss_email")
  
 
-Mit dem Anlegen und Anpassen verschiedener eigener Vorlagen, z.B. `rss_shoppingcart.tpl` für eine zufällige Bewertunge im Einkaufswagen – können die Trustedshops Bewertungen sehr flexibel eingebunden werden.
+Mit dem Anlegen und Anpassen verschiedener eigener Vorlagen, z.B. `rss_shoppingcart.tpl` für eine zufällige Bewertung im Einkaufswagen – können die Trustedshops Bewertungen sehr flexibel eingebunden werden.
 
 ###Einbindung der Trustedshops Bewertungen in MailBeez Kampagnen  
  Mit dem Einfügen eines einfachen Platzhalters in MailBeez Vorlagen können Trustedshops Bewertungen leicht in alle oder ausgewählten von MailBeez generierten Emails angezeigt werden.
