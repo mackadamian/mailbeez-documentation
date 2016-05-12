@@ -115,7 +115,7 @@ Mit dem Anlegen und Anpassen verschiedener eigener Vorlagen, z.B. “feed\_shopp
 
 **osCommerce, ZenCart, CRE Loaded**
 
-**** Um z.B. die Shopauskunft Bewertungen in der “Kontakt” Seite des Shopsystems einzubinden, bitte folgenden Code in die seite “contact\_us.php” einfügen:
+Um z.B. die Shopauskunft Bewertungen in der “Kontakt” Seite des Shopsystems einzubinden, bitte folgenden Code in die seite “contact\_us.php” einfügen:
 
 ```php
 //include class
