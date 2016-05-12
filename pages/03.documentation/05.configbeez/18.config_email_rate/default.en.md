@@ -2,6 +2,9 @@
 # http://learn.getgrav.org/content/headers
 title: Email-Rating
 slug: config_email_rate
+routes:
+    aliases:
+        - /documentation/installation/config/config_email_rate
 published: true
 template: docs
 # theme: false
