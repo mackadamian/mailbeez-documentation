@@ -2,6 +2,9 @@
 # http://learn.getgrav.org/content/headers
 title: Editor Konfiguration
 slug: config_editor
+routes:
+    aliases:
+        - /dokumentation/installation/config/config_editor
 template: docs
 # theme: false
 visible: true
