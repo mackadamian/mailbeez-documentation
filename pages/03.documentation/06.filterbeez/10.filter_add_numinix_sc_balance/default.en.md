@@ -43,7 +43,7 @@ metadata:
 
 **Display Store Credit Balance in Emails**
 
-Developed in Cooperation with Numinix, the inventor of the popular [Numinix Store Credit module](http://www.numinix.com/zen-cart-modules/taxes-order-totals/store-credit-and-rewards-points "Numinix Store Credit Module")
+Developed in Cooperation with Numinix, the inventor of the popular [Numinix Store Credit module](https://www.numinix.com/plugins/zen-cart-plugins/taxes-order-totals/store-credit-and-reward-dollars?referral_code=888671548  "Numinix Store Credit Module")
 
 
 Delivered with the [Numinix Store Credit Balance Reminder email module](/documentation/mailbeez/numinix_sc_balance_reminder/), this filter allows you to easily display a customer’s current store credit balance in any MailBeez generated email by adding a simple tag to your email templates.

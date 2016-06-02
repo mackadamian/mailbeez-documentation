@@ -1,12 +1,9 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: ShopVote.de Profi
-slug: shopvote_advanced
-# menu: ShopVote.de Profi
-date:  02-11-2015
+title: Shopauskunft.de Profi
+slug: shopauskunft_advanced
+# menu: Shopauskunft.de Profi
 published: true
-publish_date:  02-11-2015
-# unpublish_date: 15-04-2015
 template: docs
 # theme: false
 visible: true
@@ -20,16 +17,16 @@ taxonomy:
     tag: [pro]
     
 module:
-    code: 'shopvote_advanced'
+    code: 'shopauskunft_advanced'
     category: [mailbeez]
     compatiblity: [comp_osc,comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]
     thumbnail: 'http://www.mailbeez.com/wp-content/uploads/downloads/thumbnails/2013/06/top_64.png'
     pro: 'pro'
     cert: 'true'
     price: '99 EUR'
-    title_en: 'ShopVote.de Advanced'
+    title_en: 'Shopauskunft.de Advanced'
     teaser_en: 'Advanced Features: Delay for international orders, multiple Order status, recognition of regular customers'
-    title_de: 'ShopVote.de Profi'
+    title_de: 'Shopauskunft.de Profi'
     teaser_de: 'Profi-Features: Verzögerung für internationale Bestellungen, Stammkunden-Erkennung und mehr'
     author: 'MailBeez.com'    
 # added collection selector
@@ -39,18 +36,10 @@ author:
 metadata:
     author: admin
 #      description: Your page description goes here
-#      keywords: HTML, CSS, XML, JavaScript
-#      robots: noindex, nofollow
-#      og:
-#          title: The Rock
-#          type: video.movie
-#          url: http://www.imdb.com/title/tt0117500/
-#          image: http://ia.media-imdb.com/images/rock.jpg
-#  cache_enable: false
-#  last_modified: true
+
 ---
 
-**Optimieren Sie Ihre ShopVote.de Partnerschaft**
+**Optimieren Sie Ihre Shopauskunft.de Partnerschaft**
 
 ## Profi-Funktionen
 
@@ -74,9 +63,7 @@ Das Modul wird dann automatisch prüfen, ob bereits eine neuen Einladung versend
 
 [plugin:content-inject](/content_blocks/pro_responsive_template)
 
-<!--
 
 ### Wollen Sie Ihre wertvollen Bewertungen mit Shop und Email-Marketing integrieren?
 
-Mit der [ShopVote.de Integration Suite](/dokumentation/configbeez/config_shopvote_rss_importer/) können Sie schnell und einfach ShopVote.de-Bewertungen serverseitig in Ihren Shop (positiver SEO Effekt durch "unique fresh content") und auch in alle von MailBeez generieren Email Marketing Emails integrieren
--->
+Mit der [Shopauskunft.de Integration Suite](/dokumentation/configbeez/config_shopauskunft_rss_importer/) können Sie schnell und einfach Shopauskunft.de-Bewertungen serverseitig in Ihren Shop (positiver SEO Effekt durch "unique fresh content") und auch in alle von MailBeez generieren Email Marketing Emails integrieren. Zudem können sich Sich dann auch bei Ihren Kunden für die Abgabe einer Bewertung bedanken - natürlich voll automatisch mit dem Modul [Shopauskunft: Gutschein für Bewertungen](/dokumentation/mailbeez/coupon_review_shopauskunft/)

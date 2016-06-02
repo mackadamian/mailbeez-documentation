@@ -73,3 +73,4 @@ Sie brauchen also nie wieder Vorlagen Dateien per FTP downloaden, lokal abspeich
 
 Der visuelle Editor bietet eine Reihe direkt zugänglicher Funktionen, um die HTML & TXT Version der Email zu bearbeiten und zu testen.
 
+>>>>>Standardmässig wird automatisch eine Text-Version aus der HTML-Vorlage generiert. Eigene in den Modulen definierte TXT-Inhalte werden nur übernommen, wenn auch eine eigene TXT-Hauptvorlage erstellt worden ist.

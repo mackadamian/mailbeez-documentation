@@ -1,6 +1,6 @@
 ---
-title: 'ShopVote.de Advanced'
-slug: shopvote_advanced
+title: 'Shopauskunft.de Advanced'
+slug: shopauskunft_advanced
 date:  02-11-2015
 published: true
 publish_date: 02-11-2015
@@ -17,7 +17,7 @@ taxonomy:
     tag:
         - pro
 module:
-    code: shopvote_advanced
+    code: shopauskunft_advanced
     category:
         - mailbeez
     compatiblity:
@@ -31,9 +31,9 @@ module:
     pro: pro
     cert: 'true'
     price: '99 EUR'
-    title_en: 'ShopVote.de Advanced'
+    title_en: 'Shopauskunft.de Advanced'
     teaser_en: 'Advanced Features: Delay for international orders, multiple Order status, recognition of regular customers'
-    title_de: 'ShopVote.de Profi'
+    title_de: 'Shopauskunft.de Profi'
     teaser_de: 'Profi-Features: Verzögerung für internationale Bestellungen, Stammkunden-Erkennung und mehr'
     author: MailBeez.com
 author:
@@ -42,15 +42,16 @@ metadata:
     author: admin
 ---
 
-**Get most out of your ShopVote.de Subscription**
+**Get most out of your Shopauskunft.de Subscription**
 
 ## Advanced Features
 
-this advanced module gives you a couple of settings to streamline and improve your process of inviting customers to give a rating on ShopVote.de:
+this advanced module gives you a couple of settings to streamline and improve your process of inviting customers to give a rating on Shopauskunft.de:
 
 ## multiple order status
 
 Do you have different order status marking orders as shipped! No problem, just check all orders status you want the module to react on
+
 
 ## Delay times for international orders
 
@@ -60,7 +61,7 @@ The module automatically applies this delay to all orders which are shipped to a
 
 ## recognition of regular customers
 
-Don't want to bother your regular customers with an Email to rate on ShopVote.de? Simply define a delay (e.g. 120 days) between to invites and your are done. The module will check when the last invite was sent and decides whether to wait or to send a new rating invite.
+Don't want to bother your regular customers with an Email to rate on Shopauskunft.de? Simply define a delay (e.g. 120 days) between to invites and your are done. The module will check when the last invite was sent and decides whether to wait or to send a new rating invite.
 
 ## responsive email template
 
@@ -71,5 +72,5 @@ the emails are shown perfectly also on mobile deviced
 
 ### Want to integrated your valuable ratings with your Store and Email Marketing?
 
-Using the [ShopVote.de Integration Suite](/documentation/configbeez/config_shopvote_rss_importer/) you can easily integrate your ShopVote.de-Ratings with your Store - in a way that makes this "unique fresh content" visible to search engines - and your MailBeez generated Email Marketing emails!
+Using the [Shopauskunft.de Integration Suite](/documentation/configbeez/config_shopauskunftrss_importer/) you can easily integrate your Shopauskunft.de-Ratings with your Store - in a way that makes this "unique fresh content" visible to search engines - and your MailBeez generated Email Marketing emails!
 -->

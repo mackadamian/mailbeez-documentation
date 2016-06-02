@@ -64,3 +64,4 @@ Say goodbye to downloading template files, editing & saving them on your local d
 The editor provides embedded buttons for previewing the html & txt versions of the email, as well as allowing you to directly send a test email; all of which makes fast editing very easy:  
   
   
+>>>>>By default the system automatically generates a TXT version from the HTML templates. If you want to customize the txt version for a module you also need to create a custom txt version for the main template.

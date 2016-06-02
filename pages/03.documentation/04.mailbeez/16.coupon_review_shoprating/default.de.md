@@ -42,7 +42,7 @@ metadata:
 #  last_modified: true
 ---
 
-Dieses Modul arbeitet mit dem [Mailbeez Shopbewertungs System](/dokumentation/configbeez/config_shopvoting/ ).
+Dieses Modul arbeitet mit dem [Mailbeez Shopbewertungs System](/dokumentation/configbeez/config_shopvoting/) zusammen.
 
 **Bedanken Sie sich beim Kunden für das Abgeben von Shop-Bewertungen**
 

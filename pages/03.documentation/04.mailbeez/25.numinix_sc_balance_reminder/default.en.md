@@ -41,7 +41,7 @@ metadata:
     author: admin
 ---
 
-**Developed in Cooperation with Numinix, the inventor of the popular [Numinix Store Credit module](http://www.numinix.com/zen-cart-modules/taxes-order-totals/store-credit-and-rewards-points)**
+**Developed in Cooperation with Numinix, the inventor of the popular [Numinix Store Credit module](https://www.numinix.com/plugins/zen-cart-plugins/taxes-order-totals/store-credit-and-reward-dollars?referral_code=888671548 )**
 
 
 The Numinix Store Credit Balance Reminder module will periodically send a store credit balance reminder to your customers. 
@@ -56,7 +56,7 @@ The module easily allows you to configure how often the balance statement will b
 **Requirements:**
 
 - Zen Cart e-commerce platform
-- The [Numinix Store Credit & Reward Points addon](http://www.numinix.com/zen-cart-modules/taxes-order-totals/store-credit-and-rewards-points) for Zen Cart
+- The [Numinix Store Credit & Reward Points addon](https://www.numinix.com/plugins/zen-cart-plugins/taxes-order-totals/store-credit-and-reward-dollars?referral_code=888671548 ) for Zen Cart
 
 **Included**
 

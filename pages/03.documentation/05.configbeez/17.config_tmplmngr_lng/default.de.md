@@ -90,3 +90,5 @@ Die mehrsprachige Vorlagen Verwaltung bietet integrierte Funktionen für die Vor
 ##Plugin-Entwicklung
 Haben Sie selbst eine Anpassung entwickelt, um die Sprache des Kunden im Shop zu speichern?  
  Bitte [MailBeez kontaktieren](/about/contact/ "Kontakt") um mehr zu erfahren.
+
+

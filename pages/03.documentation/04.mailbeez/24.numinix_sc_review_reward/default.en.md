@@ -40,7 +40,7 @@ metadata:
     author: admin
 ---
 
-**Developed in Cooperation with Numinix, the inventor of the popular [Numinix Store Credit module](http://www.numinix.com/zen-cart-modules/taxes-order-totals/store-credit-and-rewards-points)**
+**Developed in Cooperation with Numinix, the inventor of the popular [Numinix Store Credit module](https://www.numinix.com/plugins/zen-cart-plugins/taxes-order-totals/store-credit-and-reward-dollars?referral_code=888671548)**
 
 
 The Numinix Store Credit Review Rewards module will automatically assign, and then email notification of reward points to your customers after they write one or more approved product reviews. 
@@ -56,7 +56,7 @@ You can, of course, define the amount to reward per review. But only one reward 
 **Requirements:**
 
 - Zen Cart e-commerce platform
-- The [Numinix Store Credit & Reward Points addon](http://www.numinix.com/zen-cart-modules/taxes-order-totals/store-credit-and-rewards-points) for Zen Cart
+- The [Numinix Store Credit & Reward Points addon](https://www.numinix.com/plugins/zen-cart-plugins/taxes-order-totals/store-credit-and-reward-dollars?referral_code=888671548) for Zen Cart
 
 
 **Like this? You might also like…**
