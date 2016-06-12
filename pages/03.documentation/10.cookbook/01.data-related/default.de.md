@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Daten Grundlagen
+title: Daten Grundlagen Rezepte
 #menu: Beez-O-Graph
 slug: daten-grundlagen
 date: 17-02-2016

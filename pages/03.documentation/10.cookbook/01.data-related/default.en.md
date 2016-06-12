@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: data related
+title: data related recipes
 #menu: Beez-O-Graph
 slug: data-related
 date: 17-02-2016

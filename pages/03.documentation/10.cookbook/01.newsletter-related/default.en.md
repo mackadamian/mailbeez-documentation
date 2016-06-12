@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Newsletter related
+title: newsletter recipes
 date: 17-02-2016
 published: true
 publish_date: 17-02-2016

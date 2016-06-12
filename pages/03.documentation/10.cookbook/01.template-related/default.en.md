@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: email templates
+title: email template recipes
 #menu: Beez-O-Graph
 date: 17-02-2016
 published: true

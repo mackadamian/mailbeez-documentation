@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Email Vorlagen
+title: Email Vorlagen Rezepte
 #menu: Beez-O-Graph
 slug: email-vorlagen
 date: 17-02-2016

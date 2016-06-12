@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Newsletter
+title: Newsletter Rezepte
 #menu: Beez-O-Graph
 slug: newsletter-rezepte
 published: true
