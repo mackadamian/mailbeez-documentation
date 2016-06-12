@@ -1,6 +1,11 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: newsletter recipes
+title: Coupon Recipes
+
+routes:
+    aliases:
+        - /documentation/cookbook/newsletter-related
+
 date: 17-02-2016
 published: true
 publish_date: 17-02-2016
@@ -56,7 +61,8 @@ You have created a list which finds the latest newsletter subscribers.
 
 ####Create a welcome newsletter
 
->>>>> Please create a template coupon before performing the next steps - you can use the built-in tour in `MailBeez > Tour` (1. Tab) to get a step-by-step explaination how to create this template-coupon
+[plugin:content-inject](/content_blocks/pro_template_coupon_setup)
+
 
 1. Navigate to MailBeez Newsletter Module `MailBeez > MailBeez Modules > Newsletter Advanced` 
 1. On the right hand site click on button  `Edit Campaigns`

@@ -1,8 +1,14 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: Newsletter Rezepte
+title: Gutschein Rezepte
 #menu: Beez-O-Graph
-slug: newsletter-rezepte
+slug: gutschein-rezepte
+
+routes:
+    aliases:
+        - /dokumentation/kochbuch/newsletter-rezepte
+
+
 published: true
 template: tutorial
 # theme: false
@@ -55,7 +61,8 @@ Sie haben somit eine Liste erstellt, welche aktuelle Newsletter-Subscriber liefe
 
 ####Erstellen eines Willkommens-Newsletters
 
->>>>> Bitte vorher einen Vorlagen-Gutschein mit den gewünschten Werten anlegen - nutzen Sie ggf. die entsprechende Tour unter `MailBeez > Tour` (1. Tab)
+[plugin:content-inject](/content_blocks/pro_template_coupon_setup)
+
 
 1. Navigieren Sie zum MailBeez Newsletter Modul `MailBeez > MailBeez Module > Newsletter Profi`
 1. Klicken Sie rechts im Abschnitt `Erstellen und Bearbeiten Sie Ihre Kampagnen` auf den Button `Kampagnen bearbeiten`
@@ -112,7 +119,7 @@ Sie haben somit eine Liste erstellt, welche die Käufer des Produktes `Geschenk 
 
 ####Erstellen der Geschenk-Gutschein Email
 
->>>>> Bitte vorher einen Vorlagen-Gutschein mit den gewünschten Werten anlegen - nutzen Sie ggf. die entsprechende Tour unter `MailBeez > Tour` (1. Tab)
+[plugin:content-inject](/content_blocks/pro_template_coupon_setup)
 
 1. Navigieren Sie zum MailBeez Newsletter Modul `MailBeez > MailBeez Module > Newsletter Profi`
 1. Klicken Sie rechts im Abschnitt `Erstellen und Bearbeiten Sie Ihre Kampagnen` auf den Button `Kampagnen bearbeiten`
