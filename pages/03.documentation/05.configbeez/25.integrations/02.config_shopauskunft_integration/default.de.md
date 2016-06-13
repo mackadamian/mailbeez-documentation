@@ -81,7 +81,15 @@ Die wichtigsten Funktionen im Überblick:
 Modul installieren und Konfigurieren – den API Feed konfigurieren wie im Adminbereich des Moduls beschrieben.  
  Mit der integrierten Test-Funktion kann der API Feed komfortabel getestet werden.
 
-### Integration der Bewertungen in den Shop:
+Das MailBeez System liest über die API-Schnittstelle von Shopauskunft.de automatisiert die Bewertungs-Daten ein. Diese Daten können dann frei gestaltbar mit wenigen Zeilen Code in das Shop-Frontend eingefügt werden. Dabei sind mehrere Darstellungen möglich, so dass Sie z.B. an besonders Conversion-kritischen Punkten stets aktuelle Bewertungen darstellen können. Zugleich sind die Bewertungen durch die serverseitige Integration auch für Google & Co. sichtbar und liefern als “unique fresh content” einen positiven SEO-Betrag.
+
+
+Und weil die Bewertungen ja schon mal im MailBeez System vorhanden sind, können diese natürlich auch in alle von MailBeez generierten Emails, z.B. zur [Rückgewinnung von Alt-Kunden](/dokumentation/mailbeez/winback_advanced), automatisiert und dynamisch [eingefügt werden](/dokumentation/filterbeez/filter_add_shopauskunft_feed).
+
+
+
+
+#### Integration der Bewertungen in den Shop:
 
 
 **Gambio, Modified-Shop, xt:Commerce**
@@ -132,7 +140,13 @@ Mit dem Anlegen und Anpassen verschiedener eigener Vorlagen, z.B. “feed\_shopp
 
 
 
-**Einbindung der Shopauskunft Bewertungen in MailBeez Kampagnen:**
+####Einbindung der Shopauskunft Bewertungen in MailBeez Kampagnen
 
 Mit dem leichten Einfügen eines einfachen Platzhalters in MailBeez Vorlagen können Shopauskunft Bewertungen in alle oder ausgewählten von MailBeez generierten Emails angezeigt werden.  
  Mehr Information hierzu finden Sie auf [Shopauskunft Bewertungen in MailBeez Emails integrieren](/dokumentation/filterbeez/filter_add_shopauskunft_feed)
+ 
+####Gutschein nach Bewertung
+  
+Die Integration kann noch mehr: Anhand der übermittelten Bestell-Nr. kann MailBeez feststellen, welcher Kunde eine Bewertung abgegeben hat - und kann dann automatisiert einen frei konfigurierbaren Gutschein als Dank für die entstandenen Mühen an den Kunden senden!
+
+Mehr Informationen hierzu finden Sie auf [Gutschein nach Bewertung](/dokumentation/mailbeez/coupon_review_shopauskunft)

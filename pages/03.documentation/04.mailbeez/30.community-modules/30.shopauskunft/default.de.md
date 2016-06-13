@@ -44,12 +44,30 @@ metadata:
     author: admin
 ---
 
-Bewertungs Email-Modul für Deutschlands größtes Online-Shop-Bewertungsportal.
-Die [Shopauskunft Integration Suite](http://grav-local.de/dokumentation/configbeez/config_shopauskunft_integration) ist Bestandteil der Profi-Tarife.
+**Bewertungs Email-Modul für Deutschlands großes Online-Shop-Bewertungsportal Shopauskunft.de.**
 
+###Kostenlos und automatisiert mehr Bewertungen auf Shopauskunft.de
 
-[<img src="http://www.shopauskunft.de/res/sa_siegel_rand_170x_20b_c0f.jpg" style="float:right">](http://www.shopauskunft.de/retailer_process.html)
-### Das Qualitäts-Siegel für Kundenvertrauen  
+Mit diesem kostenlosen Community (CE) Modul “Shopauskunft” können Sie basierend auf einem Bestell-Status Ihre Kunden um die Abgabe einer Bewertung bei Shopauskunft.de bitten - Dabei ist konfigurierbar, welche Informationen neben der Bestell-Nr. über den individuell generierten Bewertungs-Link an Shopauskunft.de übermittelt wird.
+
+Und natürlich können Sie leicht konfigurieren, wie viele Tage nach Bestellung diese Email versendet werden soll und wie weit in die Vergangenheit Sie Ihre Kunden um Bewertung bitten möchten. Somit können Sie sowohl laufend Ihre neue Kunden aber auch Ihre Bestandskunden aus der Vergangenheit erreichen.
+
+Die Email ist mit Hilfe von Vorlagen [frei gestaltbar](/dokumentation/schnelleinstieg#schritt-3-gestalten-sie-die-vorlagen-nach-ihren-wunschen), so dass Sie Ihren Kunden mit Emails passend zum Shopdesign kontaktieren können.
+
+Erfahrungsgemäss geben 5-10% der kontaktierten Kunden gerne eine Bewertung ab - und wer nicht mehr kontaktiert werden möchte, kann dies mit Klick auf den Opt-Out-Link schnell und einfach kundtun.
+
+###Es geht noch besser mit der Pro-Version
+
+Mit den [Profi-Tarifen](https://apps.mailbeez.de/plans) (ab 9,99Eur monatlich) von MailBeez erhalten Sie neben einer Vielzahl von - eben - Profi-Funktionen wie z.B. dem visuellen Editor für [responsive (mobil-freundliche) Emails](https://www.mailbeez.de/dokumentation/responsive-emails) auch die Profi-Version der Integration mit Shopauskunft.de, welche aus folgenden 3 Funktionsmodulen besteht:
+
+- [Bitte um Bewertung - Profi](/dokumentation/mailbeez/shopauskunft_advanced)
+- [Shopauskunft Integration](/dokumentation/configbeez/config_shopauskunft_integration)
+- [Gutschein nach Bewertung](/dokumentation/mailbeez/coupon_review_shopauskunft)
+
+-----
+
+[<img src="https://www.shopauskunft.de/cache/res/logo.png" style="float:right">](http://www.shopauskunft.de/shops/funktionsweise)
+### Shopauskunft: Das Qualitäts-Siegel für Kundenvertrauen  
 SHOPAUSKUNFT verhilft Ihrem Shop mittels Kundenbewertungen zu mehr nachhaltigem Kundenvertrauen und dem damit verbundenen Umsatz.
 
 **Ihre Vorteile**
@@ -65,9 +83,12 @@ SHOPAUSKUNFT verhilft Ihrem Shop mittels Kundenbewertungen zu mehr nachhaltigem 
 - Integration Ihres Shops in Deutschlands größtes Portal für Online-Shop-Bewertungen
 - Suchmaschinenoptimierung mittels Verlinkung bei und durch SHOPAUSKUNFT
 
-[![Jetzt Shop registrieren](http://www.shopauskunft.de/res/bttn_jetztshopregistrieren_c5bf.png "Jetzt Shop registrieren")](http://www.shopauskunft.de/about_packages.html)
 
- 
+<div style="text-align: center; margin-bottom: 80px;">
+<a href="https://www.shopauskunft.de/leistungspakete" target="_blank" class="button">Jetzt Shop registrieren</a>
+</div>
+  
+-----
 
 ### Konfiguration des Modules:
 
