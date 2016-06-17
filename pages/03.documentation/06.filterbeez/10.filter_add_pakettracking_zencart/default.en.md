@@ -5,7 +5,7 @@ slug: filter_add_pakettracking_zencart
 published: true
 template: docs
 # theme: false
-visible: true
+visible: false
 summary:
     enabled: true
     format: short

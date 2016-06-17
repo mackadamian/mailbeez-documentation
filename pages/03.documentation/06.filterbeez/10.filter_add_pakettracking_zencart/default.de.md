@@ -1,6 +1,6 @@
 ---
 # http://learn.getgrav.org/content/headers
-title: ZenCart Paket Tracking 
+title: '[ZenCart] Paket Tracking' 
 slug: filter_add_pakettracking_zencart
 published: true
 template: docs
