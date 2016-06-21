@@ -77,4 +77,9 @@ You have created a list which finds the latest newsletter subscribers.
 
 ![List](Screen_welcome_email.en.png?lightbox=true)
 
-Congratulations! You have created a welcom newsletter, which will be send to the matching recipients the next time the sending process is triggered.
+Congratulations! You have created a welcome newsletter, which will be send to the matching recipients the next time the sending process is triggered.
+
+
+## Voucher as a product
+
+todo
