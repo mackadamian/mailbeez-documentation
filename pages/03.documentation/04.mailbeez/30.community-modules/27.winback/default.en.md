@@ -44,16 +44,16 @@ metadata:
     author: admin
 ---
 
-**Start reactivating non-buying legacy customers with the Mailbeez Winback Simple module**
+**Reactivate legacy customers with the Mailbeez Winback Simple module**
 
-For store owners new to the world of online selling, or for curious retailers looking to explore Mailbeez before purchasing the more comprehensive Advanced Mailbeez service. Winback Simple is a handy, time-saving solution that will kick-start your store’s email marketing efforts, and let's you begin automatically emailing customers who haven’t made a purchase from your store for a pre-defined period of time.
+For store owners new to the world of online selling, or for curious retailers looking to explore Mailbeez before purchasing the more comprehensive Advanced Mailbeez service. Winback Simple is a handy, time-saving solution that will kick-start your store’s email marketing efforts, and let's you begin automatically emailing customers who haven’t made a purchase from your store for a while.
 
 **Bring it right back**
 
-Whilst the free version of Winback does not give you the more advanced features and flexibility that your store will eventually need as your email marketing efforts develop (this functionality can be found in the [Mailbeez Advanced Winback module](/documentation/mailbeez/winback_advanced "Advanced Winback")), nevertheless, it will allow your store to automatically email historical customers who have'nt made a purchase for awhlie, in an attempt to entice them back to your store.
+Whilst the free version of Winback does not give you the more advanced features and flexibility that your store will eventually need as your email marketing efforts develop (this functionality can be found in the [Mailbeez Advanced Winback module](/documentation/mailbeez/winback_advanced "Advanced Winback")), nevertheless, it will allow your store to automatically email historical customers who have'nt made a purchase for a while, in an attempt to entice them back to your store.
 
 **Easily installed and configured**
 
-Winback Simple, like all Mailbeez modules, even the extremely powerful Advanced modules, is very simple to install and configure. Installation is usually a case of just transferring a few files into your FTP client, whilst configuration is via the Mailbeez module controls in your online shopping cart’s admin panel; an environment you are already familiar very familiar with.
+Winback Simple, like all Mailbeez modules, even the extremely powerful Advanced modules, is very simple to install and configure. Installation is usually a case of just transferring a few files with your FTP client, whilst configuration is via the Mailbeez module controls in your online shopping cart’s admin panel; an environment you are already very familiar with.
 
 Get the best Win-Back Rates with the advanced Multi-step MailBeez Module [Winback Advanced with Coupons](/documentation/mailbeez/winback_advanced/ "Review Reminder Advanced – Autologin").
