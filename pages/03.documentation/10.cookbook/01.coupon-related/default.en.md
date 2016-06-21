@@ -27,54 +27,54 @@ taxonomy:
 
 
 
-## Voucher for registering for newsletter
+## Coupon giveaway for registering to receive newsletters
 
->>>>>>  In compliance of certain exemptions store owner are allowed to contact their customers without explicit consent via email, read more on [legal information](/about/legal-information)
+>>>>>>  In compliance with certain exceptions, stores are allowed to contact their customers without explicit consent via email. Read more on [legal information](/about/legal-information)
 
 
-### Issue
+### Requirement
 
-You want to send your customers a coupon when they sign up for the newsletter
+You want to send your customers a coupon or voucher when they sign up for your newsletter
 
 ### Solution
 
-Using the [Newsletter Advanced Module](/documentation/mailbeez/newsletter) you can automate a freely configurable voucher to your customers by registering for the newsletter.
+Using the [Newsletter Advanced Module](/documentation/mailbeez/newsletter), you can customize and automatically send a store coupon to customers that register for the newsletter.
 
-Please perform the following steps:
+Just follow these steps:
 
 ####Create a dynamic list of recipients
 
-1. Navigate to MailBeez Newsletter Module `MailBeez > MailBeez Modules > Newsletter Advanced`
-1. On the right hand site click on button `Edit Lists`
-1. Create a new list, e.g. `welcome voucher` with source `Shop Subscriber` - save the list.
-1. Select the newly created list and click on `edit segmentation` - a new window opens
-1. In the segmentation settings, section `customer` configure the following:
+1. Navigate to MailBeez Newsletter Module `MailBeez > MailBeez Modules > Newsletter Advanced`.
+1. On the right hand side, click on button `Edit Lists`.
+1. Create a new list, named e.g. `welcome coupon`. Select source `Shop Subscriber`. Click `insert` to save the list.
+1. Select the newly created list and click on `edit segmentation` - a new window opens.
+1. In segmentation settings, in section `customer`, configure the following:
     - Customer Signup Age Min: 0
-    - Customer Signup Age Max: 1 (or a higher value if you want to sent a coupon to historic subscribers)
+    - Customer Signup Age Max: 1 (or a higher value if you want to send a coupon to past subscribers)
 ![List](Screen_welcome_list.en.png?lightbox=true)
-1. save the segmentation
-1. with click on `Test Segmentation` you will see the matching customers - with click the customer insight opens
+1. Scroll down and click `update` to save the segmentation.
+1. Back in the `Edit Lists` window, click `Test Segmentation` - you will now see customers matching the segmentation criteria - click on a customer, and the customer insight window opens.
 
-You have created a list which finds the latest newsletter subscribers.
+You have now created a list of the latest newsletter subscribers.
 
 
 
-####Create a welcome newsletter
+####Create a Welcome newsletter
 
 [plugin:content-inject](/content_blocks/pro_template_coupon_setup)
 
 
-1. Navigate to MailBeez Newsletter Module `MailBeez > MailBeez Modules > Newsletter Advanced` 
-1. On the right hand site click on button  `Edit Campaigns`
-1. Create a new campaign e.g. `Welcome Emails` and as default list select the previously created list `welcome voucher` - save the campaign
+1. Navigate to MailBeez Newsletter Module `MailBeez > MailBeez Modules > Newsletter Advanced`. 
+1. On the right hand side click on button  `Edit Campaigns`.
+1. Create a new campaign named e.g. `Welcome newsletter`, and as default list, select the previously created list `welcome coupon` - click `insert` to save the campaign.
 1. Select the newly created campaign and click on `Edit Campaign items`.
-1. Create a new Newsletter
-1. On the right hand site select the template coupon - and save
-1. Configure the active until date to e.g. 01/01/2099 (set the newsletter virtually to never expire) and save
-1. Design the email, with click on the + icon in the editor you can add the layout element to display the coupon
-    - In case your store is set up in several language please design the other language versions as well
-1. Once you are happy with the design and test emails you can click on `ready for sending` to activate the newsletter    
+1. Create a new Newsletter - select the template - and click `New newsletter`.
+1. Scroll down to `Select Coupon-Template for this Newsletter` to select or set-up a new coupon. Click `update` to save.
+1. Configure the 'active until' date to 01/01/2099 (sets the newsletter to virtually never expire) and click `update` to save.
+1. Now, design the email. Click on the + icon in the editor to add the layout element to display the coupon.
+    - Note: If your store is set up for several languages, you need to design the other language templates as well.
+1. Once you are happy with the design and test emails, you can click on `ready for sending` to activate the newsletter.    
 
 ![List](Screen_welcome_email.en.png?lightbox=true)
 
-Congratulations! You have created a welcom newsletter, which will be send to the matching recipients the next time the sending process is triggered.
+Congratulations! You have now created a Welcome newsletter, which will be sent to all recipients matching your segmentation list the next time the sending process is triggered.
