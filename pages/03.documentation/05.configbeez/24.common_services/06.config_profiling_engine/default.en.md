@@ -1,5 +1,5 @@
 ---
-title: Profiling engine
+title: Profiling Engine
 slug: config_profiling_engine
 routes:
     default: /documentation/configbeez/config_profiling_engine
@@ -30,36 +30,35 @@ metadata:
 
 ---
 
-Under construction - the MailBeez profiling engine allows you to tag customers and orders based on rules. 
+Under development - The MailBeez profiling engine allows you to add rule-based tags to customer profiles and orders. 
 
-These tags can be utilized by other controll-modules to controll the behaviour and content of Email modules
+These tags can be utilized by other control-modules to control the behaviour and content of email modules, creating rich relationships between content and customer segments. This allows for even more effective targeting of your email campaigns.
 
 
 Examples
 
-- Tag all customer, who never purchase product B with tag "upsell-B"
-- Tag all customer, who only purchase from category X with tag "only-cat-X"
-- Tag all orders containing product H with "product-H"
+- Tag all customers, who've never purchased product B, with tag "upsell-B"
+- Tag all customers, who've only purchased from category X, with tag "only-cat-X"
+- Tag all orders containing product H with tag "product-H"
 
 
 
-Modules utilizing the tags are:
+Modules utilizing tags are:
 
 - [Profile Filter](/documentation/filterbeez/filter_check_profile)  
  Examples
-      - only send a Birthday coupon to customers tagged with "upsell-B"
-      - never send a product review reminder after orders containing "product H"
-    
+      - only send Birthday coupons to customers tagged with "upsell-B"
+      - never send a product review reminder to customer orders containing "product H"
     
 
 - [Profile Content](/documentation/filterbeez/filter_add_profiling_content)  
  Examples
-      - insert upsell content partial promoting product B to all emails for customers tagged with "upsell-B"
+      - insert upsell content promoting product B in all emails for customers tagged with "upsell-B"
 
 
 
 - [Profile Information](/documentation/filterbeez/filter_add_profiling)  
  Examples
-      - build some custom logic code using order and/or customer profiling
+      - build custom logic code using order characteristics and/or parameters found in the customer profile.
 
 
