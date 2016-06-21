@@ -6,6 +6,7 @@ routes:
     aliases:
         - /dokumentation/tutorials/schnelleinstieg
         - /dokumentation/grundlagen/schnelleinstieg
+        - /support/dokumentation/grundlagen/schnelleinstieg
         
 date: 10-11-2010
 published: true
