@@ -1,7 +1,9 @@
 ---
 title: Gastkonten zusammenfassen
 slug: config_account_aggregation
-
+routes:
+    aliases:
+        - /dokumentation/installation/config/config_account_aggregation
 
 # menu: MailBeez Copyright entfernen
 published: true

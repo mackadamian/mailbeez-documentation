@@ -1,6 +1,10 @@
 ---
 title: Account aggregation
 slug: config_account_aggregation
+routes:
+    aliases:
+        - /documentation/installation/config/config_account_aggregation
+        
 published: true
 template: docs
 # theme: false
