@@ -1,6 +1,7 @@
 ---
 # http://learn.getgrav.org/content/headers
 title: Coupon Recipes
+slug: coupon-recipes
 
 routes:
     aliases:
