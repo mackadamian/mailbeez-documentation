@@ -65,9 +65,9 @@ Genervt von Bounce-Emails, auch bekannt als Rückläufer? Neben der Extra-Arbeit
 ## Funktion
 Die nahtlos in MailBeez Integrierte BounceHive Rückläufer-Verarbeitung verarbeitet folgende Arten von Bounces:
 
-**Hard Bounces: **Diese Bounces werden durch unbekannte oder falsche Email Adressen ausgelöst. MailBeez blockiert sofort alle Email-Adressen, welche einen Hard Bounce auslösen.
+**Hard Bounces: ** Diese Bounces werden durch unbekannte oder falsche Email Adressen ausgelöst. MailBeez blockiert sofort alle Email-Adressen, welche einen Hard Bounce auslösen.
 
-**Soft Bounces: **Die häufigste Ursache für Soft Bounces ist eine voll Mailbox. MailBeez wartet die konfigurierte Anzahl an Tagen, bevor weitere Emails an diese Email Adresse verschickt werden. Nach einer konfigurierbaren Anzahl an Soft Bounces werden diese als Hard Bounce interpretiert.
+**Soft Bounces: ** Die häufigste Ursache für Soft Bounces ist eine volle Mailbox. MailBeez wartet die konfigurierte Anzahl an Tagen, bevor weitere Emails an diese Email Adresse verschickt werden. Nach einer konfigurierbaren Anzahl an Soft Bounces werden diese als Hard Bounce interpretiert.
 
 **Transient Bounces:** Diese Nachrichten sagen aus, dass eine Email nicht ausgeliefert werden konnte, der Email Server aber weiter probiert. MailBeez ignoriert diese Art von Bounce Emails.
 
