@@ -147,5 +147,4 @@ To offer multiple gift vouchers, just repeat the steps above for each additional
 
 >>>>> **Current limitations**:   
 >>>>> Only 1 voucher can be sent for each customer, and for each purchase.  
->>>>> The voucher expiry period is the globally configured expiry period.  
 >>>>> **Please contact us in case you have additional requirements.**  

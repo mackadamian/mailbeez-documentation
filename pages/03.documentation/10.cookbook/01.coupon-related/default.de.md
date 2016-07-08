@@ -139,5 +139,4 @@ Wenn Sie mehrere Geschenk-Gutscheine anbieten wollen, wiederholen Sie für jeden
 
 >>>>> **Aktuelle Einschränkungen**:   
 >>>>> je Kunde und Kauf kann nur 1 Gutschein geliefert werden  
->>>>> die Gültigkeitsdauer des Geschenk-Gutscheines entspricht der globalen Einstellung des Newsletter-Modules  
 >>>>> **Bitte um kurze Nachricht, wenn hier Erweiterungsbedarf am Modul besteht.**  
