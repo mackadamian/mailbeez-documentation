@@ -2,6 +2,12 @@
 # http://learn.getgrav.org/content/headers
 title: BounceHive Rückläufer-Verarbeitung
 slug: config_bouncehive_advanced
+
+routes:
+    aliases:
+        - /dokumentation/installation/config/config_bouncehive_advanced
+
+
 # menu: BounceHive Rückläufer-Verarbeitung
 date: 26-03-2012
 published: true

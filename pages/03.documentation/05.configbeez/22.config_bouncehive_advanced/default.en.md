@@ -6,6 +6,10 @@ publish_date: '26-03-2012 00:00'
 metadata:
     author: admin
 slug: config_bouncehive_advanced
+routes:
+    aliases:
+        - /dokumentation/installation/config/config_bouncehive_advanced
+        
 visible: true
 template: docs
 taxonomy:

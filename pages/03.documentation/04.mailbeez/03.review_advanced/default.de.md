@@ -53,6 +53,8 @@ metadata:
 #  last_modified: true
 ---
 
+Dieses Modul arbeitet mit der im Shop-System vorhandenen Funktion für Produkt-Bewertungen zusammen!
+
 **Produktbewertungen haben einen umsatzsteigernden Effekt – leider kommen die Produktbewertungen aber nicht ohne weiteres Zutun. Mit diesem Modul können Sie die optimale Anzahl an Produktbewertungen erhalten und so zur Umsatzsteigerung beitragen. Das Modul integriert sich nahtlos mit dem Produktbewertungssystem vom Online-Shop**
 
 Wenn ein Kunde ersteinmal die Ware erhalten hat, besteht oft keine Motiviation mehr, den Shop später wieder zu besuchen, um eine Produktbewertung abzugeben. Einige Kunden haben vielleicht eine “Produktbewertungs-Kultur” von häufigen Besuchen auf den grossen Shops entwickelt – diese werden aber immer die Minderheit darstellen.
@@ -69,7 +71,7 @@ Abhängig von Ihrer Shop-Konfiguration erfordern die Vorlagen eine Anpassung der
 #### Weitere Starke Vorteile
 ** Komfortabel mit Auto-Login – gibt mehr Bewertungen**
 
- Kunden haben zwar bei Ihnen Produkte gekauft und sind dort den ganzen Weg des Check-Outs gegangen, aber zum Abgeben einer Bewertung darf es gerne so einfach wie möglich sein – Ihre Kunden werden es mit mehr Bewertungen belohnen. Zum Glück bietet das Modul daher die einfach zu installierende “Auto-Login” Funktion, welches Kunden automatisch auf zum Schreiben einer Bewertung einloggt und somit alle Hindernisse aus dem Weg räumt. Zur Sicherheit ist das Login nur für das Schreiben der Bewertung gültig, d.h. alle anderen Seiten des Kundenkontos erfordern weiterhin den manuellen Login des Kunden. Zur Integration des Auto-Logins muss die Seite “product\_reviews\_write” um zwei Zeilen Code ergänzt werden – das Download-Paket enthält einfache Anweisungen für alle unterstützten Shopsysteme (osCommerce, xtCommerce, ZenCart)
+ Kunden haben zwar bei Ihnen Produkte gekauft und sind dort den ganzen Weg des Check-Outs gegangen, aber zum Abgeben einer Bewertung darf es gerne so einfach wie möglich sein – Ihre Kunden werden es mit mehr Bewertungen belohnen. Zum Glück bietet das Modul daher die einfach zu installierende “Auto-Login” Funktion, welches Kunden automatisch auf zum Schreiben einer Bewertung einloggt und somit alle Hindernisse aus dem Weg räumt. Zur Sicherheit ist das Login nur für das Schreiben der Bewertung gültig, d.h. alle anderen Seiten des Kundenkontos erfordern weiterhin den manuellen Login des Kunden. Zur Integration des Auto-Logins muss die Seite “product_reviews_write” um zwei Zeilen Code ergänzt werden – das Download-Paket enthält einfache Anweisungen für alle unterstützten Shopsysteme (osCommerce, xtCommerce, ZenCart)
 
 [plugin:content-inject](/content_blocks/pro_common_advantage)
 
@@ -81,9 +83,6 @@ Auf dem Dashboard finden Sie das “[Review-O-Meter](/documentation/dashboardbee
 
 Optimieren Sie Ihre Emails (Text, Betreffzeile) anhand dieser Daten.
 
-
-
-#### Installation
 
 
 

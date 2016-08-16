@@ -46,7 +46,9 @@ metadata:
     author: admin
 ---
 
-**Turbo charge your eCommerce store’s product reviews, and increase conversion rates with the Mailbeez Review Reminder module with Auto-login. **
+This module integrates with the product rating feature of your store system!
+
+**Turbo charge your eCommerce store’s product reviews, and increase conversion rates with the Mailbeez Review Reminder module with Auto-login.**
 
 Once a customer has paid and received their purchase from your store, they really have no motivation to return at a later date to write a product review. Whilst one or two of your customers will perhaps have a review mindset developed from frequenting larger, more established online stores, unfortunately they will always be in the minority.
 
