@@ -263,7 +263,7 @@ When clicking on a link in an email sent by MailBeez (clicktracker active) follo
 
 `PHP Fatal error: Class 'email' not found in (…)/mailhive/common/classes/oscommerce/emailMB.php on line 14`
 
- **Solution:**
+**Solution:**
 
 Remove the file
 
@@ -370,11 +370,51 @@ When you choose not to override Zen Cart’s email template system, the body con
 
 and there you can remove the subject line.
 
- 
+
+
+
+### Zen Cart: How do I turn off Zen Cart's Welcome emails?
+
+If you want to use MailBeez' Welcome email module to send Welcome emails to your customers instead of Zen Cart's Welcome emails, you can turn off the Zen Cart fuction in two ways.
+
+**Solution 1: Modify the code**
+
+open
+
+`/includes/modules/create_account.php around line 245`
+
+find line after 
+`// send welcome email`
+
+and comment it out so it looks like:
+
+`// if (trim(EMAIL_SUBJECT) != 'n/a’)…`
+
+
+**Solution 2: Use extra_configures:**
+
+The email has the module name ‘welcome’, according to the comment in `includes/functions/functions_email.php`
+
+```
+// (The EMAIL_MODULES_TO_SKIP constant can be defined in a new file in the "extra_configures" folder)
+if (defined('EMAIL_MODULES_TO_SKIP') && in_array($module,explode(",",constant('EMAIL_MODULES_TO_SKIP')))) return false;
+```
+
+this email can be skipped by creating a new file
+
+`/includes/extra_configures/skip_emails.php`
+
+then adding the following content:
+
+```
+<?php
+define(‘EMAIL_MODULES_TO_SKIP’, ‘welcome’);
+?>
+```
 
  
 
-### Can’t send a campaign – get an empty window
+### Zen Cart: Can’t send a campaign – get an empty window
 Something goes wrong, but Zen Cart doesn’t show the PHP errors.
 
 Have a look in your “/cache” directory for files starting with “myDebug…”, these files contain the PHP error Messages.
