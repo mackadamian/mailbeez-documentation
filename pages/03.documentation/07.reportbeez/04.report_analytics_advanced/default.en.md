@@ -1,3 +1,4 @@
+---
 # http://learn.getgrav.org/content/headers
 title: MailBeez Analytics Advanced
 slug: report_analytics_advanced
