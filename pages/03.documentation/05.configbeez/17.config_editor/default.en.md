@@ -14,7 +14,8 @@ summary:
     size: 128
 taxonomy:
     migration_status: done
-    category: [docs]
+    category: [configbeez]
+    compatiblity: [comp_osc,comp_cre,comp_digi,comp_zencart,comp_xtc,comp_gambio]    
     tag: [pro]
 # added collection selector
 
