@@ -42,7 +42,7 @@ MailBeez works with **Zen Cart v1.3.8 and v1.3.9x**, running on PHP 5.2+
 The installation is straight forward and can be done in a couple of minutes by following these steps:
 
 - copy new files
-- Install MailBeez
+- install MailBeez
 
 MailBeez maintains its own tables – the shopping cart's existing tables remain as they are... unchanged.
 
@@ -52,7 +52,7 @@ MailBeez maintains its own tables – the shopping cart's existing tables remain
 [plugin:content-inject](/content_blocks/download_installer)
 
 
-In the mailbeez_installer-v3.xx fileset, navigate to catalog > admin, then copy the following file to your zen-cart admin-directory.
+In the mailbeez_installer-v3.xx fileset, navigate to catalog > admin, then copy the following file to your Zen-Cart admin-directory.
 
 ```bash
  mailbeez.php
@@ -60,7 +60,7 @@ In the mailbeez_installer-v3.xx fileset, navigate to catalog > admin, then copy 
 ```
 
 
-In the mailbeez_installer-v3.xx fileset, navigate to the catalog folder, then copy the following file and folder to your root zen-cart directory (where your index.php is located).
+In the mailbeez_installer-v3.xx fileset, navigate to the catalog folder, then copy the following file and folder to your root Zen Cart directory (where your index.php is located).
 
 ```bash
 mailhive (folder)
@@ -68,14 +68,21 @@ mailhive.php
 
 ```
 
-In the mailbeez_installer-v3.xx fileset, navigate to **extras\_zencart > zencart\_1.3.x > admin**, then copy/merge its contents into your zen-cart admin-directory.
-
-Log in to your zen-cart administration panel. From the navigation bar, select Tools > MailBeez. Then click the “Install” button:
+In the mailbeez_installer-v3.xx fileset, navigate to **extras\_zencart > zencart\_1.3.x > admin**, then copy/merge its contents into your Zen Cart admin-directory.
 
 
-## Adoption of Zen-Cart
+## Step 2 – install MailBeez
 
-**Quick Solution:** configure a SMTP Email Server in MailBeez > Configuration > Email Engine. This will bypass the zencart email function and give MailBeez full control for sending emails
+Log in to your Zen Cart administration panel. From the navigation bar, select **Tools > MailBeez**. Then, click the “Install” button.
+
+
+## Adaption of Zen Cart
+
+The Zen Cart email function is peculiar when sending custom emails, and you may experience some minor issues when sending MailBeez generated emails through Zen Cart. See FAQ:
+
+>>>>> Please see [Zen Cart FAQ](/documentation/frequently-asked-questions#zen-cart) for more details
+
+**Quick Solution:** configure a SMTP Email Server in MailBeez > Configuration > Email Engine. This will bypass the Zen Cart email function and give MailBeez full control for sending emails.
 
 If would like MailBeez to use its own template system to generate MailBeez email (recommended), rather than integrating with and using Zen Cart’s email template system to generate MailBeez email (default), please do the following:
 
