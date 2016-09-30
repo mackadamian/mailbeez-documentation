@@ -155,7 +155,7 @@ No doubt you will want to replace the template email header with an email header
 - copy/rename the default main template  
  `/mailhive/common/templates/default_email_html.tpl` to  
   `/mailhive/common/templates/email_html.tpl`  
-   **All template have a filename starting with `default_` will be overwritten by the next update**
+   **NOTE: All templates that have a filename starting with `default_` will be overwritten during system updates!**
 - Create a new image with a width of 600px
 - Name the new image. For example “`mynewheader.png? ”
 - Using your preferred FTP program, upload the new image to “`/mailhive/common/images/`”
@@ -186,7 +186,7 @@ Using the Birthday Greeting module as an example, let’s say you want to change
 - copy/rename the module template  
  `/mailhive/mailbeez/birthday/email/default_body_html.tpl` nach  
   `/mailhive/mailbeez/birthday/email/body_html.tpl`  
-   **All template have a filename starting with `default_` will be overwritten by the next update**
+   **NOTE: All templates that have a filename starting with `default_` will be overwritten during system updates!**
 - Create a new image, sized 256px by 256px
 - Name the new image. For example “`balloons.png`”
 - Using your preferred FTP program, upload the new image to  ”catalog/mailhive/mailbeez/birthday/images/”
