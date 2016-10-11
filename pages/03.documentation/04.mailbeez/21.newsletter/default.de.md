@@ -68,7 +68,7 @@ Das Erstellen von Newslettern wird mit dem MailBeez Newsletter Profi Modul denkb
 
 #### Freie Wahl des Email-Servers
 
-Die Öffnungs- und Konvertierungs-Raten Ihrer Newsletter hängen stark vom versendenden Email-Server ab. MailBeez bietet Ihnen die freie Wahl, ob Sie über die Email-Funktion Ihres Shop-Servers, einen SMTP Server oder aber zertifizierten Server unseres Partners Newsletter2Go versenden möchten.
+Die Öffnungs- und Konvertierungs-Raten Ihrer Newsletter hängen stark vom versendenden Email-Server ab. MailBeez bietet Ihnen die freie Wahl, ob Sie über die Email-Funktion Ihres Shop-Servers, einen SMTP Server oder aber zertifizierten Server unseres Partners Newsletter2Go versenden möchten ([mehr zur Konfiguration des Email-Systems](/dokumentation/configbeez/config_email_engine)).
 
 #### Mächtige Segmentierungs-Möglichkeiten
 
@@ -107,21 +107,45 @@ Die freie Kombinierbarkeit der Segmentierungsregeln eröffnen eine Vielzahl von 
 
 ### Funktionen
 
+
+**Vereinheitlichte Kontakte: Kunden und Interessenten**
+
+- Saubere Unterscheidung zwischen Kunde und Interessent
+- Erkennung, ob eine Email-Adresse zu einem Kunden oder Interessenten gehört
+- vollständige Unterstützung bei Konvertierung von Interessent zu Kunde
+
+
+**Themenbereiche**
+
+- Anlegen, bearbeiten und Löschen von Themenbereichen
+- unbegrenzte Anzahl an Themenbereichen
+- öffentlich und nicht-öffentliche Themenbereiche
+- automatische Zuordnung von Themenbereichen über die Anmeldeformular-API
+- Empfänger können die Zuordnung zu öffentlichen Themenbereichen selbst konfigurieren, 
+
+
 **Listen**
 
 - Anlegen, bearbeiten und Löschen von Empfängerlisten
 - unbegrenzte Anzahl an Empfängerlisten
-- Segmentierung der Listen
+- Liste-Quellen: Shop-Kunden mit Abo, Alle Shop-Kunden, Interessenten
+- Segmentierung der Listen nach folgend aufgeführten Kriterien
 - Testen von Segmentierungen
+
 
 **Segmentierungs-Möglichkeiten**
 
+Kunden
 - Geografisch: Land, Bundesland, Plz
-- Kunde: Geschlecht, Kunde seit mindestens / höchstens Tagen, Kunden-Gruppe: erfordert [Kundengruppen-Filter](/dokumentation/mailbeez/filter_check_group)
+- Kunde: Geschlecht, Kunde seit mindestens / höchstens Tagen, Kunden-Gruppe: erfordert [Kundengruppen-Filter](/dokumentation/filterbeez/filter_check_group)
 - Produkte: gekaufte Produkte (Whitelist & Blacklist)
 - Kategorien: gekaufte Produkte (Whitelist & Blacklist)
 - Bestellungen: max. Anzahl Bestellungen, letzte Bestellung nach Datum & vor Datum
-- Konfiguration von Ländern, für die ein Newsletter Abo nicht erforderlich ist
+- Listen basierend auf Quelle "Shop-Kunden mit Abo": Konfiguration von Ländern, für die ein Newsletter Abo nicht erforderlich ist
+- Themenbereiche
+
+Interessenten
+- Themenbereiche
 
 **Kampagnen**
 
@@ -135,6 +159,7 @@ Die freie Kombinierbarkeit der Segmentierungsregeln eröffnen eine Vielzahl von 
 - Aktiv von Datum bis Datum
 - Auswahl eine Liste (oder Kampagnen-Standard)
 - Auswahl einer Gutschein-Vorlage
+- Konfiguration der Gutschein-Gültigkeit in Tagen
 
 **Gutscheine**
 
@@ -147,6 +172,16 @@ Die freie Kombinierbarkeit der Segmentierungsregeln eröffnen eine Vielzahl von 
 
 - Volle Integration mit MailBeez Analytics bzw. Google Analytics
 - Auswertung von Öffnen, Click, Bestellung
+
+
+
+**Weitere Informationen finden Sie auf**
+
+- [MailBeez Newsletter API](/dokumentation/configbeez/config_api/mb_newsletter_api).
+- [Tutorial: Erstellen eines Newsletter Anmeldeformulars](/dokumentation/tutorials/erstellen-eines-newsletter-anmeldeformulars).
+-
+
+
 
 ### Versendeprozess
 
@@ -182,7 +217,7 @@ Durch die Drosselung und die Begrenzung der Anzahl mit Hilfe der Stapel-Grösse 
 
 ### Empfohlene Module
 
-Für einen reibungslosen Einsatz des MailBeez Newsletter Profi Module werden folgende Erweiterungen des MailBeez Systems empfohlen - alle MailBeez Module profitieren hiervon:
+Folgende Module bieten relevante Funktionen zur Optimierung des Newsletter-Versandes:
 
 - [Einfache Drosselung](/dokumentation/mailbeez/filter_do_throttling_simple) 
 - [Bouncehive Rückläufer-Verarbeitung](/dokumentation/configbeez/config_bouncehive_advanced)
@@ -191,9 +226,9 @@ Für einen reibungslosen Einsatz des MailBeez Newsletter Profi Module werden fol
 
 ### geplante Weiterentwicklungen
 
+- DONE: "Interessenten Funktion": Besucher können sich für den Newsletter eintragen. Wenn aus den Besucher Kunden werden, wird dies natürlich erkannt. Somit können leicht verschiedene Newsletter für Interessenten und Kunden versendet werden.
 - weitere Email-Vorlagen
 - weitere Inhaltsbereichs-Vorlagen
 - MailBeez Template-Tags per Button einfügen (aktuell nur für firstname & lastname)
 - automatische Erstellung von Produktdarstellungen
 - personalisierte Inhalte
-- "Interessenten Funktion": Besucher können sich für den Newsletter eintragen. Wenn aus den Besucher Kunden werden, wird dies natürlich erkannt. Somit können leicht verschiedene Newsletter für Interessenten und Kunden versendet werden.

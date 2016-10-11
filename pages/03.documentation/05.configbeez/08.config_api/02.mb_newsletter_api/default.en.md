@@ -32,12 +32,13 @@ POST `http://<myshop.com>/mailhive.php/api/public/v1.0/newsletter/add/`
 
 #### Optional Parameters
 
-| Parameter    	| Type 	| Description                            	    |
-|--------------	|------	|----------------------------------------	    |
-| firstname 	| text  | Firstname (ignored for customers), default -1	|
-| lastname 	    | text  | Lastname (ignored for customers), default -1  |
-| gender   	    | text  | gender (ignored for customers)           	    |
-| language_id   | int 	| language-id                            	    |
+| Parameter    	| Type 	| Description                            	                                |
+|--------------	|------	|----------------------------------------	                                |
+| firstname 	| text  | Firstname (ignored for customers), default -1	                            |
+| lastname 	    | text  | Lastname (ignored for customers), default -1                              |
+| gender   	    | text  | gender (ignored for customers)           	                                |
+| language_id   | int 	| language-id                            	                                |
+| topic_ids     | int / list 	| single or multiple (separated by ,) id of topics to subscribe for |
 
 
 
@@ -61,7 +62,7 @@ The Email-Address was successfully added and an opt-in email based on the matchi
 
 
 
-Check out the built-in signup-forms in `/mailhive/mailbeez/mb_newsletter/includes/templates` how to use the API-Calls with AJAX.
+>>>> Check out the built-in signup-forms in `/mailhive/mailbeez/mb_newsletter/includes/templates` how to use the API-Calls with AJAX.
 
 
 ### Customers Confirmation 
@@ -107,4 +108,69 @@ http://<myshop.com>/mailhive.php/api/private/v1.0/newsletter/confirm/customers/5
 
 
 
+
+
+
+### Update Prospect Data
+
+
+>>>>you can only update prospects which are not yet converted into customers
+
+This API-Call can be used to update prospect data.
+
+
+POST `http://<myshop.com>/mailhive.php/api/public/v1.0/newsletter/prospect/update/[base64_encode(<email>)]`
+
+
+#### Mandatory Parameters
+
+| Parameter    	| Type 	| Description                            	|
+|--------------	|------	|----------------------------------------	|
+| base64_encode(email)    | text  | base64_encode of Email-Address of Prospect	    |
+
+
+#### Optional Parameters
+
+| Parameter    	| Type 	| Description                                                      |
+|--------------	|------	|----------------------------------------	                                |
+| firstname 	| text  | Firstname, default -1	                            |
+| lastname 	    | text  | Lastname, default -1                              |
+| gender   	    | text  | gender           	                                |
+| language_id   | int 	| language-id                            	                                |
+| redirect      | url 	| if set the call redirects to the given URL adding `result` as parameter  |
+
+
+
+
+####Return
+
+With a given redirect URL the API-will redirect adding parameter `result`, otherwise the API-Call returns a `JSON-Array` with following values:
+
+**invalid prospect**  
+`{"error":"invalid_prospect"}`  
+The Email-Address is not registered as prospect
+
+**is customer**  
+`{"error":"is_customer"}`  
+The prospect email address belongs to a customer, no update
+
+**Successfully updated prospect data**  
+`{"error":false}`  
+The Email-Address was successfully added and an opt-in email based on the matching type (customer | prospect) with confirmation-link is sent.
+(in redirect mode: `result=OK`)
+
+
+
+### Update Subscriber Topics
+
+This API-Call redirects to the form for updating subscriber Topics
+
+GET `http://<myshop.com>/mailhive.php/api/public/v1.0/newsletter/topics/web/[base64_encode(<email>)]`
+
+
+#### Mandatory Parameters
+
+| Parameter    	| Type 	| Description                            	|
+|--------------	|------	|----------------------------------------	|
+| [base64_encode(<email>)]    | text  | base64_encode of Email-Address of Subscriber (Customer or Prospect)	    |
 
