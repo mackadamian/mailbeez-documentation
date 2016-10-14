@@ -32,31 +32,41 @@ metadata:
 
 Find an overview of the store compatibility on: [MailBeez Compatibility](/documentation/compatibility/).
 
-The MailBeez Coupon Engine is a sub-module utilized by any MailBeez module which sends out personalized coupons.
+The MailBeez Coupon Engine is a sub-module which sends out personalized coupons, and can be utilized by any MailBeez module that allows generation of coupons. 
 
+The Coupon Engine allows you to create persolized coupons that can be sent to specific customers or as part of any email campaign. Personalized coupons offer a number of advantages that result in better control over your coupon offers.
 
+###Coupon basics
+
+Generally, there are two types of coupon codes used within MailBeez - static and personalized. 
+
+Static coupon codes are generic codes that can be redeemed multiple times by any number of customers.  Usually a static coupon uses a single coupon code with no or few restrictions. To redeem the coupon, all that is needed is the coupon code.  Once the code has been distributed e.g. via email, there is not much you can do to control the proliferation of the coupon (viral effect). The unintended consequences can be a coupon that is used many times by the same customer, or redeemed more times than you initialy intended.
+
+These issues can be addressed, in part, with personalized, limited use coupon codes. Rather than releasing a single coupon code to everyone, you can create individual codes for each customer.
 
 ###Advantages of personalized coupons
 
-In comparison to static coupon codes (e.g. "BIRTHDAY") there are a number of advantages using personlized coupons:
+In comparison to static coupon codes, there are a number of advantages to using personlized coupons:
 
-- **no unwanted viral effect**: You can configure how often a coupon can be applied
-- **Sense of urgency due to expiry date**: Each generated coupon has an expiry date, e.g. 14days starting with the day the coupons was sent. The expiry date creates a sense of urgency leading to more orders. In addition you can utilize the [Coupon Expiry Reminder](/documentation/mailbeez/coupon_expire) to follow-up a couple of days before the expiry date - great for conversion!
-- **Traceability**: The system can connect the coupon code to the receiving customer and the email it was sent with. That allows you to understand the effect of your coupons and emails.
+- **No unwanted viral effect**: You can configure exactly how often a coupon can be applied
+- **Sense of urgency due to expiry date**: Each generated coupon has an expiry date, e.g. 14 days starting with the day the coupons was sent. The expiry date creates a sense of urgency, leading to more orders. In addition, you can utilize the [Coupon Expiry Reminder](/documentation/mailbeez/coupon_expire) to send a reminder email a couple of days before the expiry date - great for conversion!
+- **Traceability**: MailBeez can connect the coupon code to the receiving customer and the email it was sent with. This allows better insight into the effectiveness of your coupons and specific emails.
 
 
 
 ###Template Coupons
 
-The coupon engine generates personalized coupons based on **template coupons** which are assigned to the according email modules.
+The coupon engine generates personalized coupons based on **template coupons** which are assigned to the respective email modules.
  
-A **template coupon** is a "normal" coupon, but distinguishes through the coupon **CODE**, which **MUST** start with the pattern `template_`.
+A **template coupon** is a "normal" coupon, but is distinguished by the coupon **CODE**, which **MUST** start with the pattern `template_`.
 
->>>>>>Make sure to run the tour how to set up a template coupon
+>>>>>>Make sure to view the helper section "How to set up a template coupon" in the Tour tab on your MailBeez admin panel.
  
-**Example "[Birthday Coupon](/documentation/mailbeez/coupon_birthday)"**:
+**Creating a Template Coupon**
 
-As the first step create a new coupon with 
+As an example, let's create a "[Birthday Coupon](/documentation/mailbeez/coupon_birthday)":
+
+The first step will be to create a new coupon with 
 
 CODE = `template_birthday`
 
@@ -64,15 +74,15 @@ and enter the values accordingly (e.g. 10% off) - the expiry date is not used.
 
 In module [Birthday coupon](/documentation/mailbeez/coupon_birthday) you can now assign this template coupon (remember to save your settings).
 
-During the generation process of birthday emails a personalized coupon is generated for every recipient base on the settings of the template coupon. In addition there will be generated a random coupon code and a dynamic expiry date - e.g. 14days after date of sending.
+During the generation process of birthday emails, a personalized coupon is generated for every recipient based on the settings of the template coupon. In addition, a random coupon code and a dynamic expiry date - e.g. 14 days after date of sending is also generated.
 
-You can test the setup by running a simulation: In Simulation-Mode please execute the module. This will generate "real" emails with "real" coupons, which are not sent to your customers but to your configured simulation email address. This allows you to validate the coupon settings and even try to place a test-order.
+You can test the setup by running a simulation: In Simulation-Mode, execute the module. This will generate "real" emails with "real" coupons, which is sent to the configured email address you entered. This allows you to validate the coupon settings, and to even make a test-order.
 
 
 
 ###Maintainance features
 
-In this module you find a range of features which will help you to maintain your coupons:
+In this module you'll find a range of features which will help you to maintain your coupons:
  
 
 **Coupon Search**: Find a coupon and edit it, also available as [Dashboard-Widget](/documentation/dashboardbeez/dashboard_coupon_admin) zur Verfügung.
@@ -84,14 +94,14 @@ In this module you find a range of features which will help you to maintain your
 **Repair sync**: In case coupons are not assigned to message you can repair this assignment
 
 
->>>>>**Please note**: In each module you can configure the length of the coupon code. Long codes (e.g. 8 or 10 characters) can be generated very efficiently. With short code-length and many existing codes the system my need to "try" for a longer time until a free code is found. This can cause issues like time outs of the sending process.
+>>>>>**Please note**: In each module you can configure the length of the coupon code. Long codes (e.g. 8 or 10 characters) can be generated very efficiently. With shorter code lengths (and many existing codes), code generation might take longer until a free code is found. This can cause issues like time-outs during the sending process.
 
 ## osCommerce Coupon System support
 
-As the “mother of all eCommerce System", osCommerce is kept as a clean core without having addons like a coupon system.  
- You probably have already added a coupon system to osCommerce and MailBeez supports a number of different coupon systems as listed below. The table names listed might help you to identify, which coupon system you are using.
+As the “mother of all eCommerce Systems", osCommerce is kept as a clean core without having addons like a coupon system.  
+You probably have already added a coupon system to osCommerce, and MailBeez supports a number of different coupon systems as listed below. The table names listed might help you to identify, which coupon system you are using.
 
-In case you have not yet install a coupon engine we recommend a CCGV based addon.
+In case you have not yet installed a coupon engine, we recommend a CCGV based addon.
 
 ### CCGV based coupon systems
 
@@ -143,7 +153,7 @@ TABLE_DISCOUNT_COUPONS_TO_ZONES
 
 **Tables**:
 
-Wenn Sie ein DC basiertes Gutschein System nutzen, sollten Sie folgende Tabellen in der Tabellen-Definition finden:
+If you use a DC-based voucher system, you should find the following tables in the table definition:
 
 
 
