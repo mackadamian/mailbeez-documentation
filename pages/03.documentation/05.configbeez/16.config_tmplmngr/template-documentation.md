@@ -97,7 +97,7 @@ If you want to nest fields or want to use fields multiple times you can achieve 
     example:
  
     [CONTAINER]
-        [EDIT_COMPLEX title="Full Width" id="{$id}"]
+        [EDIT_COMPLEX title="Full Width" id="{{$id}}"]
         {assign var="fontcolor" value="[VAR_COLOR id='1' title='Font-Color']#ffffff[/VAR_COLOR]"}
             [VAR_TEXT id='1' title='myText']
                 <h1 style="color:{$fontcolor};">Section Title</h1>
